@@ -3,8 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import trimesh
+import shapely
 import open3d as o3d
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection, Line3DCollection
+
+
 
 path = '/Users/berkecaliskan/Documents/MultiTX Localization/public-archivedwl-242/single_data_test.txt'
 data = np.loadtxt(path)
@@ -14,11 +17,14 @@ z = data[:, 2]
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 mesh = trimesh.creation.icosphere(subdivisions=2, radius=5)
+mesh = trimesh.intersections.slice_mesh_plane(mesh, [0, 0, 1], [0, 0, 0])
+mesh = trimesh.intersections.slice_mesh_plane(mesh, [0, -1, 0], [0, 0, 0])
 mesh = mesh.as_open3d
 vertices = np.asarray(mesh.vertices)
 triangles = np.asarray(mesh.triangles)
 # Plot the mesh triangles
 tri = Poly3DCollection(vertices[triangles], alpha=0.2, facecolors='yellow')
+
 ax.add_collection(tri)
 lines = Line3DCollection(vertices[triangles], colors='k', linewidths=0.5, alpha=1)
 ax.add_collection(lines)
@@ -40,4 +46,5 @@ ax.set_zlabel('Z')
 ax.legend()
 
 # Show the plot
+
 plt.show()
