@@ -1,4 +1,5 @@
 import os
+from math import sqrt
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -29,11 +30,39 @@ class Triangle:
         self.v2 = v2
         self.v3 = v3
 
+def heron(a,b,c):  
+    s = (a + b + c) / 2   
+    area = (s*(s-a) * (s-b)*(s-c)) ** 0.5        
+    return area
+
+def distance3d(x1,y1,z1,x2,y2,z2):    
+    a=(x1-x2)**2+(y1-y2)**2 + (z1-z2)**2
+    d= a ** 0.5  
+    return d  
+
+def areatriangle3d(x1,y1,z1,x2,y2,z2,x3,y3,z3):  
+    a=distance3d(x1,y1,z1,x2,y2,z2)  
+    b=distance3d(x2,y2,z2,x3,y3,z3)  
+    c=distance3d(x3,y3,z3,x1,y1,z1)  
+    area = heron(a,b,c)
+    return area
+
+def cart2sph(x, y, z):
+   xy = np.sqrt(x**2 + y**2) # sqrt(x² + y²)
+   x_2 = x**2
+   y_2 = y**2
+   z_2 = z**2
+   r = np.sqrt(x_2 + y_2 + z_2) # r = sqrt(x² + y² + z²)
+   theta = np.arctan2(y, x) 
+   phi = np.arctan2(xy, z) 
+   return r, theta, phi
+
 directory_path = '/Users/berkecaliskan/Documents/MultiTX Localization/public-archivedwl-242/test/2tx/results' 
 
+nodes = []
 
 for file_name in os.listdir(directory_path):
-    if file_name.endswith('result_2_0.txt'):  
+    if file_name.endswith('result_2_0.txt'): 
         file_path = os.path.join(directory_path, file_name)
         
         data = np.loadtxt(file_path)
@@ -42,7 +71,7 @@ for file_name in os.listdir(directory_path):
         z = data[:, 2]
         time = data[:, 3]
         transmitter = data[:, 4]
-        mesh = trimesh.creation.icosphere(subdivisions=2, radius=5)
+        mesh = trimesh.creation.icosphere(subdivisions=4, radius=5)
         mesh = mesh.as_open3d
 
         vertices_array =np.asarray(mesh.vertices)
@@ -74,7 +103,6 @@ for file_name in os.listdir(directory_path):
             closest_distance = np.inf
             
             for triangle in triangles:
-                
                 # Calculate distance between data point and vertices of the triangle
                 vertex1 = triangle.v1
                 vertex2 = triangle.v2
@@ -97,12 +125,65 @@ for file_name in os.listdir(directory_path):
                 triangle_dict[closest_triangle].append(data_point)
             else:
                 triangle_dict[closest_triangle] = [data_point]
+        i = 0
         for triangle, data_points in triangle_dict.items():
-            print(f"Triangle: Vertices -")
-            print(f"v1: ({triangle.v1.x}, {triangle.v1.y}, {triangle.v1.z})")
-            print(f"v2: ({triangle.v2.x}, {triangle.v2.y}, {triangle.v2.z})")
-            print(f"v3: ({triangle.v3.x}, {triangle.v3.y}, {triangle.v3.z})")
-            print("Associated Data Points:")
+            node = []
+            if i == 0:
+                print(triangle_dict[triangle])
+                i += 1
+            v1 = triangle.v1
+            v2 = triangle.v2
+            v3 = triangle.v3
+            mass_center = [(v1.x + v2.x + v3.x)/3, (v1.y + v2.y + v3.y)/3, (v1.z + v2.z + v3.z)/3]
+            polar_r, polar_theta, polar_phi = cart2sph(mass_center[0], mass_center[1], mass_center[2])
+            n_molecules = len(data_points)
+            t_max = 0
+            t_min = np.inf
+            all_times = []
             for data_point in data_points:
-                print(f"Data Point: ({data_point.x}, {data_point.y}, {data_point.z})")
-            print()
+                time = data_point.time
+                if time > t_max:
+                    t_max = time
+                if time < t_min:
+                    t_min = time
+                all_times.append(time)
+            t_avg = np.mean(all_times)
+            t_var = np.var(all_times)
+            t_std = np.std(all_times)
+
+            area = areatriangle3d(v1.x, v1.y, v1.z,
+                                  v2.x, v2.y, v2.z,
+                                  v3.x, v3.y, v3.z)
+
+            p1 = np.array([v1.x, v1.y, v1.z])
+            p2 = np.array([v2.x, v2.y, v2.z])
+            p3 = np.array([v3.x, v3.y, v3.z])
+            normal = np.cross(p2-p1, p3-p1)
+            normal = normal / normal.sum()
+
+            node.append(mass_center)
+            node.append([polar_r, polar_theta, polar_phi])
+            node.append(n_molecules)
+            node.append(t_max)
+            node.append(t_min)
+            node.append(t_avg)
+            node.append(t_var)
+            node.append(t_std)
+            node.append(area)
+            node.append(normal.tolist())
+
+            nodes.append(node)
+#print(nodes)
+k = 0
+for triangle, data_points in triangle_dict.items():
+    if k < 10:
+        v1 = triangle.v1
+        v2 = triangle.v2
+        v3 = triangle.v3
+        print( "Triangle {}:".format(k))
+        print([v1.x, v1.y, v1.z], "\n" , [v3.x, v2.y, v2.z],  "\n", [v3.x, v3.y, v3.z],  "\n")
+        k += 1
+for i in range(10):
+    print(nodes[i])
+
+
