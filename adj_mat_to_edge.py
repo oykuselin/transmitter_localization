@@ -17,8 +17,14 @@ adj_t = np.loadtxt(matrix_file_path)
 adj_t = torch.tensor(adj_t)
 edge_index = adj_t.nonzero().t().contiguous()
 
-print(edge_index)
+# Convert edge_index to the desired format as a string
+edge_index_str = str(edge_index.tolist())
 
-np.savetxt('edge_index.txt', edge_index.numpy(), fmt='%d')
-torch.save(edge_index, 'edge_index.pt')
+# Save edge_index_str to the txt file
+with open('edge_index.txt', 'w') as file:
+    file.write(edge_index_str)
+
+
+#np.savetxt('edge_index.txt', edge_index.numpy(), fmt='%d')
+#torch.save(edge_index, 'edge_index.pt')
 
