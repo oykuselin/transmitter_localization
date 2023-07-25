@@ -103,7 +103,7 @@ for file_name in os.listdir(directory_path):
             triangle = Triangle(v1, v2, v3)
             triangles.append(triangle)
 
-        dkm
+        
         array_size = x.shape[0]
         for i in range(array_size):
             data_point = DataPoint(x[i], y[i], z[i], time[i], transmitter[i])
