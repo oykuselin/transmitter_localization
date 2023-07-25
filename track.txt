@@ -1,0 +1,2000 @@
+0th tx is from the experiment 614 with the tx_id 0
+rotation angles roll: 4.190078981135324, pitch: 2.6589675122971506, yaw: 3.465810553430493
+1th tx is from the experiment 350 with the tx_id 0
+rotation angles roll: 5.9674835130749715, pitch: 2.8169768529412327, yaw: 4.77104945944695
+0th tx is from the experiment 379 with the tx_id 1
+rotation angles roll: 1.1932544933460223, pitch: 6.016835912660774, yaw: 6.092257417501827
+1th tx is from the experiment 614 with the tx_id 1
+rotation angles roll: 0.6833385661611092, pitch: 4.308775251141231, yaw: 2.9208246866506786
+0th tx is from the experiment 372 with the tx_id 1
+rotation angles roll: 1.9708930352361693, pitch: 2.475428542950119, yaw: 4.375344899080341
+1th tx is from the experiment 272 with the tx_id 1
+rotation angles roll: 3.079907804081147, pitch: 2.730250160762221, yaw: 0.9596436227044786
+0th tx is from the experiment 637 with the tx_id 1
+rotation angles roll: 3.065723953469665, pitch: 5.2597827306298575, yaw: 5.101998968672275
+1th tx is from the experiment 934 with the tx_id 1
+rotation angles roll: 2.647334358385306, pitch: 0.3056246341400016, yaw: 4.095057305985595
+0th tx is from the experiment 998 with the tx_id 0
+rotation angles roll: 2.5147962157407835, pitch: 0.4606297554835417, yaw: 3.1336609368632735
+1th tx is from the experiment 512 with the tx_id 0
+rotation angles roll: 1.7496898782981982, pitch: 1.6340034251911921, yaw: 3.88824778398506
+0th tx is from the experiment 636 with the tx_id 1
+rotation angles roll: 1.5456205538841943, pitch: 0.3915321998878075, yaw: 1.5931697696522977
+1th tx is from the experiment 601 with the tx_id 0
+rotation angles roll: 3.463049304777861, pitch: 5.599805550335264, yaw: 5.624419656608035
+0th tx is from the experiment 187 with the tx_id 0
+rotation angles roll: 4.263144997940419, pitch: 6.031745312921876, yaw: 4.403647637037802
+1th tx is from the experiment 624 with the tx_id 1
+rotation angles roll: 0.018772832647517976, pitch: 2.7092506639583465, yaw: 3.2717472943147867
+0th tx is from the experiment 545 with the tx_id 1
+rotation angles roll: 5.351106008085292, pitch: 4.796305325976296, yaw: 1.8676174858752868
+1th tx is from the experiment 819 with the tx_id 0
+rotation angles roll: 3.663376048935806, pitch: 5.807904222268896, yaw: 0.8820240508050071
+0th tx is from the experiment 759 with the tx_id 0
+rotation angles roll: 3.89071569740445, pitch: 4.72676832603924, yaw: 1.4895133582926454
+1th tx is from the experiment 660 with the tx_id 1
+rotation angles roll: 2.9242069704618063, pitch: 4.732350420915474, yaw: 1.7689897133789638
+0th tx is from the experiment 938 with the tx_id 1
+rotation angles roll: 2.380547207417012, pitch: 1.599147490929296, yaw: 0.07915652331712109
+1th tx is from the experiment 365 with the tx_id 0
+rotation angles roll: 4.026665460081579, pitch: 0.29461537433918306, yaw: 0.12469003382249469
+0th tx is from the experiment 651 with the tx_id 1
+rotation angles roll: 4.2929029437109625, pitch: 3.4782757686908496, yaw: 5.836813748067085
+1th tx is from the experiment 449 with the tx_id 1
+rotation angles roll: 3.0145380956209866, pitch: 0.6316110475514808, yaw: 5.111344747149739
+0th tx is from the experiment 508 with the tx_id 0
+rotation angles roll: 4.9436146890687525, pitch: 2.619952305004364, yaw: 2.3307358069884616
+1th tx is from the experiment 685 with the tx_id 1
+rotation angles roll: 4.091887762014731, pitch: 3.6611044989582116, yaw: 4.7587708898546275
+0th tx is from the experiment 47 with the tx_id 1
+rotation angles roll: 3.050101278011628, pitch: 5.461729121189395, yaw: 3.051611114948071
+1th tx is from the experiment 20 with the tx_id 1
+rotation angles roll: 1.9960151906843406, pitch: 4.365527709966126, yaw: 1.6153560267214373
+0th tx is from the experiment 413 with the tx_id 0
+rotation angles roll: 0.26312031117921225, pitch: 3.638085092898328, yaw: 5.143987601619467
+1th tx is from the experiment 260 with the tx_id 1
+rotation angles roll: 5.797691103421781, pitch: 3.9438698664964136, yaw: 5.911492047310599
+0th tx is from the experiment 654 with the tx_id 0
+rotation angles roll: 1.9173542498808862, pitch: 5.808415017034337, yaw: 1.822348697864042
+1th tx is from the experiment 835 with the tx_id 0
+rotation angles roll: 4.263840045158778, pitch: 3.132310989450151, yaw: 5.834163660769335
+0th tx is from the experiment 976 with the tx_id 1
+rotation angles roll: 2.6013461942141274, pitch: 6.280288117308062, yaw: 4.9269539315862065
+1th tx is from the experiment 85 with the tx_id 1
+rotation angles roll: 2.6272933313332967, pitch: 3.5332052173778825, yaw: 0.8691335364255957
+0th tx is from the experiment 768 with the tx_id 0
+rotation angles roll: 5.724570397941625, pitch: 1.9270902378266017, yaw: 1.2463540983379249
+1th tx is from the experiment 82 with the tx_id 0
+rotation angles roll: 1.9430603527796397, pitch: 1.5370156151198733, yaw: 5.123749951585996
+0th tx is from the experiment 254 with the tx_id 0
+rotation angles roll: 4.366935347494454, pitch: 5.491690647891401, yaw: 3.645635401526713
+1th tx is from the experiment 971 with the tx_id 1
+rotation angles roll: 6.098605874787103, pitch: 2.3496344591631373, yaw: 2.9474965062163188
+0th tx is from the experiment 147 with the tx_id 0
+rotation angles roll: 2.228187611016837, pitch: 3.815835887954496, yaw: 0.8943554326073577
+1th tx is from the experiment 280 with the tx_id 1
+rotation angles roll: 3.1171659838753936, pitch: 1.8803734157564709, yaw: 0.8960618082059664
+0th tx is from the experiment 284 with the tx_id 0
+rotation angles roll: 1.6714185042412077, pitch: 1.2143154191066081, yaw: 3.420034334721239
+1th tx is from the experiment 70 with the tx_id 0
+rotation angles roll: 5.799197269249582, pitch: 5.305367885399888, yaw: 1.3110682762660262
+0th tx is from the experiment 625 with the tx_id 0
+rotation angles roll: 0.6687910241215117, pitch: 3.9709538612601647, yaw: 1.6573191280075414
+1th tx is from the experiment 153 with the tx_id 0
+rotation angles roll: 4.7275161602557425, pitch: 3.3459646921800235, yaw: 4.274776834900374
+0th tx is from the experiment 689 with the tx_id 1
+rotation angles roll: 5.429496673532085, pitch: 2.640282344531404, yaw: 5.9613877756584746
+1th tx is from the experiment 213 with the tx_id 0
+rotation angles roll: 0.8226522741253018, pitch: 2.5108057886957065, yaw: 5.818325221541584
+0th tx is from the experiment 693 with the tx_id 1
+rotation angles roll: 4.8522725448384385, pitch: 3.710915689875324, yaw: 4.9440570033070435
+1th tx is from the experiment 754 with the tx_id 1
+rotation angles roll: 5.540578004081085, pitch: 0.2949754330373326, yaw: 5.668626853809091
+0th tx is from the experiment 945 with the tx_id 0
+rotation angles roll: 2.1962807706347447, pitch: 0.5888824993791316, yaw: 3.308933340819953
+1th tx is from the experiment 772 with the tx_id 1
+rotation angles roll: 0.02529202863868045, pitch: 3.719947239060172, yaw: 4.693086324214346
+0th tx is from the experiment 369 with the tx_id 0
+rotation angles roll: 0.0012563254849556936, pitch: 5.435433208153767, yaw: 1.3786819176614933
+1th tx is from the experiment 38 with the tx_id 1
+rotation angles roll: 0.45804478355363715, pitch: 4.363131475274762, yaw: 1.1815054023225544
+0th tx is from the experiment 336 with the tx_id 0
+rotation angles roll: 1.4474421184549398, pitch: 0.1301386889248205, yaw: 5.249829495266632
+1th tx is from the experiment 3 with the tx_id 1
+rotation angles roll: 1.747797676138795, pitch: 0.47644933611148776, yaw: 1.1161961073828115
+0th tx is from the experiment 940 with the tx_id 0
+rotation angles roll: 4.337359704469938, pitch: 2.7789951376400093, yaw: 0.9187855575721672
+1th tx is from the experiment 794 with the tx_id 1
+rotation angles roll: 3.263732164478857, pitch: 3.479355261736146, yaw: 3.8354104929255266
+0th tx is from the experiment 163 with the tx_id 1
+rotation angles roll: 1.4735591390665477, pitch: 2.78881923270011, yaw: 5.55585956270245
+1th tx is from the experiment 246 with the tx_id 1
+rotation angles roll: 0.2716253558358804, pitch: 1.4949895003879674, yaw: 4.136712377598833
+0th tx is from the experiment 849 with the tx_id 1
+rotation angles roll: 1.8797656674574101, pitch: 1.935409004783519, yaw: 1.9358215191335906
+1th tx is from the experiment 613 with the tx_id 0
+rotation angles roll: 3.4233238122496235, pitch: 0.13341372937364365, yaw: 2.7801935557034034
+0th tx is from the experiment 279 with the tx_id 1
+rotation angles roll: 2.9198714389014686, pitch: 1.8718790589410141, yaw: 3.2513656748065327
+1th tx is from the experiment 446 with the tx_id 1
+rotation angles roll: 1.273059078640192, pitch: 5.232188259962907, yaw: 4.43399900146986
+0th tx is from the experiment 509 with the tx_id 0
+rotation angles roll: 1.1558252102020563, pitch: 4.905736529306613, yaw: 1.2606406081936763
+1th tx is from the experiment 476 with the tx_id 1
+rotation angles roll: 1.1115250742978433, pitch: 4.322317755688103, yaw: 0.32090107242200827
+0th tx is from the experiment 150 with the tx_id 0
+rotation angles roll: 6.200014862629772, pitch: 6.0876507652801415, yaw: 5.782847104665198
+1th tx is from the experiment 63 with the tx_id 0
+rotation angles roll: 5.6077585969593855, pitch: 3.1322268029885145, yaw: 1.4463364770494094
+0th tx is from the experiment 231 with the tx_id 1
+rotation angles roll: 1.6722068896640003, pitch: 2.4446486578143416, yaw: 3.2605711383948095
+1th tx is from the experiment 185 with the tx_id 1
+rotation angles roll: 4.115736307740987, pitch: 0.47612827853023226, yaw: 2.68074300610728
+0th tx is from the experiment 147 with the tx_id 0
+rotation angles roll: 6.04980073241351, pitch: 4.834187944972678, yaw: 3.8569766834378614
+1th tx is from the experiment 723 with the tx_id 1
+rotation angles roll: 4.04969527009484, pitch: 1.5191707109789827, yaw: 5.208115244109802
+0th tx is from the experiment 469 with the tx_id 0
+rotation angles roll: 1.6760043831265712, pitch: 4.923664119338947, yaw: 2.224893900452358
+1th tx is from the experiment 304 with the tx_id 1
+rotation angles roll: 2.2567923435690713, pitch: 0.4413586016944334, yaw: 3.763093840998465
+0th tx is from the experiment 132 with the tx_id 0
+rotation angles roll: 3.543779169445307, pitch: 5.610945217695482, yaw: 3.115938969510808
+1th tx is from the experiment 491 with the tx_id 0
+rotation angles roll: 5.870282656266957, pitch: 5.441441957059681, yaw: 1.2466501512487271
+0th tx is from the experiment 797 with the tx_id 0
+rotation angles roll: 3.787028860741697, pitch: 4.1469695553325145, yaw: 0.23361461914140177
+1th tx is from the experiment 154 with the tx_id 1
+rotation angles roll: 2.232535455411073, pitch: 5.23823254697288, yaw: 3.4324830551275998
+0th tx is from the experiment 992 with the tx_id 1
+rotation angles roll: 5.977546310317188, pitch: 0.08173665736700125, yaw: 0.44665227508636446
+1th tx is from the experiment 27 with the tx_id 0
+rotation angles roll: 5.554248518780333, pitch: 4.672271247125872, yaw: 5.754683235302726
+0th tx is from the experiment 76 with the tx_id 1
+rotation angles roll: 5.370374093803165, pitch: 2.7475486316677378, yaw: 2.6234325062397357
+1th tx is from the experiment 243 with the tx_id 0
+rotation angles roll: 5.715756462891766, pitch: 4.676789576598684, yaw: 5.876968343178484
+0th tx is from the experiment 295 with the tx_id 0
+rotation angles roll: 5.220206787574492, pitch: 5.1241531513136005, yaw: 4.143172547237709
+1th tx is from the experiment 909 with the tx_id 0
+rotation angles roll: 1.571664629620668, pitch: 0.8303785254252034, yaw: 0.6472392971851241
+0th tx is from the experiment 748 with the tx_id 0
+rotation angles roll: 1.814311672825241, pitch: 2.7075101380351887, yaw: 2.712228710917355
+1th tx is from the experiment 361 with the tx_id 1
+rotation angles roll: 2.8444441564974348, pitch: 1.0586443751502261, yaw: 2.6254881315792042
+0th tx is from the experiment 444 with the tx_id 0
+rotation angles roll: 5.844623858839275, pitch: 0.13187631484688986, yaw: 1.908620096207063
+1th tx is from the experiment 414 with the tx_id 0
+rotation angles roll: 2.508684236690574, pitch: 2.2003735807615756, yaw: 3.3881450593585805
+0th tx is from the experiment 418 with the tx_id 1
+rotation angles roll: 4.7824460738153824, pitch: 1.2679216340030144, yaw: 5.83419403222301
+1th tx is from the experiment 200 with the tx_id 0
+rotation angles roll: 5.43123592693011, pitch: 5.692528689207367, yaw: 2.5389417332734503
+0th tx is from the experiment 55 with the tx_id 1
+rotation angles roll: 2.129546600378913, pitch: 4.133557789846776, yaw: 5.418643244152841
+1th tx is from the experiment 66 with the tx_id 1
+rotation angles roll: 5.251352808142678, pitch: 4.645111260542286, yaw: 4.282622606112906
+0th tx is from the experiment 478 with the tx_id 0
+rotation angles roll: 2.751236469352961, pitch: 6.20218504350443, yaw: 5.95147815871882
+1th tx is from the experiment 730 with the tx_id 1
+rotation angles roll: 1.117116788675372, pitch: 2.0866562449222505, yaw: 1.675735381768891
+0th tx is from the experiment 78 with the tx_id 0
+rotation angles roll: 0.5732719553922051, pitch: 2.3278554769952438, yaw: 5.535736157860974
+1th tx is from the experiment 357 with the tx_id 0
+rotation angles roll: 4.545048581672862, pitch: 1.9502750175737624, yaw: 2.331690913642569
+0th tx is from the experiment 296 with the tx_id 1
+rotation angles roll: 1.459589692990832, pitch: 0.6186091290002168, yaw: 4.140985048787059
+1th tx is from the experiment 393 with the tx_id 0
+rotation angles roll: 0.26727363974554974, pitch: 0.7646240408847482, yaw: 1.417111293091667
+0th tx is from the experiment 456 with the tx_id 0
+rotation angles roll: 3.410549945286185, pitch: 5.751314869439999, yaw: 4.507095235399672
+1th tx is from the experiment 515 with the tx_id 1
+rotation angles roll: 3.7505314620442074, pitch: 3.5643833421208484, yaw: 3.531123089954325
+0th tx is from the experiment 900 with the tx_id 0
+rotation angles roll: 5.481791816464027, pitch: 0.9628211825821205, yaw: 3.7911552391982597
+1th tx is from the experiment 457 with the tx_id 1
+rotation angles roll: 4.340706101696841, pitch: 3.135294355912456, yaw: 5.392790861544317
+0th tx is from the experiment 745 with the tx_id 1
+rotation angles roll: 6.14734954855817, pitch: 4.1048396434700285, yaw: 3.6708943130198906
+1th tx is from the experiment 982 with the tx_id 1
+rotation angles roll: 2.2375213713492355, pitch: 3.3869833513375593, yaw: 4.396680963928223
+0th tx is from the experiment 783 with the tx_id 0
+rotation angles roll: 0.011645429793131427, pitch: 2.018481371855107, yaw: 6.091461214878735
+1th tx is from the experiment 363 with the tx_id 0
+rotation angles roll: 3.0601144849976816, pitch: 2.4207744555809447, yaw: 4.9394971430822485
+0th tx is from the experiment 684 with the tx_id 1
+rotation angles roll: 5.925986813233098, pitch: 2.1871638000666107, yaw: 5.384470946197663
+1th tx is from the experiment 444 with the tx_id 0
+rotation angles roll: 3.0273652584667756, pitch: 4.52983279434031, yaw: 1.2830482020190757
+0th tx is from the experiment 627 with the tx_id 1
+rotation angles roll: 5.502787211598283, pitch: 1.1050347417014634, yaw: 6.180025955604028
+1th tx is from the experiment 383 with the tx_id 1
+rotation angles roll: 3.0827469158972796, pitch: 0.9977088845327169, yaw: 2.739684486375792
+0th tx is from the experiment 934 with the tx_id 0
+rotation angles roll: 5.287435262024304, pitch: 3.764033648566386, yaw: 3.1692435063861444
+1th tx is from the experiment 342 with the tx_id 0
+rotation angles roll: 4.168636634299524, pitch: 2.721401671842481, yaw: 6.072230995612934
+0th tx is from the experiment 635 with the tx_id 0
+rotation angles roll: 0.021331678952488244, pitch: 3.634489886162961, yaw: 3.1823804862129443
+1th tx is from the experiment 276 with the tx_id 0
+rotation angles roll: 3.092748869795484, pitch: 4.172499409717062, yaw: 3.7193215559790223
+0th tx is from the experiment 469 with the tx_id 1
+rotation angles roll: 6.024827729348593, pitch: 4.666245074056588, yaw: 5.200511499801933
+1th tx is from the experiment 335 with the tx_id 1
+rotation angles roll: 0.9892023643053379, pitch: 0.09422500137623983, yaw: 2.399696509882742
+0th tx is from the experiment 706 with the tx_id 0
+rotation angles roll: 3.8336696204541836, pitch: 4.349399991880001, yaw: 3.074049851246856
+1th tx is from the experiment 937 with the tx_id 0
+rotation angles roll: 1.0483326546139595, pitch: 0.8859104322021433, yaw: 4.495322587421302
+0th tx is from the experiment 404 with the tx_id 0
+rotation angles roll: 4.5237211898628145, pitch: 1.3103999802745927, yaw: 5.9998681299260355
+1th tx is from the experiment 280 with the tx_id 1
+rotation angles roll: 0.2074448670244519, pitch: 5.352696041268321, yaw: 1.8184208875470365
+0th tx is from the experiment 618 with the tx_id 0
+rotation angles roll: 2.7781891047802754, pitch: 0.3681218575545682, yaw: 3.7550404959163255
+1th tx is from the experiment 561 with the tx_id 0
+rotation angles roll: 4.8660979185944155, pitch: 5.799345170587372, yaw: 2.020141204041812
+0th tx is from the experiment 772 with the tx_id 1
+rotation angles roll: 4.398315699087562, pitch: 1.4854178225115537, yaw: 0.5355013285059693
+1th tx is from the experiment 440 with the tx_id 0
+rotation angles roll: 1.70022872905369, pitch: 0.8103697120377775, yaw: 0.5579094304849135
+0th tx is from the experiment 987 with the tx_id 1
+rotation angles roll: 2.6239835061581083, pitch: 0.66306083436939, yaw: 2.6919857309929887
+1th tx is from the experiment 90 with the tx_id 0
+rotation angles roll: 0.8192612078572619, pitch: 4.332672285894917, yaw: 4.559916467238507
+0th tx is from the experiment 388 with the tx_id 1
+rotation angles roll: 2.820073753042128, pitch: 5.2414848219292, yaw: 6.0537539660143835
+1th tx is from the experiment 608 with the tx_id 1
+rotation angles roll: 2.8815635663896457, pitch: 3.423840692090482, yaw: 4.651285432795708
+0th tx is from the experiment 651 with the tx_id 1
+rotation angles roll: 3.3980545024849094, pitch: 1.2168036056303433, yaw: 2.6847368446743727
+1th tx is from the experiment 326 with the tx_id 1
+rotation angles roll: 5.040883255816438, pitch: 2.260619439334995, yaw: 0.4124580414017749
+0th tx is from the experiment 426 with the tx_id 0
+rotation angles roll: 0.8401329604157538, pitch: 5.280223881676865, yaw: 0.08667870957976513
+1th tx is from the experiment 942 with the tx_id 1
+rotation angles roll: 5.649121016129611, pitch: 0.7820602233148389, yaw: 0.7574329476926837
+0th tx is from the experiment 30 with the tx_id 1
+rotation angles roll: 2.760711849484507, pitch: 1.451646570913919, yaw: 6.104042641752147
+1th tx is from the experiment 775 with the tx_id 0
+rotation angles roll: 3.356468887046078, pitch: 6.175851974954897, yaw: 6.016539605784335
+0th tx is from the experiment 707 with the tx_id 1
+rotation angles roll: 4.3121713062768885, pitch: 5.414459474928254, yaw: 4.052503508225985
+1th tx is from the experiment 121 with the tx_id 1
+rotation angles roll: 1.692882472301313, pitch: 5.506900755861938, yaw: 0.9872486654550376
+0th tx is from the experiment 172 with the tx_id 0
+rotation angles roll: 0.4979296481339946, pitch: 3.3117513462360195, yaw: 1.8023146125267135
+1th tx is from the experiment 706 with the tx_id 0
+rotation angles roll: 4.919762954044857, pitch: 2.7177257891007467, yaw: 1.439652438802095
+0th tx is from the experiment 410 with the tx_id 0
+rotation angles roll: 5.865089549961683, pitch: 5.681246497934759, yaw: 0.4712151177205262
+1th tx is from the experiment 827 with the tx_id 0
+rotation angles roll: 5.755260955809199, pitch: 5.039244982960564, yaw: 0.5485398939752019
+0th tx is from the experiment 507 with the tx_id 1
+rotation angles roll: 5.649010164508986, pitch: 3.090919274119069, yaw: 2.0264153864112764
+1th tx is from the experiment 968 with the tx_id 0
+rotation angles roll: 2.004553259386503, pitch: 2.2454107079115824, yaw: 3.611968985164398
+0th tx is from the experiment 235 with the tx_id 0
+rotation angles roll: 4.78177456665762, pitch: 5.790687710044594, yaw: 5.813472695128796
+1th tx is from the experiment 537 with the tx_id 0
+rotation angles roll: 1.441684690812913, pitch: 4.110209606721306, yaw: 1.8671991102400354
+0th tx is from the experiment 10 with the tx_id 1
+rotation angles roll: 2.7020202041788655, pitch: 2.0405114971195166, yaw: 2.336416197555917
+1th tx is from the experiment 921 with the tx_id 1
+rotation angles roll: 2.9804704072601496, pitch: 3.677397947300697, yaw: 6.272741541471045
+0th tx is from the experiment 498 with the tx_id 1
+rotation angles roll: 3.984566062034057, pitch: 2.261520603135457, yaw: 2.8406981797866515
+1th tx is from the experiment 901 with the tx_id 1
+rotation angles roll: 0.835224086307365, pitch: 3.9550514776938908, yaw: 2.423939828511857
+0th tx is from the experiment 657 with the tx_id 0
+rotation angles roll: 1.766954274932684, pitch: 4.0166672634215725, yaw: 0.4424268299261183
+1th tx is from the experiment 808 with the tx_id 1
+rotation angles roll: 4.389651631255007, pitch: 3.3076597192156107, yaw: 5.188344286788541
+0th tx is from the experiment 696 with the tx_id 1
+rotation angles roll: 4.509038950885834, pitch: 3.719940929876567, yaw: 5.780855371921373
+1th tx is from the experiment 377 with the tx_id 1
+rotation angles roll: 2.5868358990247557, pitch: 4.657042960298486, yaw: 6.227690321238484
+0th tx is from the experiment 455 with the tx_id 0
+rotation angles roll: 2.1781995331083452, pitch: 2.9833162285131767, yaw: 4.0002391213235455
+1th tx is from the experiment 267 with the tx_id 0
+rotation angles roll: 3.397494946606958, pitch: 2.7365960873758604, yaw: 5.831266204049258
+0th tx is from the experiment 187 with the tx_id 0
+rotation angles roll: 4.953203379721342, pitch: 5.534734755480026, yaw: 4.663676890886559
+1th tx is from the experiment 616 with the tx_id 0
+rotation angles roll: 0.778943182268128, pitch: 0.9418074904182525, yaw: 0.40126482297072935
+0th tx is from the experiment 703 with the tx_id 1
+rotation angles roll: 1.1186682344213024, pitch: 2.456777234575182, yaw: 0.09581501654335667
+1th tx is from the experiment 659 with the tx_id 0
+rotation angles roll: 5.353116729273781, pitch: 1.6886836156418772, yaw: 5.226719519708025
+0th tx is from the experiment 248 with the tx_id 1
+rotation angles roll: 1.6765208045053601, pitch: 2.3956224830522834, yaw: 5.119247033590247
+1th tx is from the experiment 77 with the tx_id 0
+rotation angles roll: 3.423612877613152, pitch: 0.49947188309838886, yaw: 4.919847883842256
+0th tx is from the experiment 86 with the tx_id 0
+rotation angles roll: 6.202178667593198, pitch: 4.586961571525212, yaw: 1.4240972641874932
+1th tx is from the experiment 259 with the tx_id 1
+rotation angles roll: 2.6561208800743588, pitch: 3.740010764126682, yaw: 4.93886746943557
+0th tx is from the experiment 408 with the tx_id 0
+rotation angles roll: 2.8593845153657664, pitch: 0.5333273371270814, yaw: 0.7165829672047908
+1th tx is from the experiment 277 with the tx_id 0
+rotation angles roll: 5.20067786032684, pitch: 1.5699099756652015, yaw: 3.5469600064537996
+0th tx is from the experiment 69 with the tx_id 0
+rotation angles roll: 5.454732342100629, pitch: 4.3015618850919815, yaw: 0.4603887473497822
+1th tx is from the experiment 110 with the tx_id 1
+rotation angles roll: 1.631814740232434, pitch: 1.2449885431595158, yaw: 0.026925987598539425
+0th tx is from the experiment 778 with the tx_id 0
+rotation angles roll: 3.3143561872419403, pitch: 5.195436841694534, yaw: 5.8964667231727965
+1th tx is from the experiment 238 with the tx_id 1
+rotation angles roll: 3.8223303758802234, pitch: 5.947403287807865, yaw: 6.032233620402262
+0th tx is from the experiment 157 with the tx_id 1
+rotation angles roll: 1.140004647067977, pitch: 3.3141606530075576, yaw: 5.2566104958922235
+1th tx is from the experiment 580 with the tx_id 1
+rotation angles roll: 0.16822279174698576, pitch: 4.464020321387696, yaw: 5.377002456631906
+0th tx is from the experiment 547 with the tx_id 0
+rotation angles roll: 5.420879691892415, pitch: 1.710882973523501, yaw: 3.9071022344788684
+1th tx is from the experiment 111 with the tx_id 1
+rotation angles roll: 1.910431284362327, pitch: 5.340063137455836, yaw: 3.2999307497802834
+0th tx is from the experiment 646 with the tx_id 1
+rotation angles roll: 5.366616295673205, pitch: 0.20565603433968596, yaw: 3.019884510254895
+1th tx is from the experiment 815 with the tx_id 0
+rotation angles roll: 5.953339566140113, pitch: 3.1879104941024554, yaw: 0.22039296307567258
+0th tx is from the experiment 946 with the tx_id 1
+rotation angles roll: 4.601161958848567, pitch: 2.701079019789594, yaw: 6.063434085962213
+1th tx is from the experiment 15 with the tx_id 0
+rotation angles roll: 0.305380936391439, pitch: 0.755814922003992, yaw: 4.268319612196073
+0th tx is from the experiment 161 with the tx_id 0
+rotation angles roll: 3.335685578900137, pitch: 3.1158921043831724, yaw: 0.3943119827377692
+1th tx is from the experiment 62 with the tx_id 1
+rotation angles roll: 4.757566801049381, pitch: 4.585938244843566, yaw: 6.059242662956537
+0th tx is from the experiment 7 with the tx_id 1
+rotation angles roll: 2.8382152380237162, pitch: 4.876398315174744, yaw: 5.106866850804714
+1th tx is from the experiment 123 with the tx_id 0
+rotation angles roll: 5.121155957714979, pitch: 4.268681933060924, yaw: 0.3501204425397482
+0th tx is from the experiment 557 with the tx_id 0
+rotation angles roll: 5.694342366535727, pitch: 2.2762312793520416, yaw: 6.112393058672317
+1th tx is from the experiment 272 with the tx_id 0
+rotation angles roll: 1.2006066042073182, pitch: 3.232509470923867, yaw: 0.7402142811593703
+0th tx is from the experiment 303 with the tx_id 1
+rotation angles roll: 5.058549333593239, pitch: 5.894624762932999, yaw: 2.4740316296506757
+1th tx is from the experiment 538 with the tx_id 0
+rotation angles roll: 0.4244869371111491, pitch: 5.5280237032357835, yaw: 4.716361258980613
+0th tx is from the experiment 959 with the tx_id 0
+rotation angles roll: 2.299625229289819, pitch: 5.763461795174496, yaw: 0.6674999179524158
+1th tx is from the experiment 75 with the tx_id 0
+rotation angles roll: 4.984035150463641, pitch: 5.130694923873475, yaw: 2.7882691764816077
+0th tx is from the experiment 729 with the tx_id 0
+rotation angles roll: 1.0277666425017133, pitch: 3.2586081596881735, yaw: 4.629076517078081
+1th tx is from the experiment 540 with the tx_id 0
+rotation angles roll: 2.7684143460736945, pitch: 3.7906373299287357, yaw: 3.7693391942917382
+0th tx is from the experiment 310 with the tx_id 0
+rotation angles roll: 1.567314317597671, pitch: 3.6809422247370036, yaw: 0.7793316753968108
+1th tx is from the experiment 520 with the tx_id 0
+rotation angles roll: 3.37066190911478, pitch: 2.5326736074747793, yaw: 4.644942087793137
+0th tx is from the experiment 17 with the tx_id 1
+rotation angles roll: 2.5306292466132616, pitch: 3.952431652052814, yaw: 1.8591808703074553
+1th tx is from the experiment 830 with the tx_id 1
+rotation angles roll: 3.9160086159206173, pitch: 6.235364188846042, yaw: 5.706016819874388
+0th tx is from the experiment 558 with the tx_id 0
+rotation angles roll: 0.6455901807766141, pitch: 0.4997195121134654, yaw: 2.902105700786618
+1th tx is from the experiment 976 with the tx_id 1
+rotation angles roll: 5.295607025932887, pitch: 6.09630795334784, yaw: 2.595389341174864
+0th tx is from the experiment 892 with the tx_id 1
+rotation angles roll: 2.2856721293246074, pitch: 4.792874407541917, yaw: 3.53282837338989
+1th tx is from the experiment 527 with the tx_id 1
+rotation angles roll: 2.9585357628266715, pitch: 3.383046275692208, yaw: 4.99983297442441
+0th tx is from the experiment 848 with the tx_id 1
+rotation angles roll: 3.0901147807977263, pitch: 2.6111978052027345, yaw: 5.619952482707121
+1th tx is from the experiment 857 with the tx_id 1
+rotation angles roll: 1.57725573569743, pitch: 2.372258159905909, yaw: 4.493390534929771
+0th tx is from the experiment 43 with the tx_id 0
+rotation angles roll: 4.813767217106397, pitch: 2.9744014847940043, yaw: 0.3439379507380222
+1th tx is from the experiment 28 with the tx_id 1
+rotation angles roll: 3.457699459222677, pitch: 5.202997630919804, yaw: 4.774529439604854
+0th tx is from the experiment 377 with the tx_id 1
+rotation angles roll: 5.788512060763169, pitch: 1.1129857189367458, yaw: 5.186649482036627
+1th tx is from the experiment 557 with the tx_id 1
+rotation angles roll: 4.650894930905233, pitch: 1.8979000929919483, yaw: 0.3793814109498849
+0th tx is from the experiment 350 with the tx_id 1
+rotation angles roll: 5.588847335256376, pitch: 3.612406220683471, yaw: 1.9242093682339445
+1th tx is from the experiment 80 with the tx_id 1
+rotation angles roll: 2.6061904669980627, pitch: 2.8747463124390173, yaw: 6.140454366243146
+0th tx is from the experiment 604 with the tx_id 0
+rotation angles roll: 6.193637940867079, pitch: 3.0788967726992893, yaw: 5.532289685016003
+1th tx is from the experiment 34 with the tx_id 0
+rotation angles roll: 2.687635831813888, pitch: 4.7078474661397305, yaw: 0.16869732483461658
+0th tx is from the experiment 496 with the tx_id 1
+rotation angles roll: 1.1178236397478858, pitch: 2.951727687780774, yaw: 1.156687941848445
+1th tx is from the experiment 627 with the tx_id 0
+rotation angles roll: 1.6630135811590143, pitch: 4.963499544185982, yaw: 6.195949221097705
+0th tx is from the experiment 273 with the tx_id 0
+rotation angles roll: 4.265700750613913, pitch: 0.8516356010652989, yaw: 2.3870851948969634
+1th tx is from the experiment 820 with the tx_id 0
+rotation angles roll: 2.866688241125736, pitch: 1.2901922327206605, yaw: 3.841263009937696
+0th tx is from the experiment 388 with the tx_id 0
+rotation angles roll: 2.896032177760482, pitch: 4.537294278913961, yaw: 3.452658539168106
+1th tx is from the experiment 63 with the tx_id 1
+rotation angles roll: 2.414986469895295, pitch: 0.6645409439334248, yaw: 5.1641289350439585
+0th tx is from the experiment 410 with the tx_id 0
+rotation angles roll: 1.6990710918816625, pitch: 4.0573545526833925, yaw: 3.4623477238418388
+1th tx is from the experiment 256 with the tx_id 1
+rotation angles roll: 0.8081396548756014, pitch: 4.49138223306054, yaw: 1.6487016267083718
+0th tx is from the experiment 963 with the tx_id 0
+rotation angles roll: 3.0338224892054155, pitch: 3.4400394031230843, yaw: 5.7272527016544545
+1th tx is from the experiment 256 with the tx_id 1
+rotation angles roll: 3.0525703979205874, pitch: 3.810807867242082, yaw: 5.466822874526247
+0th tx is from the experiment 643 with the tx_id 0
+rotation angles roll: 2.057337438974373, pitch: 6.265583798057255, yaw: 3.1770263051318866
+1th tx is from the experiment 998 with the tx_id 0
+rotation angles roll: 1.2986638244566928, pitch: 2.707270808817789, yaw: 1.0407959232695128
+0th tx is from the experiment 630 with the tx_id 1
+rotation angles roll: 5.197549858378454, pitch: 0.6706598378804198, yaw: 3.5031427314281025
+1th tx is from the experiment 792 with the tx_id 1
+rotation angles roll: 3.29008657410009, pitch: 2.0210791465613984, yaw: 3.667824477812728
+0th tx is from the experiment 666 with the tx_id 1
+rotation angles roll: 3.4260670385543817, pitch: 0.07897604715047184, yaw: 5.561537738182807
+1th tx is from the experiment 158 with the tx_id 0
+rotation angles roll: 3.2063481693911156, pitch: 1.8250998620264332, yaw: 3.2570884105078326
+0th tx is from the experiment 745 with the tx_id 1
+rotation angles roll: 1.4522839031437127, pitch: 0.4459793950551453, yaw: 2.267756817597224
+1th tx is from the experiment 68 with the tx_id 0
+rotation angles roll: 4.428837060470867, pitch: 2.319619148963479, yaw: 6.022228981389589
+0th tx is from the experiment 416 with the tx_id 1
+rotation angles roll: 0.3054071250125987, pitch: 1.4808294770247146, yaw: 4.58586619907204
+1th tx is from the experiment 912 with the tx_id 0
+rotation angles roll: 1.8562489874632215, pitch: 5.429326472867721, yaw: 5.042489460946139
+0th tx is from the experiment 375 with the tx_id 1
+rotation angles roll: 1.8644000968497398, pitch: 3.262781758180089, yaw: 3.6810189724052202
+1th tx is from the experiment 896 with the tx_id 0
+rotation angles roll: 4.2736391889487875, pitch: 4.7762707113627405, yaw: 2.7827816590644483
+0th tx is from the experiment 921 with the tx_id 0
+rotation angles roll: 5.978142670665758, pitch: 5.1207483173930415, yaw: 5.759545072721983
+1th tx is from the experiment 380 with the tx_id 0
+rotation angles roll: 5.440167281014897, pitch: 1.6436928074846997, yaw: 5.863371024428714
+0th tx is from the experiment 623 with the tx_id 0
+rotation angles roll: 5.705621985459985, pitch: 3.4934511074160333, yaw: 3.987892048249811
+1th tx is from the experiment 70 with the tx_id 0
+rotation angles roll: 0.5180933313726708, pitch: 4.761163498971654, yaw: 1.3542605447294234
+0th tx is from the experiment 591 with the tx_id 1
+rotation angles roll: 2.5232770337804262, pitch: 1.9493973003212783, yaw: 4.637511285980181
+1th tx is from the experiment 377 with the tx_id 0
+rotation angles roll: 2.436229129458654, pitch: 1.6385087825333267, yaw: 2.5830070280478576
+0th tx is from the experiment 741 with the tx_id 1
+rotation angles roll: 3.442116878335785, pitch: 2.9042461922028333, yaw: 0.04557315129585456
+1th tx is from the experiment 790 with the tx_id 1
+rotation angles roll: 1.8445947890602807, pitch: 0.2108913330990964, yaw: 2.8564347513296657
+0th tx is from the experiment 235 with the tx_id 1
+rotation angles roll: 4.048798641398926, pitch: 0.5956310626174152, yaw: 2.1178058847540573
+1th tx is from the experiment 275 with the tx_id 0
+rotation angles roll: 0.6140077174150947, pitch: 3.815368622496073, yaw: 0.49826698014871196
+0th tx is from the experiment 11 with the tx_id 1
+rotation angles roll: 3.416851608976304, pitch: 2.689827169610135, yaw: 5.649135041502184
+1th tx is from the experiment 483 with the tx_id 0
+rotation angles roll: 1.5277401823484535, pitch: 3.8581676475110465, yaw: 4.937686305819723
+0th tx is from the experiment 343 with the tx_id 0
+rotation angles roll: 2.3032042661321617, pitch: 3.8615302883107305, yaw: 5.379137721414009
+1th tx is from the experiment 579 with the tx_id 0
+rotation angles roll: 0.260758023645836, pitch: 5.292465447349804, yaw: 3.0109526875108754
+0th tx is from the experiment 396 with the tx_id 1
+rotation angles roll: 1.538000040609882, pitch: 2.082585278076647, yaw: 3.648186952610089
+1th tx is from the experiment 862 with the tx_id 1
+rotation angles roll: 4.072747150752137, pitch: 1.8563117747954205, yaw: 2.8745153610443634
+0th tx is from the experiment 888 with the tx_id 0
+rotation angles roll: 4.716507170354398, pitch: 5.363963539670415, yaw: 0.635402875663961
+1th tx is from the experiment 430 with the tx_id 0
+rotation angles roll: 2.7133278680781743, pitch: 2.323649485802472, yaw: 5.691121167557131
+0th tx is from the experiment 836 with the tx_id 1
+rotation angles roll: 2.3148522316727727, pitch: 4.752744971781758, yaw: 2.1996728771243865
+1th tx is from the experiment 542 with the tx_id 1
+rotation angles roll: 1.3014583425905268, pitch: 6.2826674246012635, yaw: 3.0255358689703598
+0th tx is from the experiment 378 with the tx_id 1
+rotation angles roll: 1.871445758969446, pitch: 3.3784921790943727, yaw: 4.783431997238144
+1th tx is from the experiment 771 with the tx_id 1
+rotation angles roll: 0.04292770933320187, pitch: 2.8093521728939232, yaw: 1.3813777503949898
+0th tx is from the experiment 400 with the tx_id 1
+rotation angles roll: 5.726251944678232, pitch: 3.244918015151533, yaw: 3.6713255462271563
+1th tx is from the experiment 201 with the tx_id 0
+rotation angles roll: 1.6419511745251052, pitch: 2.258489133990618, yaw: 2.2200238649211466
+0th tx is from the experiment 521 with the tx_id 1
+rotation angles roll: 0.5497159596048703, pitch: 2.678445501393335, yaw: 3.368704192036695
+1th tx is from the experiment 344 with the tx_id 1
+rotation angles roll: 3.197883003420934, pitch: 1.022285369216792, yaw: 4.022776109871636
+0th tx is from the experiment 282 with the tx_id 1
+rotation angles roll: 5.503302219923274, pitch: 1.888459478438748, yaw: 1.3557454758412766
+1th tx is from the experiment 131 with the tx_id 0
+rotation angles roll: 4.261819948059586, pitch: 2.5272693134029853, yaw: 4.4269022079305484
+0th tx is from the experiment 466 with the tx_id 1
+rotation angles roll: 0.030293657517155247, pitch: 1.6331497974928857, yaw: 3.7353631384976285
+1th tx is from the experiment 806 with the tx_id 1
+rotation angles roll: 4.725687207637989, pitch: 1.2594723808781279, yaw: 0.6101385558898155
+0th tx is from the experiment 65 with the tx_id 1
+rotation angles roll: 5.980251902312639, pitch: 0.9551291246605632, yaw: 2.457872724923492
+1th tx is from the experiment 181 with the tx_id 1
+rotation angles roll: 3.3750845338076325, pitch: 2.7174291555108443, yaw: 3.1751327525215207
+0th tx is from the experiment 500 with the tx_id 0
+rotation angles roll: 5.371430307393443, pitch: 4.544408496370953, yaw: 5.451887823958181
+1th tx is from the experiment 696 with the tx_id 0
+rotation angles roll: 2.5207139261290266, pitch: 5.520898971250149, yaw: 5.708194442043736
+0th tx is from the experiment 548 with the tx_id 1
+rotation angles roll: 0.7017767027632983, pitch: 4.049642202119232, yaw: 4.45737088855186
+1th tx is from the experiment 174 with the tx_id 0
+rotation angles roll: 4.2286715465418405, pitch: 5.7087839708387635, yaw: 5.697160786438816
+0th tx is from the experiment 890 with the tx_id 1
+rotation angles roll: 1.9014326362968135, pitch: 4.078840475332907, yaw: 0.6500496409043794
+1th tx is from the experiment 57 with the tx_id 0
+rotation angles roll: 5.8314861375594225, pitch: 2.6713831386628595, yaw: 5.348165804280217
+0th tx is from the experiment 996 with the tx_id 1
+rotation angles roll: 0.6340380922709159, pitch: 4.428849872185524, yaw: 1.4363401552983242
+1th tx is from the experiment 754 with the tx_id 1
+rotation angles roll: 1.1740810590036932, pitch: 5.453538143691337, yaw: 1.3009958320084352
+0th tx is from the experiment 372 with the tx_id 1
+rotation angles roll: 4.0087462781319365, pitch: 3.4922718955863408, yaw: 5.356188454139872
+1th tx is from the experiment 916 with the tx_id 0
+rotation angles roll: 4.360254826961711, pitch: 1.906393885579811, yaw: 5.982494370799849
+0th tx is from the experiment 458 with the tx_id 0
+rotation angles roll: 3.7691342938187233, pitch: 4.4809530678214395, yaw: 4.741408174239647
+1th tx is from the experiment 123 with the tx_id 0
+rotation angles roll: 1.6263082882814919, pitch: 3.838449178704244, yaw: 2.176775356118389
+0th tx is from the experiment 911 with the tx_id 1
+rotation angles roll: 4.038273118476361, pitch: 5.945247706888979, yaw: 3.7230713574533194
+1th tx is from the experiment 453 with the tx_id 1
+rotation angles roll: 4.15009963607961, pitch: 3.7199081198814956, yaw: 1.3691395679429874
+0th tx is from the experiment 59 with the tx_id 0
+rotation angles roll: 5.886533551544661, pitch: 3.0063437944313325, yaw: 1.2944357424895663
+1th tx is from the experiment 873 with the tx_id 0
+rotation angles roll: 3.425428628408639, pitch: 0.29495722452090045, yaw: 2.7260746472586823
+0th tx is from the experiment 999 with the tx_id 1
+rotation angles roll: 4.38689261332149, pitch: 5.388911645717929, yaw: 0.3228707448174658
+1th tx is from the experiment 52 with the tx_id 0
+rotation angles roll: 4.633290811466953, pitch: 1.1533167355654954, yaw: 4.83611899942857
+0th tx is from the experiment 624 with the tx_id 1
+rotation angles roll: 5.557559328791375, pitch: 1.1806757235135146, yaw: 5.747433423824445
+1th tx is from the experiment 312 with the tx_id 1
+rotation angles roll: 3.6558970502355113, pitch: 1.693220250159517, yaw: 5.378815167154933
+0th tx is from the experiment 387 with the tx_id 0
+rotation angles roll: 3.901104248717212, pitch: 5.42933143285453, yaw: 1.1259732449774367
+1th tx is from the experiment 857 with the tx_id 1
+rotation angles roll: 1.2966219971934227, pitch: 2.241377572490799, yaw: 5.289108344801428
+0th tx is from the experiment 988 with the tx_id 0
+rotation angles roll: 5.3755934383124115, pitch: 4.261799791422449, yaw: 0.219932990557562
+1th tx is from the experiment 227 with the tx_id 1
+rotation angles roll: 2.269207741229937, pitch: 6.089528209974582, yaw: 0.04384044268203509
+0th tx is from the experiment 859 with the tx_id 1
+rotation angles roll: 3.812958034120062, pitch: 4.812847908684141, yaw: 1.2969761806693973
+1th tx is from the experiment 11 with the tx_id 1
+rotation angles roll: 1.4665806683553377, pitch: 4.603608826159332, yaw: 4.921547545483371
+0th tx is from the experiment 560 with the tx_id 1
+rotation angles roll: 5.927522765717396, pitch: 3.2256961109159823, yaw: 5.293882666499274
+1th tx is from the experiment 354 with the tx_id 0
+rotation angles roll: 0.730303806107409, pitch: 5.9419431768903666, yaw: 5.067434501984998
+0th tx is from the experiment 135 with the tx_id 0
+rotation angles roll: 2.5382375000974893, pitch: 2.4912186046705207, yaw: 6.188473482189199
+1th tx is from the experiment 980 with the tx_id 1
+rotation angles roll: 1.2698319921377752, pitch: 3.684476380442845, yaw: 4.231636672338443
+0th tx is from the experiment 780 with the tx_id 0
+rotation angles roll: 2.7126745721269594, pitch: 5.1490180921014455, yaw: 5.101076241115908
+1th tx is from the experiment 190 with the tx_id 0
+rotation angles roll: 2.9254208776937682, pitch: 0.321418778106729, yaw: 0.3141051727132033
+0th tx is from the experiment 306 with the tx_id 1
+rotation angles roll: 5.382801728067496, pitch: 1.784698936675571, yaw: 4.866557160873143
+1th tx is from the experiment 557 with the tx_id 1
+rotation angles roll: 5.507269158982096, pitch: 1.6015099925738263, yaw: 0.269373112752474
+0th tx is from the experiment 861 with the tx_id 0
+rotation angles roll: 0.5948951346197439, pitch: 4.598193105197343, yaw: 2.5500151406980724
+1th tx is from the experiment 364 with the tx_id 1
+rotation angles roll: 1.1042419418687708, pitch: 0.4767978728209997, yaw: 2.9822578507453104
+0th tx is from the experiment 496 with the tx_id 1
+rotation angles roll: 2.3826050472909803, pitch: 2.394862436124573, yaw: 2.152458210657798
+1th tx is from the experiment 693 with the tx_id 1
+rotation angles roll: 4.496536865606056, pitch: 0.7355552704860173, yaw: 0.843609580172069
+0th tx is from the experiment 300 with the tx_id 0
+rotation angles roll: 6.168661886729719, pitch: 4.213766282068054, yaw: 4.754383850166001
+1th tx is from the experiment 667 with the tx_id 0
+rotation angles roll: 4.0788906850271305, pitch: 5.603444353643731, yaw: 5.0042567563058595
+0th tx is from the experiment 704 with the tx_id 1
+rotation angles roll: 1.7163195199331343, pitch: 2.6350874047233606, yaw: 3.2995178789286936
+1th tx is from the experiment 816 with the tx_id 1
+rotation angles roll: 0.9954770644899912, pitch: 1.615443993474892, yaw: 1.6391619967742699
+0th tx is from the experiment 93 with the tx_id 0
+rotation angles roll: 0.9548732844640984, pitch: 4.96158414533987, yaw: 1.1627463494349297
+1th tx is from the experiment 554 with the tx_id 1
+rotation angles roll: 2.9774419654985413, pitch: 1.8344385990730747, yaw: 1.1059427272135067
+0th tx is from the experiment 554 with the tx_id 0
+rotation angles roll: 1.9677963919742403, pitch: 5.588384323891886, yaw: 2.0701909351099066
+1th tx is from the experiment 98 with the tx_id 0
+rotation angles roll: 2.120706980692387, pitch: 5.079019947261331, yaw: 5.561808114085684
+0th tx is from the experiment 315 with the tx_id 1
+rotation angles roll: 1.173872489537003, pitch: 5.546394592365328, yaw: 4.893494712771863
+1th tx is from the experiment 556 with the tx_id 1
+rotation angles roll: 5.56404154976005, pitch: 5.367666447610179, yaw: 2.683609675838715
+0th tx is from the experiment 870 with the tx_id 0
+rotation angles roll: 2.8617498995893538, pitch: 5.835870159401839, yaw: 5.408267302817814
+1th tx is from the experiment 119 with the tx_id 0
+rotation angles roll: 1.8713543637186452, pitch: 0.5378749500526838, yaw: 5.823537339236591
+0th tx is from the experiment 856 with the tx_id 1
+rotation angles roll: 0.7371783757521497, pitch: 3.057570425326457, yaw: 2.6722094021521516
+1th tx is from the experiment 420 with the tx_id 0
+rotation angles roll: 4.952910258760957, pitch: 1.4674876843853353, yaw: 0.5956007490685491
+0th tx is from the experiment 160 with the tx_id 0
+rotation angles roll: 0.07863513769878645, pitch: 0.3775682769014676, yaw: 4.051917750965557
+1th tx is from the experiment 677 with the tx_id 1
+rotation angles roll: 4.9937239021232696, pitch: 5.2504218578174005, yaw: 3.846587842316679
+0th tx is from the experiment 463 with the tx_id 0
+rotation angles roll: 4.2906088511699885, pitch: 0.9740439414689906, yaw: 0.4062876276623353
+1th tx is from the experiment 398 with the tx_id 0
+rotation angles roll: 2.082551084026211, pitch: 4.302374928419394, yaw: 3.552456022903321
+0th tx is from the experiment 359 with the tx_id 0
+rotation angles roll: 5.362916951736656, pitch: 6.048211637223811, yaw: 2.364265464302437
+1th tx is from the experiment 146 with the tx_id 0
+rotation angles roll: 4.060091685232247, pitch: 3.288966045588505, yaw: 5.221302544631348
+0th tx is from the experiment 172 with the tx_id 1
+rotation angles roll: 2.9618622997256505, pitch: 2.757843041514219, yaw: 0.9823580190292468
+1th tx is from the experiment 768 with the tx_id 1
+rotation angles roll: 0.852984522507566, pitch: 3.5627359218258303, yaw: 6.249653454173867
+0th tx is from the experiment 366 with the tx_id 0
+rotation angles roll: 4.084031621089478, pitch: 3.3826992893130114, yaw: 0.3529724191708174
+1th tx is from the experiment 6 with the tx_id 0
+rotation angles roll: 1.3558340938701172, pitch: 2.729179266029636, yaw: 3.7664777544027435
+0th tx is from the experiment 368 with the tx_id 0
+rotation angles roll: 0.0646526565027151, pitch: 2.601693562236867, yaw: 0.9617019384360257
+1th tx is from the experiment 713 with the tx_id 0
+rotation angles roll: 0.8678597982623598, pitch: 4.03046227572666, yaw: 4.157118156258116
+0th tx is from the experiment 264 with the tx_id 1
+rotation angles roll: 4.902625431566078, pitch: 1.888804324356977, yaw: 5.421214259515894
+1th tx is from the experiment 469 with the tx_id 0
+rotation angles roll: 4.885465788217077, pitch: 5.603396429529401, yaw: 4.9494207506986125
+0th tx is from the experiment 250 with the tx_id 1
+rotation angles roll: 4.373998627049505, pitch: 2.0399665879607007, yaw: 4.110000462291849
+1th tx is from the experiment 932 with the tx_id 0
+rotation angles roll: 0.47015353305881974, pitch: 6.102826984804983, yaw: 1.831097380703869
+0th tx is from the experiment 140 with the tx_id 0
+rotation angles roll: 1.0825984684115955, pitch: 1.5222629449336182, yaw: 1.2460765231010635
+1th tx is from the experiment 945 with the tx_id 1
+rotation angles roll: 4.6840653942666295, pitch: 0.2256838389944747, yaw: 0.987747621482387
+0th tx is from the experiment 477 with the tx_id 0
+rotation angles roll: 5.811522959060002, pitch: 4.544964633956995, yaw: 1.6374326435522495
+1th tx is from the experiment 639 with the tx_id 1
+rotation angles roll: 0.6271768516882444, pitch: 0.32101570702502774, yaw: 6.097137731291713
+0th tx is from the experiment 52 with the tx_id 1
+rotation angles roll: 1.497157726352423, pitch: 0.5546524646595192, yaw: 2.182413399643666
+1th tx is from the experiment 893 with the tx_id 1
+rotation angles roll: 5.979298563807454, pitch: 1.1205869310308607, yaw: 3.0239329339562633
+0th tx is from the experiment 763 with the tx_id 1
+rotation angles roll: 5.520595750325469, pitch: 0.20700314103261702, yaw: 5.726000065752974
+1th tx is from the experiment 900 with the tx_id 0
+rotation angles roll: 1.9140738247609408, pitch: 2.589571526035491, yaw: 4.33336933706874
+0th tx is from the experiment 51 with the tx_id 0
+rotation angles roll: 4.818789764545166, pitch: 3.8443502766448256, yaw: 4.5644250833899305
+1th tx is from the experiment 229 with the tx_id 1
+rotation angles roll: 4.741015017616611, pitch: 0.04213968669752537, yaw: 3.3010865717316724
+0th tx is from the experiment 236 with the tx_id 1
+rotation angles roll: 3.8619950936176357, pitch: 6.221644045584967, yaw: 2.3071004029154083
+1th tx is from the experiment 882 with the tx_id 1
+rotation angles roll: 0.3039550816381245, pitch: 5.359859170198983, yaw: 4.051928601238228
+0th tx is from the experiment 803 with the tx_id 1
+rotation angles roll: 4.053122032652151, pitch: 4.666395225671905, yaw: 2.277329877573405
+1th tx is from the experiment 211 with the tx_id 1
+rotation angles roll: 3.8207478386776046, pitch: 4.965098359068965, yaw: 3.9430454016000263
+0th tx is from the experiment 627 with the tx_id 1
+rotation angles roll: 5.005126570968476, pitch: 1.5034901094780453, yaw: 3.330467340965033
+1th tx is from the experiment 448 with the tx_id 1
+rotation angles roll: 3.471675138918523, pitch: 2.5267601083053863, yaw: 0.0984020108683217
+0th tx is from the experiment 282 with the tx_id 1
+rotation angles roll: 1.0834624022599135, pitch: 4.5938424410325505, yaw: 0.6747084719800517
+1th tx is from the experiment 416 with the tx_id 0
+rotation angles roll: 3.476668057713556, pitch: 1.811070007450752, yaw: 3.450958881252458
+0th tx is from the experiment 821 with the tx_id 0
+rotation angles roll: 0.39987141653701497, pitch: 4.628150332511745, yaw: 0.465372988441548
+1th tx is from the experiment 457 with the tx_id 0
+rotation angles roll: 2.534672383849757, pitch: 4.85020514884224, yaw: 3.1594655554872104
+0th tx is from the experiment 528 with the tx_id 1
+rotation angles roll: 1.023751359077293, pitch: 0.9772705247616144, yaw: 1.9405862179535145
+1th tx is from the experiment 551 with the tx_id 0
+rotation angles roll: 6.281503269029029, pitch: 3.9357609926778445, yaw: 1.7289258878234373
+0th tx is from the experiment 440 with the tx_id 0
+rotation angles roll: 4.824177287911827, pitch: 5.144341683583271, yaw: 2.7856478160074714
+1th tx is from the experiment 66 with the tx_id 1
+rotation angles roll: 4.091995330793763, pitch: 6.166760381654469, yaw: 2.8755015014088934
+0th tx is from the experiment 63 with the tx_id 1
+rotation angles roll: 3.003521915909872, pitch: 3.442442996269769, yaw: 0.9716667297580313
+1th tx is from the experiment 250 with the tx_id 0
+rotation angles roll: 6.01651792977412, pitch: 0.7158617260959591, yaw: 3.8470464672851303
+0th tx is from the experiment 308 with the tx_id 1
+rotation angles roll: 0.28656947284274303, pitch: 1.9936423535194598, yaw: 5.109917314091561
+1th tx is from the experiment 535 with the tx_id 1
+rotation angles roll: 0.6675091265927178, pitch: 2.7311919923217136, yaw: 4.43259474893297
+0th tx is from the experiment 168 with the tx_id 0
+rotation angles roll: 1.2771486900628608, pitch: 2.5385817853953987, yaw: 4.211846277134445
+1th tx is from the experiment 96 with the tx_id 0
+rotation angles roll: 6.117851118293941, pitch: 1.6869715950808128, yaw: 2.4514989251953696
+0th tx is from the experiment 313 with the tx_id 0
+rotation angles roll: 2.3109652557337568, pitch: 2.3959782067865287, yaw: 5.620824885028729
+1th tx is from the experiment 0 with the tx_id 1
+rotation angles roll: 1.9781335397595772, pitch: 2.462886582289328, yaw: 3.41457315468162
+0th tx is from the experiment 173 with the tx_id 1
+rotation angles roll: 0.4683032740183718, pitch: 3.2592119266664357, yaw: 4.176278172238794
+1th tx is from the experiment 906 with the tx_id 1
+rotation angles roll: 3.3121578205095537, pitch: 0.0853557861754765, yaw: 3.4208836368213227
+0th tx is from the experiment 721 with the tx_id 0
+rotation angles roll: 2.412400498678254, pitch: 0.6817551909025411, yaw: 1.5709346075290163
+1th tx is from the experiment 221 with the tx_id 0
+rotation angles roll: 5.8995334501704635, pitch: 1.0060946095408025, yaw: 5.05647179175097
+0th tx is from the experiment 938 with the tx_id 0
+rotation angles roll: 5.562529365148567, pitch: 4.9356423768371265, yaw: 5.735205448225579
+1th tx is from the experiment 542 with the tx_id 1
+rotation angles roll: 1.558541000002029, pitch: 5.669347198292226, yaw: 5.254692225181024
+0th tx is from the experiment 827 with the tx_id 0
+rotation angles roll: 5.779307207926123, pitch: 4.316166466802801, yaw: 1.220313778034492
+1th tx is from the experiment 581 with the tx_id 1
+rotation angles roll: 6.2414125106076455, pitch: 2.1744727201110927, yaw: 1.9737918170555997
+0th tx is from the experiment 877 with the tx_id 1
+rotation angles roll: 3.761783682460043, pitch: 1.9515080491378147, yaw: 4.318504656900888
+1th tx is from the experiment 522 with the tx_id 0
+rotation angles roll: 5.830969297543712, pitch: 3.612342818609568, yaw: 3.19417470420278
+0th tx is from the experiment 43 with the tx_id 1
+rotation angles roll: 1.1124704800063692, pitch: 0.2923093973927625, yaw: 2.3522905562075738
+1th tx is from the experiment 576 with the tx_id 1
+rotation angles roll: 5.859592313464308, pitch: 3.692672875478751, yaw: 5.066956400038913
+0th tx is from the experiment 644 with the tx_id 1
+rotation angles roll: 6.1895790767400225, pitch: 5.057873854358951, yaw: 3.9962273398877235
+1th tx is from the experiment 390 with the tx_id 1
+rotation angles roll: 4.309214780660946, pitch: 5.221660160272741, yaw: 6.149783192451574
+0th tx is from the experiment 263 with the tx_id 1
+rotation angles roll: 2.1272163095212417, pitch: 3.038347362757014, yaw: 2.241230347418146
+1th tx is from the experiment 786 with the tx_id 0
+rotation angles roll: 5.737993019703909, pitch: 2.633286606604659, yaw: 1.774428770500075
+0th tx is from the experiment 63 with the tx_id 0
+rotation angles roll: 2.8640039214322295, pitch: 2.347292858284808, yaw: 6.029530851520852
+1th tx is from the experiment 841 with the tx_id 1
+rotation angles roll: 5.1979516851663785, pitch: 4.43081209999695, yaw: 6.047368010118446
+0th tx is from the experiment 94 with the tx_id 1
+rotation angles roll: 0.09615545867807922, pitch: 2.3411921058882172, yaw: 1.375421604460252
+1th tx is from the experiment 932 with the tx_id 0
+rotation angles roll: 4.099334711056901, pitch: 1.0483739469675044, yaw: 0.9360877671106752
+0th tx is from the experiment 860 with the tx_id 1
+rotation angles roll: 1.2797286972043667, pitch: 1.6560475062195734, yaw: 3.8015953021209965
+1th tx is from the experiment 591 with the tx_id 0
+rotation angles roll: 2.2738789581294245, pitch: 6.004246978824413, yaw: 1.9369143410030893
+0th tx is from the experiment 642 with the tx_id 0
+rotation angles roll: 5.155709901253599, pitch: 5.268728601789601, yaw: 5.1150469368703435
+1th tx is from the experiment 600 with the tx_id 1
+rotation angles roll: 2.2317495174279975, pitch: 4.215933992717703, yaw: 3.9663652713130038
+0th tx is from the experiment 935 with the tx_id 1
+rotation angles roll: 1.7107423102799095, pitch: 2.1218966962430823, yaw: 3.292846635559283
+1th tx is from the experiment 167 with the tx_id 0
+rotation angles roll: 4.035733755109211, pitch: 0.6967706461985231, yaw: 0.715239207152517
+0th tx is from the experiment 823 with the tx_id 0
+rotation angles roll: 4.129346518956286, pitch: 0.5719878579150905, yaw: 1.685747276465771
+1th tx is from the experiment 721 with the tx_id 0
+rotation angles roll: 0.40764316995585476, pitch: 5.959672358679415, yaw: 2.758900205501324
+0th tx is from the experiment 689 with the tx_id 1
+rotation angles roll: 0.2668208630730525, pitch: 1.061295043121209, yaw: 0.13477932617592145
+1th tx is from the experiment 211 with the tx_id 1
+rotation angles roll: 3.7569719008931104, pitch: 0.05792997445497239, yaw: 5.414998770471653
+0th tx is from the experiment 719 with the tx_id 0
+rotation angles roll: 1.572264048608279, pitch: 1.3675515860911267, yaw: 1.6367247256354294
+1th tx is from the experiment 245 with the tx_id 1
+rotation angles roll: 2.7497305398839442, pitch: 4.111910387439312, yaw: 5.144364459554075
+0th tx is from the experiment 115 with the tx_id 1
+rotation angles roll: 4.11628469963076, pitch: 4.470276641269855, yaw: 5.209277075424775
+1th tx is from the experiment 926 with the tx_id 0
+rotation angles roll: 4.7092110246778525, pitch: 0.03926486712776303, yaw: 6.2008338843071185
+0th tx is from the experiment 659 with the tx_id 1
+rotation angles roll: 2.225303325536675, pitch: 0.873000322201776, yaw: 1.6404495836903656
+1th tx is from the experiment 785 with the tx_id 0
+rotation angles roll: 4.114291339039271, pitch: 2.447568072654204, yaw: 6.268308704032342
+0th tx is from the experiment 966 with the tx_id 0
+rotation angles roll: 0.41073697404151965, pitch: 3.5119027711590562, yaw: 4.4582128006607835
+1th tx is from the experiment 684 with the tx_id 1
+rotation angles roll: 2.1600306209472704, pitch: 4.78256429551356, yaw: 2.741051300067371
+0th tx is from the experiment 36 with the tx_id 1
+rotation angles roll: 6.20735220628807, pitch: 5.827156167827201, yaw: 4.620793466517317
+1th tx is from the experiment 281 with the tx_id 1
+rotation angles roll: 3.4034592325711728, pitch: 5.091296824652205, yaw: 2.648963260931791
+0th tx is from the experiment 943 with the tx_id 0
+rotation angles roll: 0.6074841340191222, pitch: 4.231623461559817, yaw: 6.2025920729447
+1th tx is from the experiment 228 with the tx_id 1
+rotation angles roll: 1.0638821129726346, pitch: 2.9296725973112774, yaw: 3.530501833806773
+0th tx is from the experiment 327 with the tx_id 1
+rotation angles roll: 1.7685051717555738, pitch: 1.7735651441286069, yaw: 6.168730975679636
+1th tx is from the experiment 823 with the tx_id 0
+rotation angles roll: 3.4015669855528192, pitch: 6.175701516803619, yaw: 2.086378394979516
+0th tx is from the experiment 4 with the tx_id 1
+rotation angles roll: 3.4922980284496816, pitch: 2.893875458527794, yaw: 1.972528740652809
+1th tx is from the experiment 1 with the tx_id 1
+rotation angles roll: 3.9978789635002903, pitch: 3.0926213627565526, yaw: 1.3481090607348578
+0th tx is from the experiment 795 with the tx_id 0
+rotation angles roll: 4.076535354055976, pitch: 2.396521386857151, yaw: 3.352281122638798
+1th tx is from the experiment 805 with the tx_id 0
+rotation angles roll: 4.558670871416956, pitch: 0.5549546936286449, yaw: 3.28171932355838
+0th tx is from the experiment 399 with the tx_id 1
+rotation angles roll: 0.5866434302479631, pitch: 3.5169945212764806, yaw: 4.118265929395368
+1th tx is from the experiment 78 with the tx_id 0
+rotation angles roll: 0.0619035864442617, pitch: 1.7057167112138993, yaw: 1.2692354945872046
+0th tx is from the experiment 474 with the tx_id 0
+rotation angles roll: 5.995316895895069, pitch: 4.573222566324346, yaw: 5.659592550302085
+1th tx is from the experiment 706 with the tx_id 1
+rotation angles roll: 1.9942866369760863, pitch: 3.266569878588297, yaw: 0.5563173022045691
+0th tx is from the experiment 616 with the tx_id 1
+rotation angles roll: 2.9013125383781397, pitch: 5.789574716866896, yaw: 5.6753920838642875
+1th tx is from the experiment 518 with the tx_id 0
+rotation angles roll: 4.17031242663745, pitch: 2.855111220643378, yaw: 0.3661901768949937
+0th tx is from the experiment 504 with the tx_id 1
+rotation angles roll: 1.426001725734582, pitch: 4.732519925240314, yaw: 1.35552077825467
+1th tx is from the experiment 863 with the tx_id 1
+rotation angles roll: 3.0040199976927626, pitch: 5.346191712744548, yaw: 2.926556261617061
+0th tx is from the experiment 503 with the tx_id 0
+rotation angles roll: 2.073690016707052, pitch: 3.027324264027445, yaw: 1.1757381775276516
+1th tx is from the experiment 689 with the tx_id 0
+rotation angles roll: 1.328292532228596, pitch: 3.4002466147263215, yaw: 1.971180059868787
+0th tx is from the experiment 830 with the tx_id 1
+rotation angles roll: 2.8718505256349673, pitch: 1.194866694809904, yaw: 6.142272769456201
+1th tx is from the experiment 48 with the tx_id 0
+rotation angles roll: 0.6310515280887202, pitch: 0.7747831891505188, yaw: 4.732407788570007
+0th tx is from the experiment 575 with the tx_id 0
+rotation angles roll: 1.9901976628598894, pitch: 0.09562943765218511, yaw: 1.2739155670921734
+1th tx is from the experiment 364 with the tx_id 1
+rotation angles roll: 3.6454552860270932, pitch: 1.0319996111780947, yaw: 2.9517884768067044
+0th tx is from the experiment 497 with the tx_id 1
+rotation angles roll: 2.8186053594973326, pitch: 0.07669034325823194, yaw: 5.65024689424364
+1th tx is from the experiment 275 with the tx_id 0
+rotation angles roll: 1.10248156669167, pitch: 0.8357088371018926, yaw: 1.8025256685962017
+0th tx is from the experiment 919 with the tx_id 1
+rotation angles roll: 2.920016408767552, pitch: 1.949859106811916, yaw: 4.219831570638296
+1th tx is from the experiment 580 with the tx_id 0
+rotation angles roll: 1.1456350866620275, pitch: 0.8111239147781948, yaw: 2.0092331444504965
+0th tx is from the experiment 273 with the tx_id 1
+rotation angles roll: 4.736419275000283, pitch: 5.478240970846232, yaw: 3.527378683380889
+1th tx is from the experiment 874 with the tx_id 1
+rotation angles roll: 5.84303324469265, pitch: 0.5004048706436808, yaw: 3.8705172521540794
+0th tx is from the experiment 795 with the tx_id 0
+rotation angles roll: 4.86884854470644, pitch: 2.0755218545181666, yaw: 1.3041357424653237
+1th tx is from the experiment 390 with the tx_id 0
+rotation angles roll: 0.5619028898840989, pitch: 5.575739069499593, yaw: 2.51195781614774
+0th tx is from the experiment 990 with the tx_id 1
+rotation angles roll: 0.4411366796521504, pitch: 4.455584804909152, yaw: 0.6991911437028123
+1th tx is from the experiment 915 with the tx_id 1
+rotation angles roll: 5.858094870967219, pitch: 0.5521207143864392, yaw: 4.544023421626129
+0th tx is from the experiment 719 with the tx_id 0
+rotation angles roll: 1.4970403987548435, pitch: 3.880537219973908, yaw: 4.3727601821043915
+1th tx is from the experiment 676 with the tx_id 1
+rotation angles roll: 5.23776611592149, pitch: 1.4229763166708738, yaw: 0.9846169937370297
+0th tx is from the experiment 828 with the tx_id 1
+rotation angles roll: 1.7342921935510422, pitch: 5.996871646417143, yaw: 3.3505786952685277
+1th tx is from the experiment 691 with the tx_id 1
+rotation angles roll: 3.367902459756349, pitch: 2.725661604664471, yaw: 0.46293137820929803
+0th tx is from the experiment 654 with the tx_id 1
+rotation angles roll: 2.70636839581661, pitch: 5.246031483963831, yaw: 2.4191215809585906
+1th tx is from the experiment 610 with the tx_id 0
+rotation angles roll: 4.838851391181504, pitch: 0.6152888133777561, yaw: 2.1698372781672166
+0th tx is from the experiment 311 with the tx_id 1
+rotation angles roll: 2.6725951122400344, pitch: 1.794373271780695, yaw: 5.7771322135257375
+1th tx is from the experiment 421 with the tx_id 1
+rotation angles roll: 4.549634155679839, pitch: 4.414287966830435, yaw: 4.685554810610308
+0th tx is from the experiment 552 with the tx_id 0
+rotation angles roll: 2.9449395633653714, pitch: 4.195167621341144, yaw: 4.2681766207211265
+1th tx is from the experiment 606 with the tx_id 0
+rotation angles roll: 1.3532649853770633, pitch: 1.468776858339525, yaw: 1.932450138506746
+0th tx is from the experiment 498 with the tx_id 0
+rotation angles roll: 2.8801504893854726, pitch: 2.5963184949159217, yaw: 5.332663093958171
+1th tx is from the experiment 224 with the tx_id 0
+rotation angles roll: 0.16084706712617514, pitch: 4.052871234800666, yaw: 5.984777046707716
+0th tx is from the experiment 591 with the tx_id 0
+rotation angles roll: 0.63390992900046, pitch: 0.5158127713492653, yaw: 5.165022853462027
+1th tx is from the experiment 316 with the tx_id 0
+rotation angles roll: 2.3412864176532446, pitch: 1.2252254006847787, yaw: 0.640331506466353
+0th tx is from the experiment 928 with the tx_id 0
+rotation angles roll: 6.276563525513535, pitch: 0.2681903297521289, yaw: 4.192573228473778
+1th tx is from the experiment 337 with the tx_id 1
+rotation angles roll: 6.163288532593774, pitch: 1.5441476089835684, yaw: 3.9339646141616726
+0th tx is from the experiment 854 with the tx_id 0
+rotation angles roll: 0.9729320814397017, pitch: 3.877754779514643, yaw: 0.11827890244844341
+1th tx is from the experiment 526 with the tx_id 0
+rotation angles roll: 0.27098369678462, pitch: 2.1973803051723033, yaw: 6.097925844338151
+0th tx is from the experiment 825 with the tx_id 1
+rotation angles roll: 2.689771934432602, pitch: 1.359429391373413, yaw: 3.570178259524254
+1th tx is from the experiment 874 with the tx_id 1
+rotation angles roll: 3.830018285356095, pitch: 6.106887319981764, yaw: 5.65409123850447
+0th tx is from the experiment 208 with the tx_id 1
+rotation angles roll: 5.975945888320839, pitch: 0.09348261024882741, yaw: 3.9774601312477262
+1th tx is from the experiment 634 with the tx_id 0
+rotation angles roll: 0.5740471995580498, pitch: 0.9080402252863339, yaw: 0.8787140618839436
+0th tx is from the experiment 355 with the tx_id 0
+rotation angles roll: 2.2242566708711426, pitch: 4.799067156082907, yaw: 2.356561437850112
+1th tx is from the experiment 168 with the tx_id 1
+rotation angles roll: 6.2479372102999156, pitch: 1.7775518760043894, yaw: 2.6892071486195195
+0th tx is from the experiment 753 with the tx_id 0
+rotation angles roll: 1.6848117840469823, pitch: 1.5433606782188973, yaw: 5.170046461548327
+1th tx is from the experiment 926 with the tx_id 0
+rotation angles roll: 4.020184012264052, pitch: 3.864384166570217, yaw: 2.368520246380345
+0th tx is from the experiment 391 with the tx_id 0
+rotation angles roll: 5.417790133554425, pitch: 3.1252290575710737, yaw: 5.11312312921798
+1th tx is from the experiment 994 with the tx_id 1
+rotation angles roll: 5.15095176400129, pitch: 1.428000447131168, yaw: 1.2987792327229952
+0th tx is from the experiment 989 with the tx_id 0
+rotation angles roll: 3.088859249084858, pitch: 1.4819168023051086, yaw: 5.195810674357443
+1th tx is from the experiment 744 with the tx_id 1
+rotation angles roll: 3.6024808523789336, pitch: 0.4197534780588841, yaw: 2.5736254288442675
+0th tx is from the experiment 355 with the tx_id 1
+rotation angles roll: 2.3650505439432106, pitch: 5.845603875601766, yaw: 4.4947920662964425
+1th tx is from the experiment 47 with the tx_id 0
+rotation angles roll: 5.512624297801429, pitch: 5.740183410576742, yaw: 0.21156938881947737
+0th tx is from the experiment 731 with the tx_id 1
+rotation angles roll: 3.248720781198239, pitch: 2.4042655229553236, yaw: 2.1436548637146466
+1th tx is from the experiment 68 with the tx_id 1
+rotation angles roll: 3.8750567154214504, pitch: 5.268566788801671, yaw: 3.4694422557358915
+0th tx is from the experiment 895 with the tx_id 0
+rotation angles roll: 5.860786780653425, pitch: 1.2541264634541556, yaw: 3.06889421731285
+1th tx is from the experiment 881 with the tx_id 1
+rotation angles roll: 2.819629813617649, pitch: 3.359212809634966, yaw: 2.0138889216273332
+0th tx is from the experiment 358 with the tx_id 1
+rotation angles roll: 0.5713526537715471, pitch: 2.9356354626207177, yaw: 2.313291194693763
+1th tx is from the experiment 747 with the tx_id 0
+rotation angles roll: 4.992790765384881, pitch: 4.623667118816995, yaw: 0.6085326787271294
+0th tx is from the experiment 999 with the tx_id 1
+rotation angles roll: 3.213924255452996, pitch: 5.639395461652178, yaw: 5.3624085396316055
+1th tx is from the experiment 540 with the tx_id 0
+rotation angles roll: 4.923323496338719, pitch: 5.791071652912735, yaw: 0.33933781779807626
+0th tx is from the experiment 72 with the tx_id 1
+rotation angles roll: 5.265981612467382, pitch: 4.196068249971629, yaw: 5.095855552353295
+1th tx is from the experiment 270 with the tx_id 1
+rotation angles roll: 1.2740684423809836, pitch: 3.447566772690209, yaw: 3.538666556855124
+0th tx is from the experiment 886 with the tx_id 0
+rotation angles roll: 4.364161582723499, pitch: 0.4574683874124146, yaw: 5.800841190019966
+1th tx is from the experiment 764 with the tx_id 0
+rotation angles roll: 2.902921464130792, pitch: 5.914596682186443, yaw: 0.23338069771780995
+0th tx is from the experiment 8 with the tx_id 1
+rotation angles roll: 5.691101457052363, pitch: 4.054660632513357, yaw: 5.612461877825184
+1th tx is from the experiment 201 with the tx_id 1
+rotation angles roll: 3.085681426883711, pitch: 3.3629373268771356, yaw: 2.6076060767185827
+0th tx is from the experiment 225 with the tx_id 1
+rotation angles roll: 4.332229989516291, pitch: 1.490920039213531, yaw: 1.8124759433792592
+1th tx is from the experiment 788 with the tx_id 0
+rotation angles roll: 0.34341830014982055, pitch: 3.239305210218211, yaw: 4.427339161446453
+0th tx is from the experiment 488 with the tx_id 0
+rotation angles roll: 3.748941754442068, pitch: 0.47292507228784575, yaw: 0.4125190074150961
+1th tx is from the experiment 764 with the tx_id 1
+rotation angles roll: 4.8784583068940846, pitch: 5.168958217626982, yaw: 0.5117352452916698
+0th tx is from the experiment 45 with the tx_id 0
+rotation angles roll: 5.457927470198559, pitch: 2.6473683448732257, yaw: 5.51204756641968
+1th tx is from the experiment 289 with the tx_id 0
+rotation angles roll: 5.727787352524386, pitch: 2.2553813535613343, yaw: 1.4819955038040638
+0th tx is from the experiment 918 with the tx_id 1
+rotation angles roll: 4.176035926684296, pitch: 3.3956655620113634, yaw: 4.283393260110953
+1th tx is from the experiment 306 with the tx_id 1
+rotation angles roll: 6.223571453265102, pitch: 4.838239036061861, yaw: 0.5535688077230219
+0th tx is from the experiment 956 with the tx_id 0
+rotation angles roll: 3.526716095016472, pitch: 0.5450563140197414, yaw: 4.274892914085494
+1th tx is from the experiment 545 with the tx_id 1
+rotation angles roll: 4.10871952563164, pitch: 6.036694279790644, yaw: 6.01347030376602
+0th tx is from the experiment 860 with the tx_id 0
+rotation angles roll: 1.751031508644942, pitch: 4.98651045619911, yaw: 2.8718074167463676
+1th tx is from the experiment 390 with the tx_id 0
+rotation angles roll: 5.722896314837403, pitch: 5.251667979514552, yaw: 2.4330590232506397
+0th tx is from the experiment 572 with the tx_id 1
+rotation angles roll: 3.4073253350557935, pitch: 2.215871594626963, yaw: 4.9931398967685485
+1th tx is from the experiment 181 with the tx_id 0
+rotation angles roll: 1.1624074315913637, pitch: 4.9333782625243705, yaw: 2.5698203377011684
+0th tx is from the experiment 226 with the tx_id 1
+rotation angles roll: 4.914872950936715, pitch: 4.603679183787537, yaw: 2.9235077139628083
+1th tx is from the experiment 592 with the tx_id 1
+rotation angles roll: 6.013386595328742, pitch: 5.14603140976568, yaw: 5.335233523822931
+0th tx is from the experiment 973 with the tx_id 1
+rotation angles roll: 5.969858728426316, pitch: 5.966095131401471, yaw: 5.559493213150103
+1th tx is from the experiment 986 with the tx_id 0
+rotation angles roll: 3.9677700402736695, pitch: 1.8931446953985565, yaw: 0.7910691752872446
+0th tx is from the experiment 696 with the tx_id 1
+rotation angles roll: 5.24333125761464, pitch: 1.866007106294884, yaw: 4.077866233537237
+1th tx is from the experiment 284 with the tx_id 1
+rotation angles roll: 4.297203215517157, pitch: 4.746280806466544, yaw: 5.133981951416182
+0th tx is from the experiment 609 with the tx_id 1
+rotation angles roll: 4.329690118663845, pitch: 0.5692291214951879, yaw: 5.360716467349815
+1th tx is from the experiment 186 with the tx_id 0
+rotation angles roll: 2.4156474027954764, pitch: 3.7711467171358986, yaw: 4.622559289692664
+0th tx is from the experiment 503 with the tx_id 0
+rotation angles roll: 2.4908727657304968, pitch: 2.8237689744724985, yaw: 2.3028782976414117
+1th tx is from the experiment 624 with the tx_id 1
+rotation angles roll: 2.9309517323275434, pitch: 5.831961970672884, yaw: 2.9723665988531836
+0th tx is from the experiment 973 with the tx_id 0
+rotation angles roll: 3.942159230162232, pitch: 0.7873999672867084, yaw: 1.7795610055884872
+1th tx is from the experiment 196 with the tx_id 0
+rotation angles roll: 6.1849145069438745, pitch: 3.9771874558167144, yaw: 1.1608841784305794
+0th tx is from the experiment 932 with the tx_id 0
+rotation angles roll: 4.1428681311031585, pitch: 3.0661922333152067, yaw: 5.056792157244115
+1th tx is from the experiment 817 with the tx_id 0
+rotation angles roll: 3.036493409280912, pitch: 3.2656185901945034, yaw: 3.610548123654618
+0th tx is from the experiment 25 with the tx_id 0
+rotation angles roll: 0.39989071339078125, pitch: 6.0446133388656245, yaw: 0.3826362473886102
+1th tx is from the experiment 679 with the tx_id 0
+rotation angles roll: 2.40975722971761, pitch: 3.9231113184998523, yaw: 4.704011121037828
+0th tx is from the experiment 752 with the tx_id 0
+rotation angles roll: 4.461046217895277, pitch: 2.106544979905083, yaw: 0.3099901139273327
+1th tx is from the experiment 860 with the tx_id 0
+rotation angles roll: 1.0332662946645794, pitch: 4.565233066612537, yaw: 0.27934138882401965
+0th tx is from the experiment 230 with the tx_id 1
+rotation angles roll: 0.3842335133447883, pitch: 0.04856432152597076, yaw: 5.58521518670624
+1th tx is from the experiment 55 with the tx_id 1
+rotation angles roll: 3.1447433012131665, pitch: 3.224758481481961, yaw: 5.100384833652338
+0th tx is from the experiment 16 with the tx_id 0
+rotation angles roll: 3.1291344962394465, pitch: 3.1293757035726375, yaw: 0.6995880213008592
+1th tx is from the experiment 936 with the tx_id 0
+rotation angles roll: 3.0211997202904874, pitch: 5.653727831334559, yaw: 4.521312011178844
+0th tx is from the experiment 816 with the tx_id 0
+rotation angles roll: 4.3147060747273445, pitch: 2.475967263083934, yaw: 4.395519234892933
+1th tx is from the experiment 155 with the tx_id 1
+rotation angles roll: 0.7771339182170821, pitch: 4.134243366226117, yaw: 6.061833197745272
+0th tx is from the experiment 51 with the tx_id 1
+rotation angles roll: 2.6971710288637687, pitch: 3.584677736952019, yaw: 1.2864113357883982
+1th tx is from the experiment 337 with the tx_id 0
+rotation angles roll: 4.145537999852593, pitch: 4.107722739525587, yaw: 3.137189998133278
+0th tx is from the experiment 348 with the tx_id 0
+rotation angles roll: 1.6553336685809559, pitch: 5.968590842326949, yaw: 0.6937429639859153
+1th tx is from the experiment 533 with the tx_id 1
+rotation angles roll: 3.5345191136453598, pitch: 5.993917792242031, yaw: 3.139369783770915
+0th tx is from the experiment 99 with the tx_id 1
+rotation angles roll: 2.561005576066521, pitch: 6.082109431302188, yaw: 3.8416690250976426
+1th tx is from the experiment 933 with the tx_id 0
+rotation angles roll: 0.6440293521974478, pitch: 5.879691962194854, yaw: 0.2025173705007406
+0th tx is from the experiment 751 with the tx_id 0
+rotation angles roll: 0.31039845204308675, pitch: 4.441890032637649, yaw: 2.9720230427593886
+1th tx is from the experiment 505 with the tx_id 1
+rotation angles roll: 1.4342555198815332, pitch: 5.880101107879843, yaw: 5.828816027597178
+0th tx is from the experiment 375 with the tx_id 1
+rotation angles roll: 0.7871969414278247, pitch: 2.526977446840351, yaw: 2.5539982220969843
+1th tx is from the experiment 241 with the tx_id 1
+rotation angles roll: 0.030080054764416067, pitch: 5.877493685944804, yaw: 5.381499884819006
+0th tx is from the experiment 900 with the tx_id 1
+rotation angles roll: 6.214178898746695, pitch: 3.50228741111591, yaw: 2.512377583385539
+1th tx is from the experiment 189 with the tx_id 1
+rotation angles roll: 1.0330817041689213, pitch: 0.8690724533627603, yaw: 0.6325483050172702
+0th tx is from the experiment 738 with the tx_id 1
+rotation angles roll: 3.460688162513836, pitch: 2.2414646524396864, yaw: 2.8299669571566217
+1th tx is from the experiment 403 with the tx_id 1
+rotation angles roll: 3.289425715870091, pitch: 1.2803908140830709, yaw: 4.829067022014575
+0th tx is from the experiment 496 with the tx_id 1
+rotation angles roll: 1.6735180403874361, pitch: 4.0924979561240535, yaw: 3.554228651123649
+1th tx is from the experiment 231 with the tx_id 0
+rotation angles roll: 6.217734242559238, pitch: 3.22660719121689, yaw: 3.461038617539259
+0th tx is from the experiment 415 with the tx_id 1
+rotation angles roll: 3.277747998102341, pitch: 2.961031376884323, yaw: 0.34931939202654155
+1th tx is from the experiment 389 with the tx_id 1
+rotation angles roll: 5.996910233877269, pitch: 1.9446099985968628, yaw: 2.3880433731996447
+0th tx is from the experiment 394 with the tx_id 0
+rotation angles roll: 0.6767978284623029, pitch: 0.6982549740841693, yaw: 0.9001036357046582
+1th tx is from the experiment 126 with the tx_id 1
+rotation angles roll: 0.9438125631219125, pitch: 4.489929705164577, yaw: 6.212548972220636
+0th tx is from the experiment 138 with the tx_id 1
+rotation angles roll: 1.9882732008624695, pitch: 0.6363946257506868, yaw: 5.28838352302896
+1th tx is from the experiment 443 with the tx_id 1
+rotation angles roll: 2.7207369703566324, pitch: 0.2049902432032706, yaw: 2.8346004149610717
+0th tx is from the experiment 362 with the tx_id 1
+rotation angles roll: 0.20317563617952614, pitch: 0.7702290548589981, yaw: 3.1274590942692715
+1th tx is from the experiment 370 with the tx_id 1
+rotation angles roll: 3.1746502029851213, pitch: 3.615688357190625, yaw: 2.387814667735621
+0th tx is from the experiment 573 with the tx_id 1
+rotation angles roll: 0.2561543312315062, pitch: 2.12407922316553, yaw: 2.5259000832879943
+1th tx is from the experiment 465 with the tx_id 1
+rotation angles roll: 5.078454563125329, pitch: 1.176083988058758, yaw: 0.8189912496220578
+0th tx is from the experiment 365 with the tx_id 1
+rotation angles roll: 1.597484267277834, pitch: 3.5605076093732686, yaw: 2.789276873853892
+1th tx is from the experiment 391 with the tx_id 0
+rotation angles roll: 2.240497610643569, pitch: 3.331354696660463, yaw: 5.700644252678919
+0th tx is from the experiment 443 with the tx_id 1
+rotation angles roll: 1.9335439233650045, pitch: 1.8142066148253082, yaw: 0.0911595033862948
+1th tx is from the experiment 464 with the tx_id 1
+rotation angles roll: 2.022576111979445, pitch: 2.440670693856063, yaw: 3.9468034764280087
+0th tx is from the experiment 757 with the tx_id 0
+rotation angles roll: 5.32081139186204, pitch: 1.8439682136401023, yaw: 0.27285244964344474
+1th tx is from the experiment 642 with the tx_id 0
+rotation angles roll: 1.9138356111959984, pitch: 2.5305253532910563, yaw: 4.121493344509185
+0th tx is from the experiment 434 with the tx_id 1
+rotation angles roll: 3.287647689065119, pitch: 5.4017687394718825, yaw: 1.8473569275078934
+1th tx is from the experiment 751 with the tx_id 1
+rotation angles roll: 4.58482588807183, pitch: 0.6037849073022755, yaw: 5.1345444979056
+0th tx is from the experiment 391 with the tx_id 0
+rotation angles roll: 1.7801119873631515, pitch: 2.642314365370062, yaw: 3.6113798425298067
+1th tx is from the experiment 846 with the tx_id 1
+rotation angles roll: 0.10842251335640235, pitch: 6.025041773588323, yaw: 3.637243033504772
+0th tx is from the experiment 880 with the tx_id 0
+rotation angles roll: 4.18943784664795, pitch: 3.7303418515867004, yaw: 5.28718114540215
+1th tx is from the experiment 891 with the tx_id 1
+rotation angles roll: 4.893634050943444, pitch: 4.413661897105418, yaw: 2.211784311957083
+0th tx is from the experiment 865 with the tx_id 1
+rotation angles roll: 3.5325857494293724, pitch: 0.17389090432288, yaw: 0.34387491629688666
+1th tx is from the experiment 715 with the tx_id 1
+rotation angles roll: 4.5384757277776435, pitch: 2.145277634368714, yaw: 6.101883242746524
+0th tx is from the experiment 785 with the tx_id 0
+rotation angles roll: 3.5460919939890507, pitch: 0.5042530859939044, yaw: 5.0492343671545825
+1th tx is from the experiment 636 with the tx_id 1
+rotation angles roll: 5.321041912653592, pitch: 5.126978637585464, yaw: 1.5256576978954854
+0th tx is from the experiment 673 with the tx_id 0
+rotation angles roll: 5.907944496730768, pitch: 3.836400528830787, yaw: 6.164927667720157
+1th tx is from the experiment 753 with the tx_id 1
+rotation angles roll: 3.9009671626776035, pitch: 0.12981435276588793, yaw: 0.2309575495025745
+0th tx is from the experiment 721 with the tx_id 1
+rotation angles roll: 2.6153561193548813, pitch: 0.7344321631387932, yaw: 1.432152035639901
+1th tx is from the experiment 934 with the tx_id 1
+rotation angles roll: 5.82093671829672, pitch: 5.054724000650544, yaw: 2.1067317786280806
+0th tx is from the experiment 459 with the tx_id 1
+rotation angles roll: 4.749230395699223, pitch: 2.1493094702309157, yaw: 0.8005273647667709
+1th tx is from the experiment 303 with the tx_id 0
+rotation angles roll: 3.0506937922542567, pitch: 1.2612867877153147, yaw: 2.8565259780352275
+0th tx is from the experiment 913 with the tx_id 1
+rotation angles roll: 1.3927952543591187, pitch: 4.1782589502085346, yaw: 5.217167571510605
+1th tx is from the experiment 838 with the tx_id 0
+rotation angles roll: 2.005324556081113, pitch: 1.7799667622298716, yaw: 1.0307783684776417
+0th tx is from the experiment 89 with the tx_id 0
+rotation angles roll: 6.243428713951292, pitch: 0.16214106129906752, yaw: 3.17753545267894
+1th tx is from the experiment 199 with the tx_id 0
+rotation angles roll: 3.5287077920291865, pitch: 5.246183120749762, yaw: 2.382927234180753
+0th tx is from the experiment 102 with the tx_id 0
+rotation angles roll: 4.3437917140564, pitch: 1.777544251502139, yaw: 4.919953642464518
+1th tx is from the experiment 961 with the tx_id 0
+rotation angles roll: 3.7720809378924587, pitch: 2.9440214546440004, yaw: 0.7765156452310522
+0th tx is from the experiment 687 with the tx_id 0
+rotation angles roll: 3.5800715652141477, pitch: 0.5089518649319537, yaw: 2.0080945412752707
+1th tx is from the experiment 218 with the tx_id 1
+rotation angles roll: 3.0214633007937235, pitch: 0.8790008730647272, yaw: 1.69125052875656
+0th tx is from the experiment 266 with the tx_id 0
+rotation angles roll: 2.9961605017059445, pitch: 0.4543127265549834, yaw: 1.8607069331551287
+1th tx is from the experiment 580 with the tx_id 0
+rotation angles roll: 1.8012533651620903, pitch: 5.51547925411465, yaw: 3.1292656095848543
+0th tx is from the experiment 79 with the tx_id 0
+rotation angles roll: 4.486575762754662, pitch: 1.5813760892226125, yaw: 2.640355579637434
+1th tx is from the experiment 411 with the tx_id 1
+rotation angles roll: 5.550152832488781, pitch: 3.206438239574936, yaw: 4.9679585933892
+0th tx is from the experiment 859 with the tx_id 1
+rotation angles roll: 0.23614558428575547, pitch: 2.4381977255310274, yaw: 0.5057022253601801
+1th tx is from the experiment 341 with the tx_id 0
+rotation angles roll: 0.9521261365373578, pitch: 3.7216040143196727, yaw: 1.704513095967451
+0th tx is from the experiment 483 with the tx_id 1
+rotation angles roll: 2.119443554542959, pitch: 4.8912449176381125, yaw: 2.792811382797166
+1th tx is from the experiment 248 with the tx_id 1
+rotation angles roll: 3.542033162866248, pitch: 0.26103799488946894, yaw: 3.945293515555073
+0th tx is from the experiment 394 with the tx_id 1
+rotation angles roll: 4.4232396374953655, pitch: 4.930476622511313, yaw: 1.9241458702643828
+1th tx is from the experiment 348 with the tx_id 0
+rotation angles roll: 4.221803549563123, pitch: 0.183664764500396, yaw: 0.6570674342462971
+0th tx is from the experiment 359 with the tx_id 1
+rotation angles roll: 1.3113936440896734, pitch: 6.185724730775549, yaw: 5.220932129708011
+1th tx is from the experiment 630 with the tx_id 0
+rotation angles roll: 2.1725530443761207, pitch: 5.158504767489701, yaw: 6.066083862020829
+0th tx is from the experiment 331 with the tx_id 1
+rotation angles roll: 3.2265789439457326, pitch: 5.2009755354121765, yaw: 4.857581005996919
+1th tx is from the experiment 340 with the tx_id 1
+rotation angles roll: 1.7171464114230444, pitch: 4.99719922993441, yaw: 4.379435304760847
+0th tx is from the experiment 924 with the tx_id 1
+rotation angles roll: 3.1421347570729163, pitch: 2.955592805551284, yaw: 2.0677526811913216
+1th tx is from the experiment 123 with the tx_id 0
+rotation angles roll: 4.8690965962622625, pitch: 3.2186218784576157, yaw: 5.031819287382926
+0th tx is from the experiment 69 with the tx_id 1
+rotation angles roll: 0.23197819065302064, pitch: 4.674310555984908, yaw: 4.8399567185664
+1th tx is from the experiment 992 with the tx_id 0
+rotation angles roll: 1.4804133393959351, pitch: 2.328389946263489, yaw: 2.3213735347117423
+0th tx is from the experiment 34 with the tx_id 0
+rotation angles roll: 2.7191883219574917, pitch: 2.752067233482735, yaw: 2.9562655177532804
+1th tx is from the experiment 354 with the tx_id 0
+rotation angles roll: 4.536555467528925, pitch: 5.003864818715154, yaw: 4.776679474298298
+0th tx is from the experiment 676 with the tx_id 1
+rotation angles roll: 2.371296057920027, pitch: 3.546780603418062, yaw: 4.7635851415652235
+1th tx is from the experiment 827 with the tx_id 0
+rotation angles roll: 6.2099347650630525, pitch: 2.103852352914129, yaw: 4.304922781806978
+0th tx is from the experiment 525 with the tx_id 1
+rotation angles roll: 6.117364558629149, pitch: 5.599878254838007, yaw: 1.5489856539332967
+1th tx is from the experiment 964 with the tx_id 1
+rotation angles roll: 4.400178786863305, pitch: 0.5675704227867296, yaw: 5.366868060494378
+0th tx is from the experiment 355 with the tx_id 1
+rotation angles roll: 2.3781222420459076, pitch: 2.0149087748043577, yaw: 4.062339755787794
+1th tx is from the experiment 427 with the tx_id 0
+rotation angles roll: 5.1189278390264485, pitch: 5.078401029981792, yaw: 5.312075800713609
+0th tx is from the experiment 684 with the tx_id 1
+rotation angles roll: 3.31596876367085, pitch: 0.05734197392347196, yaw: 1.0453560101809378
+1th tx is from the experiment 779 with the tx_id 1
+rotation angles roll: 6.252781527197898, pitch: 1.2741296977203822, yaw: 2.9477337564707953
+0th tx is from the experiment 726 with the tx_id 1
+rotation angles roll: 4.310974305937748, pitch: 6.0124833146816155, yaw: 5.747715015651185
+1th tx is from the experiment 582 with the tx_id 1
+rotation angles roll: 1.6432221343239468, pitch: 4.315559750008422, yaw: 6.269335684369753
+0th tx is from the experiment 812 with the tx_id 0
+rotation angles roll: 3.3173080660000216, pitch: 3.508483614913468, yaw: 0.4541063454826042
+1th tx is from the experiment 25 with the tx_id 0
+rotation angles roll: 4.237200690567243, pitch: 1.109476487174716, yaw: 0.8053346186772916
+0th tx is from the experiment 406 with the tx_id 0
+rotation angles roll: 0.010544913811525882, pitch: 3.9860546689727987, yaw: 0.9189563033280147
+1th tx is from the experiment 457 with the tx_id 1
+rotation angles roll: 2.155273495835597, pitch: 5.10833565689107, yaw: 0.08118136062917995
+0th tx is from the experiment 494 with the tx_id 1
+rotation angles roll: 6.08733965328566, pitch: 1.987452672566359, yaw: 1.6863445838812372
+1th tx is from the experiment 906 with the tx_id 0
+rotation angles roll: 4.733786115083671, pitch: 5.384274910768107, yaw: 0.8283187589958309
+0th tx is from the experiment 956 with the tx_id 0
+rotation angles roll: 1.692899027540412, pitch: 4.6710963399576, yaw: 6.062576739427571
+1th tx is from the experiment 790 with the tx_id 1
+rotation angles roll: 3.7950443406593966, pitch: 0.8287240266050551, yaw: 2.4873184235553234
+0th tx is from the experiment 805 with the tx_id 1
+rotation angles roll: 2.1995383306976293, pitch: 2.70791713757873, yaw: 1.7052527945918812
+1th tx is from the experiment 677 with the tx_id 0
+rotation angles roll: 2.3205627812288716, pitch: 0.7600351546453177, yaw: 1.609631888493239
+0th tx is from the experiment 978 with the tx_id 1
+rotation angles roll: 0.685806850987835, pitch: 5.34634076252219, yaw: 5.903201389203921
+1th tx is from the experiment 701 with the tx_id 1
+rotation angles roll: 4.688671541586281, pitch: 4.172602039074845, yaw: 0.03324783802628695
+0th tx is from the experiment 846 with the tx_id 0
+rotation angles roll: 3.4507649244153393, pitch: 1.2373518714900655, yaw: 1.9890519240710323
+1th tx is from the experiment 224 with the tx_id 0
+rotation angles roll: 2.3399993673603916, pitch: 4.739008100303025, yaw: 0.6136505793209293
+0th tx is from the experiment 561 with the tx_id 0
+rotation angles roll: 3.131242346713329, pitch: 4.510930842497612, yaw: 4.550748914698028
+1th tx is from the experiment 81 with the tx_id 1
+rotation angles roll: 2.735632761808369, pitch: 2.652689075253119, yaw: 0.15284342903672418
+0th tx is from the experiment 853 with the tx_id 0
+rotation angles roll: 5.323414281732918, pitch: 1.0507175983879933, yaw: 3.2442578875301855
+1th tx is from the experiment 900 with the tx_id 0
+rotation angles roll: 2.984193266336246, pitch: 2.2960920351122, yaw: 2.292770706904575
+0th tx is from the experiment 580 with the tx_id 0
+rotation angles roll: 5.610655067740852, pitch: 1.3996156557770685, yaw: 6.143702523286325
+1th tx is from the experiment 751 with the tx_id 0
+rotation angles roll: 2.1482811590616975, pitch: 4.595644417079147, yaw: 6.08251761330951
+0th tx is from the experiment 104 with the tx_id 1
+rotation angles roll: 6.013829699728681, pitch: 5.1825908221830765, yaw: 3.7720710957449506
+1th tx is from the experiment 446 with the tx_id 1
+rotation angles roll: 2.0190904443294535, pitch: 4.71966719023135, yaw: 5.1105063148384895
+0th tx is from the experiment 659 with the tx_id 1
+rotation angles roll: 5.013529329531437, pitch: 4.341190289262061, yaw: 1.8814647642889484
+1th tx is from the experiment 652 with the tx_id 0
+rotation angles roll: 0.25287228312066234, pitch: 2.9361916548195786, yaw: 4.229861496775482
+0th tx is from the experiment 788 with the tx_id 0
+rotation angles roll: 2.4301839352587296, pitch: 2.8727615851213857, yaw: 1.0472845172029297
+1th tx is from the experiment 12 with the tx_id 0
+rotation angles roll: 0.311525895689953, pitch: 2.653707181481196, yaw: 4.079159430577989
+0th tx is from the experiment 170 with the tx_id 0
+rotation angles roll: 5.2852555978850795, pitch: 4.0238723885454695, yaw: 1.0646529113963057
+1th tx is from the experiment 810 with the tx_id 0
+rotation angles roll: 1.0911540128845418, pitch: 1.4382064466454108, yaw: 2.1556384395905677
+0th tx is from the experiment 602 with the tx_id 0
+rotation angles roll: 2.0869441134817497, pitch: 0.3851365511690574, yaw: 4.14311898634153
+1th tx is from the experiment 416 with the tx_id 0
+rotation angles roll: 5.355585589634657, pitch: 0.8159612803695245, yaw: 2.8947196728389373
+0th tx is from the experiment 113 with the tx_id 1
+rotation angles roll: 2.3663779277602424, pitch: 5.971642129176075, yaw: 1.7215175574833559
+1th tx is from the experiment 43 with the tx_id 0
+rotation angles roll: 1.5106718733654672, pitch: 2.8696082764127495, yaw: 1.6630529673127519
+0th tx is from the experiment 486 with the tx_id 1
+rotation angles roll: 0.4429739379986217, pitch: 1.9379999998767343, yaw: 1.7748155313924536
+1th tx is from the experiment 340 with the tx_id 1
+rotation angles roll: 3.6662336711614594, pitch: 2.8116174996824213, yaw: 4.3926977383105665
+0th tx is from the experiment 38 with the tx_id 0
+rotation angles roll: 5.797904887216569, pitch: 3.3047609542088585, yaw: 1.9466355647049582
+1th tx is from the experiment 441 with the tx_id 1
+rotation angles roll: 5.7038587325604215, pitch: 2.9128525591450236, yaw: 1.9721061597195246
+0th tx is from the experiment 914 with the tx_id 1
+rotation angles roll: 4.52562201358425, pitch: 1.9294920078775215, yaw: 5.573979159713198
+1th tx is from the experiment 556 with the tx_id 1
+rotation angles roll: 5.1492925089147095, pitch: 5.260307738530693, yaw: 0.25146035066828526
+0th tx is from the experiment 79 with the tx_id 0
+rotation angles roll: 6.013910423429757, pitch: 1.697833902300281, yaw: 2.167840902215538
+1th tx is from the experiment 848 with the tx_id 0
+rotation angles roll: 0.33923056212019775, pitch: 0.09915958919814814, yaw: 2.2896339171986586
+0th tx is from the experiment 632 with the tx_id 1
+rotation angles roll: 0.9469343238482285, pitch: 2.4309389106490067, yaw: 3.943549704651244
+1th tx is from the experiment 478 with the tx_id 1
+rotation angles roll: 3.2335807641304615, pitch: 5.634146609227621, yaw: 0.6291983650703143
+0th tx is from the experiment 618 with the tx_id 1
+rotation angles roll: 3.2341368758390225, pitch: 0.5878385693108846, yaw: 0.2627447835355144
+1th tx is from the experiment 99 with the tx_id 0
+rotation angles roll: 3.6129171236289515, pitch: 4.355835668841538, yaw: 4.372703985233113
+0th tx is from the experiment 857 with the tx_id 1
+rotation angles roll: 1.718306488168422, pitch: 5.031723024297705, yaw: 2.3940403612632375
+1th tx is from the experiment 922 with the tx_id 1
+rotation angles roll: 3.9379460840120206, pitch: 4.353615520224923, yaw: 2.694780021748201
+0th tx is from the experiment 718 with the tx_id 0
+rotation angles roll: 6.112430836009348, pitch: 3.5661079052568962, yaw: 5.976286170001705
+1th tx is from the experiment 4 with the tx_id 0
+rotation angles roll: 2.7442092655304138, pitch: 6.106515495304926, yaw: 5.50519844861133
+0th tx is from the experiment 539 with the tx_id 0
+rotation angles roll: 4.255390178542712, pitch: 0.5040066099306678, yaw: 2.430759607659207
+1th tx is from the experiment 498 with the tx_id 1
+rotation angles roll: 3.603948492014913, pitch: 5.9827852679016384, yaw: 5.962962457348929
+0th tx is from the experiment 475 with the tx_id 1
+rotation angles roll: 5.848727699712089, pitch: 4.058168529193981, yaw: 1.3883140375973302
+1th tx is from the experiment 490 with the tx_id 1
+rotation angles roll: 0.11387757689146659, pitch: 6.163265881884051, yaw: 2.3525371371629844
+0th tx is from the experiment 314 with the tx_id 1
+rotation angles roll: 3.7265703522462554, pitch: 2.306801612887531, yaw: 0.28233866172139793
+1th tx is from the experiment 448 with the tx_id 0
+rotation angles roll: 0.7719680166600087, pitch: 1.3587855155576232, yaw: 3.2792979636991473
+0th tx is from the experiment 601 with the tx_id 1
+rotation angles roll: 3.9374934684152985, pitch: 4.481650777660863, yaw: 0.4450468463609304
+1th tx is from the experiment 635 with the tx_id 0
+rotation angles roll: 2.6080545668576027, pitch: 5.466894992919704, yaw: 5.666634720487125
+0th tx is from the experiment 922 with the tx_id 0
+rotation angles roll: 5.4565396575415095, pitch: 6.089972282045434, yaw: 4.080291254467275
+1th tx is from the experiment 707 with the tx_id 1
+rotation angles roll: 5.03214173658621, pitch: 0.41940533137008096, yaw: 0.9898727245100888
+0th tx is from the experiment 978 with the tx_id 0
+rotation angles roll: 4.433252153564443, pitch: 5.486244782078453, yaw: 1.4334658656000085
+1th tx is from the experiment 624 with the tx_id 1
+rotation angles roll: 3.3287661763853644, pitch: 1.9724502304546598, yaw: 4.894918056259878
+0th tx is from the experiment 623 with the tx_id 0
+rotation angles roll: 0.3206503676215968, pitch: 0.7131838221307166, yaw: 0.24149252744112004
+1th tx is from the experiment 543 with the tx_id 1
+rotation angles roll: 6.266096535600171, pitch: 2.3167889870612486, yaw: 1.8326171591000961
+0th tx is from the experiment 3 with the tx_id 0
+rotation angles roll: 0.6060895039378726, pitch: 3.0572494653054187, yaw: 2.8449359747456917
+1th tx is from the experiment 931 with the tx_id 0
+rotation angles roll: 5.066663237490786, pitch: 2.6388791648087753, yaw: 4.1629797175772225
+0th tx is from the experiment 697 with the tx_id 0
+rotation angles roll: 1.7586947530189907, pitch: 2.1743820665244216, yaw: 3.6343997059238253
+1th tx is from the experiment 216 with the tx_id 0
+rotation angles roll: 4.363443432803039, pitch: 0.3671131093916388, yaw: 3.482043299865306
+0th tx is from the experiment 104 with the tx_id 1
+rotation angles roll: 4.095907652300578, pitch: 3.916260419069009, yaw: 2.3645924290903912
+1th tx is from the experiment 752 with the tx_id 0
+rotation angles roll: 5.247141461394557, pitch: 3.438045103588227, yaw: 2.0769033694623062
+0th tx is from the experiment 993 with the tx_id 0
+rotation angles roll: 4.062290945054997, pitch: 5.759082989354671, yaw: 4.4788018786353
+1th tx is from the experiment 566 with the tx_id 1
+rotation angles roll: 2.9076293009783263, pitch: 0.959984897861983, yaw: 3.8164524466818412
+0th tx is from the experiment 553 with the tx_id 0
+rotation angles roll: 5.53061181270851, pitch: 6.176035142163484, yaw: 2.161822641549556
+1th tx is from the experiment 916 with the tx_id 1
+rotation angles roll: 5.6607989052956205, pitch: 2.4366187226516107, yaw: 1.473602682328174
+0th tx is from the experiment 587 with the tx_id 0
+rotation angles roll: 4.6534576082614265, pitch: 4.071063873328712, yaw: 3.811705243421962
+1th tx is from the experiment 0 with the tx_id 0
+rotation angles roll: 0.5608323409704364, pitch: 0.9448273058875101, yaw: 2.3332859706041824
+0th tx is from the experiment 83 with the tx_id 1
+rotation angles roll: 4.560801564802316, pitch: 0.511262588267211, yaw: 4.35419161800539
+1th tx is from the experiment 648 with the tx_id 1
+rotation angles roll: 1.1372921570307037, pitch: 3.1935198694461704, yaw: 5.294211192208851
+0th tx is from the experiment 652 with the tx_id 1
+rotation angles roll: 4.509781320200858, pitch: 2.189084385568599, yaw: 3.7356031620241223
+1th tx is from the experiment 572 with the tx_id 0
+rotation angles roll: 3.406870334737849, pitch: 5.357080338961582, yaw: 3.3561048391338453
+0th tx is from the experiment 376 with the tx_id 0
+rotation angles roll: 2.9012395953559498, pitch: 4.513691964932229, yaw: 1.6193921127736386
+1th tx is from the experiment 50 with the tx_id 0
+rotation angles roll: 0.7613238158792559, pitch: 2.4160174230878875, yaw: 3.200774848573863
+0th tx is from the experiment 659 with the tx_id 0
+rotation angles roll: 3.102196343061726, pitch: 1.8972341975888176, yaw: 1.7349216139552885
+1th tx is from the experiment 240 with the tx_id 0
+rotation angles roll: 5.203389781177582, pitch: 5.141050944819891, yaw: 5.787203674371716
+0th tx is from the experiment 80 with the tx_id 0
+rotation angles roll: 0.861089105464838, pitch: 1.3143466849851086, yaw: 0.8104120903079216
+1th tx is from the experiment 89 with the tx_id 1
+rotation angles roll: 5.4986563071347225, pitch: 5.164732640303991, yaw: 5.823936666237289
+0th tx is from the experiment 932 with the tx_id 0
+rotation angles roll: 1.9299571014428882, pitch: 1.3174359058113336, yaw: 3.782705504065945
+1th tx is from the experiment 69 with the tx_id 1
+rotation angles roll: 3.894737059053683, pitch: 0.5001625183586852, yaw: 1.5728816508854089
+0th tx is from the experiment 323 with the tx_id 1
+rotation angles roll: 4.274153613023379, pitch: 0.6734993741256372, yaw: 3.3525450655955917
+1th tx is from the experiment 574 with the tx_id 0
+rotation angles roll: 5.954659803300569, pitch: 3.654316462776546, yaw: 6.101960277168892
+0th tx is from the experiment 202 with the tx_id 1
+rotation angles roll: 0.28338112865040826, pitch: 3.3871586296555605, yaw: 4.396208735137966
+1th tx is from the experiment 379 with the tx_id 0
+rotation angles roll: 1.6879475358154408, pitch: 0.5801321777553109, yaw: 2.1585776433393917
+0th tx is from the experiment 160 with the tx_id 1
+rotation angles roll: 5.511784839478427, pitch: 2.4520059369800755, yaw: 5.992183503208047
+1th tx is from the experiment 35 with the tx_id 1
+rotation angles roll: 1.5213897339872502, pitch: 3.861834523612745, yaw: 0.4585946657032482
+0th tx is from the experiment 227 with the tx_id 1
+rotation angles roll: 5.437881052091596, pitch: 0.980000117841346, yaw: 1.414389532759999
+1th tx is from the experiment 976 with the tx_id 0
+rotation angles roll: 0.8833046615149726, pitch: 3.1880931097104988, yaw: 3.622936546333842
+0th tx is from the experiment 681 with the tx_id 0
+rotation angles roll: 0.8283836192439247, pitch: 3.259885262185236, yaw: 1.5219412301099147
+1th tx is from the experiment 284 with the tx_id 1
+rotation angles roll: 0.7248962366120907, pitch: 0.3031723190226943, yaw: 0.7880549650799383
+0th tx is from the experiment 888 with the tx_id 0
+rotation angles roll: 3.4965484467712558, pitch: 2.0452887262359405, yaw: 1.3173318350723893
+1th tx is from the experiment 179 with the tx_id 1
+rotation angles roll: 6.272225018463489, pitch: 5.962928428750161, yaw: 4.389570218516851
+0th tx is from the experiment 968 with the tx_id 1
+rotation angles roll: 6.226747374234677, pitch: 3.9852834309717653, yaw: 5.7674778925901
+1th tx is from the experiment 772 with the tx_id 0
+rotation angles roll: 6.06145554835306, pitch: 1.229681713445267, yaw: 4.603831157062203
+0th tx is from the experiment 989 with the tx_id 1
+rotation angles roll: 4.497532567553608, pitch: 2.699561085551471, yaw: 4.826566364005384
+1th tx is from the experiment 391 with the tx_id 1
+rotation angles roll: 1.7947412895219714, pitch: 4.743197023112197, yaw: 2.3078475203173827
+0th tx is from the experiment 659 with the tx_id 1
+rotation angles roll: 2.3681464630748312, pitch: 2.912088763138036, yaw: 1.3970704950738388
+1th tx is from the experiment 864 with the tx_id 1
+rotation angles roll: 2.4881532685022423, pitch: 5.019467367174052, yaw: 0.8646025770454989
+0th tx is from the experiment 660 with the tx_id 1
+rotation angles roll: 1.4679604547993506, pitch: 4.97815252319191, yaw: 2.9356047116592783
+1th tx is from the experiment 319 with the tx_id 0
+rotation angles roll: 5.187310022322155, pitch: 4.841687635375484, yaw: 5.100375351744722
+0th tx is from the experiment 895 with the tx_id 1
+rotation angles roll: 4.877938930574115, pitch: 1.7690282378739839, yaw: 3.8269592186827275
+1th tx is from the experiment 288 with the tx_id 1
+rotation angles roll: 3.966712577573626, pitch: 1.078779528413261, yaw: 4.624106762951206
+0th tx is from the experiment 737 with the tx_id 1
+rotation angles roll: 3.3532216239182775, pitch: 2.8212887638148616, yaw: 1.0931302348690624
+1th tx is from the experiment 717 with the tx_id 1
+rotation angles roll: 1.039619436970663, pitch: 4.356313424245822, yaw: 5.08532097933073
+0th tx is from the experiment 403 with the tx_id 1
+rotation angles roll: 3.451082202846632, pitch: 3.720340363276347, yaw: 4.851299303744711
+1th tx is from the experiment 889 with the tx_id 0
+rotation angles roll: 1.1835281669836, pitch: 0.29643186661203536, yaw: 3.7541728549845184
+0th tx is from the experiment 979 with the tx_id 1
+rotation angles roll: 4.977421595069683, pitch: 5.034980158058282, yaw: 5.764121594802218
+1th tx is from the experiment 14 with the tx_id 1
+rotation angles roll: 0.19215860710304225, pitch: 2.8689695908055413, yaw: 4.837045844674323
+0th tx is from the experiment 170 with the tx_id 1
+rotation angles roll: 1.5968582353899108, pitch: 0.9460213266840005, yaw: 2.2546622781301555
+1th tx is from the experiment 184 with the tx_id 0
+rotation angles roll: 2.241036888395796, pitch: 3.2165653670941303, yaw: 0.20437014530727077
+0th tx is from the experiment 401 with the tx_id 0
+rotation angles roll: 4.545323755858471, pitch: 4.303116739926911, yaw: 5.05488761402284
+1th tx is from the experiment 621 with the tx_id 1
+rotation angles roll: 1.9243615366565765, pitch: 5.942182848574214, yaw: 1.9700440796827774
+0th tx is from the experiment 839 with the tx_id 1
+rotation angles roll: 3.251156485480075, pitch: 1.5488744934732617, yaw: 4.192518624973434
+1th tx is from the experiment 309 with the tx_id 1
+rotation angles roll: 6.11701976869113, pitch: 1.4448792064365328, yaw: 5.402079685990018
+0th tx is from the experiment 192 with the tx_id 1
+rotation angles roll: 2.8402510540483124, pitch: 3.6519610633512563, yaw: 2.4092279358576993
+1th tx is from the experiment 827 with the tx_id 1
+rotation angles roll: 4.979878910034304, pitch: 2.5247136357015116, yaw: 1.4759783490808671
+0th tx is from the experiment 525 with the tx_id 0
+rotation angles roll: 5.744015251022465, pitch: 3.2977202845352567, yaw: 4.726221816042775
+1th tx is from the experiment 213 with the tx_id 0
+rotation angles roll: 5.035783315999915, pitch: 3.033861274676774, yaw: 0.7356762237157709
+0th tx is from the experiment 572 with the tx_id 1
+rotation angles roll: 3.664768119592985, pitch: 3.2127882683298097, yaw: 4.520804732311297
+1th tx is from the experiment 664 with the tx_id 1
+rotation angles roll: 2.048595492455943, pitch: 0.5606928031517819, yaw: 0.9940297348208608
+0th tx is from the experiment 54 with the tx_id 1
+rotation angles roll: 5.438917332036384, pitch: 0.05044632595817599, yaw: 0.9562861944039976
+1th tx is from the experiment 701 with the tx_id 1
+rotation angles roll: 4.919332158925865, pitch: 5.97916278442818, yaw: 5.279834925708276
+0th tx is from the experiment 930 with the tx_id 0
+rotation angles roll: 0.2983320948977799, pitch: 3.8286597611765383, yaw: 2.5744768321797826
+1th tx is from the experiment 46 with the tx_id 0
+rotation angles roll: 4.27183472093918, pitch: 1.034029817225851, yaw: 0.8411158601736215
+0th tx is from the experiment 941 with the tx_id 1
+rotation angles roll: 4.7236984859213695, pitch: 0.39446928905040035, yaw: 0.40470025599394965
+1th tx is from the experiment 274 with the tx_id 1
+rotation angles roll: 2.7114875723592005, pitch: 0.7500854209420554, yaw: 3.0984516016264876
+0th tx is from the experiment 250 with the tx_id 0
+rotation angles roll: 3.9048615357355168, pitch: 0.559219922824683, yaw: 3.1872899641244534
+1th tx is from the experiment 770 with the tx_id 0
+rotation angles roll: 0.33852304291421564, pitch: 2.3812370247003782, yaw: 4.523914370622947
+0th tx is from the experiment 312 with the tx_id 0
+rotation angles roll: 0.4785027718208233, pitch: 5.304478928797997, yaw: 1.5327262103442065
+1th tx is from the experiment 505 with the tx_id 1
+rotation angles roll: 6.066682698368173, pitch: 4.347758629176418, yaw: 3.705297893788628
+0th tx is from the experiment 255 with the tx_id 1
+rotation angles roll: 5.154018877025768, pitch: 1.8607986238301766, yaw: 3.5029213367664074
+1th tx is from the experiment 865 with the tx_id 1
+rotation angles roll: 1.396892486906262, pitch: 0.7544039263224496, yaw: 0.721104803315104
+0th tx is from the experiment 305 with the tx_id 0
+rotation angles roll: 1.5315714257264577, pitch: 2.5973346816896883, yaw: 2.3185426456941536
+1th tx is from the experiment 319 with the tx_id 1
+rotation angles roll: 2.537799338499512, pitch: 5.5331336266653395, yaw: 4.4779273457437805
+0th tx is from the experiment 592 with the tx_id 1
+rotation angles roll: 3.933480346197406, pitch: 5.390460027473319, yaw: 1.4327665829082292
+1th tx is from the experiment 274 with the tx_id 1
+rotation angles roll: 1.1244141917731663, pitch: 2.4599788648265224, yaw: 5.096082131446254
+0th tx is from the experiment 702 with the tx_id 0
+rotation angles roll: 5.659752558474742, pitch: 3.522354611401246, yaw: 2.165500563388479
+1th tx is from the experiment 24 with the tx_id 1
+rotation angles roll: 2.1699781317337834, pitch: 2.466365777356358, yaw: 5.721050779780605
+0th tx is from the experiment 138 with the tx_id 1
+rotation angles roll: 4.006614010607843, pitch: 1.342521151619011, yaw: 4.383832593023904
+1th tx is from the experiment 583 with the tx_id 0
+rotation angles roll: 2.914930932970909, pitch: 0.3996783371107612, yaw: 3.821454237302773
+0th tx is from the experiment 177 with the tx_id 0
+rotation angles roll: 3.806137961097587, pitch: 0.460996087680661, yaw: 1.1651951583632107
+1th tx is from the experiment 553 with the tx_id 0
+rotation angles roll: 1.6750048593948927, pitch: 3.0811369428372064, yaw: 2.0391451383604675
+0th tx is from the experiment 136 with the tx_id 0
+rotation angles roll: 1.746829620096764, pitch: 0.4600056605359537, yaw: 1.0085981182648418
+1th tx is from the experiment 108 with the tx_id 1
+rotation angles roll: 5.586091505415357, pitch: 3.1396881066437037, yaw: 2.1543749070064333
+0th tx is from the experiment 597 with the tx_id 1
+rotation angles roll: 4.394761258245235, pitch: 5.77263378193833, yaw: 0.6893911106332782
+1th tx is from the experiment 751 with the tx_id 1
+rotation angles roll: 3.265794146502838, pitch: 4.431533379816102, yaw: 3.6543188317520525
+0th tx is from the experiment 654 with the tx_id 0
+rotation angles roll: 1.314264423309478, pitch: 0.7176908118316142, yaw: 1.8800699894541617
+1th tx is from the experiment 381 with the tx_id 1
+rotation angles roll: 4.1154866821253036, pitch: 0.181499594379117, yaw: 2.065025205886379
+0th tx is from the experiment 528 with the tx_id 0
+rotation angles roll: 3.8198244280764992, pitch: 3.2522117138725393, yaw: 1.486573011306563
+1th tx is from the experiment 669 with the tx_id 0
+rotation angles roll: 5.924974111785456, pitch: 3.9144622070934205, yaw: 1.7847112843206645
+0th tx is from the experiment 542 with the tx_id 0
+rotation angles roll: 5.130467550334384, pitch: 4.208288022176401, yaw: 4.793339106021228
+1th tx is from the experiment 204 with the tx_id 0
+rotation angles roll: 5.615808881359148, pitch: 2.981325387102506, yaw: 2.8618666109101
+0th tx is from the experiment 743 with the tx_id 0
+rotation angles roll: 2.9449924381716897, pitch: 0.3659009204135142, yaw: 0.48392206956622863
+1th tx is from the experiment 308 with the tx_id 1
+rotation angles roll: 1.1506761592108665, pitch: 2.248573880615398, yaw: 3.4992968768903463
+0th tx is from the experiment 981 with the tx_id 0
+rotation angles roll: 4.109311073470591, pitch: 4.905820495248853, yaw: 1.3887973404555627
+1th tx is from the experiment 542 with the tx_id 1
+rotation angles roll: 4.811406303505552, pitch: 0.5435935247016246, yaw: 1.0857760476081255
+0th tx is from the experiment 589 with the tx_id 0
+rotation angles roll: 0.5977633203938698, pitch: 1.194687301329051, yaw: 4.182627812192739
+1th tx is from the experiment 102 with the tx_id 1
+rotation angles roll: 5.229987029268189, pitch: 1.0078540342979398, yaw: 5.814936803954228
+0th tx is from the experiment 45 with the tx_id 0
+rotation angles roll: 4.060183266364044, pitch: 1.132608532001894, yaw: 3.4867726725291304
+1th tx is from the experiment 639 with the tx_id 0
+rotation angles roll: 0.5528462623237934, pitch: 0.7404467416390932, yaw: 5.580630193278657
+0th tx is from the experiment 235 with the tx_id 1
+rotation angles roll: 4.555322555862578, pitch: 6.077016460738303, yaw: 6.031564734695351
+1th tx is from the experiment 658 with the tx_id 0
+rotation angles roll: 2.4961092275410497, pitch: 5.910206315739562, yaw: 3.006260122823048
+0th tx is from the experiment 755 with the tx_id 0
+rotation angles roll: 3.2559575080463166, pitch: 1.0324750468710955, yaw: 2.8187546471767604
+1th tx is from the experiment 837 with the tx_id 0
+rotation angles roll: 1.8088441453556072, pitch: 1.1340434110638038, yaw: 0.5449849083724095
+0th tx is from the experiment 149 with the tx_id 0
+rotation angles roll: 2.762492358585207, pitch: 3.106472333380691, yaw: 1.3513833367399677
+1th tx is from the experiment 658 with the tx_id 1
+rotation angles roll: 5.999994162552388, pitch: 3.656153408015097, yaw: 4.166463277956515
+0th tx is from the experiment 783 with the tx_id 1
+rotation angles roll: 2.7990087052175743, pitch: 1.126551034951351, yaw: 3.0289986489012253
+1th tx is from the experiment 973 with the tx_id 1
+rotation angles roll: 0.08515300063195241, pitch: 1.9379655488812957, yaw: 0.5255928428525992
+0th tx is from the experiment 575 with the tx_id 0
+rotation angles roll: 3.5418446711588514, pitch: 4.902295910996937, yaw: 2.6569650274377508
+1th tx is from the experiment 608 with the tx_id 0
+rotation angles roll: 3.722058193666267, pitch: 4.877709751894131, yaw: 0.9370574275009518
+0th tx is from the experiment 139 with the tx_id 1
+rotation angles roll: 4.704286022761117, pitch: 2.7619816098580814, yaw: 0.6468884208081082
+1th tx is from the experiment 397 with the tx_id 1
+rotation angles roll: 3.726295725289192, pitch: 5.023605417598454, yaw: 3.6264716238570722
+0th tx is from the experiment 226 with the tx_id 0
+rotation angles roll: 3.311991383358125, pitch: 2.7016722771323844, yaw: 3.527623134353979
+1th tx is from the experiment 728 with the tx_id 0
+rotation angles roll: 0.5743389730324429, pitch: 1.1217564749366278, yaw: 5.263293676363571
+0th tx is from the experiment 19 with the tx_id 0
+rotation angles roll: 0.7745996776011976, pitch: 0.15680326135781417, yaw: 5.066710247922511
+1th tx is from the experiment 220 with the tx_id 1
+rotation angles roll: 4.661202429611023, pitch: 3.8337628330859856, yaw: 3.53042654761029
+0th tx is from the experiment 656 with the tx_id 0
+rotation angles roll: 3.264665644152045, pitch: 5.451388404236571, yaw: 3.6895373289870417
+1th tx is from the experiment 316 with the tx_id 1
+rotation angles roll: 2.070807592870309, pitch: 0.1299072659053335, yaw: 0.3910087680535129
+0th tx is from the experiment 12 with the tx_id 0
+rotation angles roll: 0.3295609995017366, pitch: 0.8701240293686248, yaw: 1.1007143215658455
+1th tx is from the experiment 791 with the tx_id 0
+rotation angles roll: 2.6041933217788475, pitch: 3.211400928381767, yaw: 1.8554890300422748
+0th tx is from the experiment 261 with the tx_id 1
+rotation angles roll: 2.619175438678822, pitch: 2.4190622500641523, yaw: 1.811243913600538
+1th tx is from the experiment 648 with the tx_id 0
+rotation angles roll: 4.152186347165538, pitch: 4.37606179173276, yaw: 3.780341204116275
+0th tx is from the experiment 535 with the tx_id 0
+rotation angles roll: 4.2763121709957845, pitch: 0.21275496351782663, yaw: 1.8234841958975465
+1th tx is from the experiment 743 with the tx_id 1
+rotation angles roll: 6.269333509989325, pitch: 5.628592234484356, yaw: 2.455800665883388
+0th tx is from the experiment 64 with the tx_id 0
+rotation angles roll: 3.5294269953585564, pitch: 1.7428326924875774, yaw: 3.290104147536868
+1th tx is from the experiment 984 with the tx_id 1
+rotation angles roll: 5.326653248049594, pitch: 5.541202864201603, yaw: 1.639349436401733
+0th tx is from the experiment 47 with the tx_id 1
+rotation angles roll: 5.6017655681382905, pitch: 2.473494513078896, yaw: 3.9603080952718477
+1th tx is from the experiment 506 with the tx_id 0
+rotation angles roll: 6.040269857495706, pitch: 4.69083819587072, yaw: 1.619003562390422
+0th tx is from the experiment 483 with the tx_id 0
+rotation angles roll: 4.379341936818195, pitch: 4.39590853629886, yaw: 4.126917582724106
+1th tx is from the experiment 614 with the tx_id 1
+rotation angles roll: 0.0006368566333172589, pitch: 5.778917642731044, yaw: 1.3852804987908127
+0th tx is from the experiment 474 with the tx_id 0
+rotation angles roll: 3.797899423487135, pitch: 1.1991901953369541, yaw: 4.659181984499198
+1th tx is from the experiment 775 with the tx_id 0
+rotation angles roll: 1.418837887712629, pitch: 4.218582345882175, yaw: 1.8299971206523493
+0th tx is from the experiment 603 with the tx_id 1
+rotation angles roll: 0.7501717577916681, pitch: 5.5354682323733595, yaw: 5.627121779598437
+1th tx is from the experiment 329 with the tx_id 0
+rotation angles roll: 5.44446592508673, pitch: 1.1276763581776785, yaw: 1.798717944615519
+0th tx is from the experiment 499 with the tx_id 1
+rotation angles roll: 3.816403825495257, pitch: 0.3917980639247408, yaw: 2.9883645726104144
+1th tx is from the experiment 308 with the tx_id 1
+rotation angles roll: 0.42774564616503125, pitch: 4.6607114173968665, yaw: 4.256845957435112
+0th tx is from the experiment 217 with the tx_id 1
+rotation angles roll: 4.912561786467926, pitch: 3.0738593084940073, yaw: 5.977996364050465
+1th tx is from the experiment 536 with the tx_id 0
+rotation angles roll: 3.782109472816355, pitch: 1.9675581340507373, yaw: 5.141049049135604
+0th tx is from the experiment 647 with the tx_id 0
+rotation angles roll: 2.661625039341257, pitch: 1.8229617152637114, yaw: 0.06349725578316884
+1th tx is from the experiment 232 with the tx_id 0
+rotation angles roll: 5.637573750945058, pitch: 3.2484872202638098, yaw: 5.237920487679859
+0th tx is from the experiment 7 with the tx_id 0
+rotation angles roll: 0.6509046301954367, pitch: 4.906358778427432, yaw: 1.9219454542718741
+1th tx is from the experiment 558 with the tx_id 1
+rotation angles roll: 0.30443762481519454, pitch: 5.543973964596918, yaw: 3.373760171937509
+0th tx is from the experiment 317 with the tx_id 0
+rotation angles roll: 6.09606461363122, pitch: 3.871970560720883, yaw: 0.9296461889728478
+1th tx is from the experiment 624 with the tx_id 1
+rotation angles roll: 2.1321100191299176, pitch: 4.1827951354520065, yaw: 5.169866469559462
+0th tx is from the experiment 16 with the tx_id 0
+rotation angles roll: 4.046913302511859, pitch: 3.5279046708819792, yaw: 2.3735294320419924
+1th tx is from the experiment 40 with the tx_id 1
+rotation angles roll: 5.151981966370357, pitch: 2.4590328833219033, yaw: 4.4604575065377015
+0th tx is from the experiment 671 with the tx_id 0
+rotation angles roll: 2.200613361390455, pitch: 2.4078438383030436, yaw: 6.228255396339056
+1th tx is from the experiment 448 with the tx_id 1
+rotation angles roll: 4.647509438225583, pitch: 3.083915228866157, yaw: 1.1025841799707359
+0th tx is from the experiment 876 with the tx_id 1
+rotation angles roll: 4.590955680340117, pitch: 4.735691597871748, yaw: 4.751226234753679
+1th tx is from the experiment 314 with the tx_id 1
+rotation angles roll: 0.23336982999358544, pitch: 0.6768885276907732, yaw: 0.5412703236800374
+0th tx is from the experiment 486 with the tx_id 1
+rotation angles roll: 2.6950462453632107, pitch: 2.0691876794563178, yaw: 1.692954379875023
+1th tx is from the experiment 313 with the tx_id 1
+rotation angles roll: 5.931320680308886, pitch: 3.16192456494631, yaw: 3.48427656255126
+0th tx is from the experiment 253 with the tx_id 0
+rotation angles roll: 4.251451479053236, pitch: 4.577098592129353, yaw: 1.512394236977612
+1th tx is from the experiment 266 with the tx_id 0
+rotation angles roll: 4.467650335318323, pitch: 0.598864906276506, yaw: 6.1309013058926
+0th tx is from the experiment 626 with the tx_id 1
+rotation angles roll: 6.169987075612441, pitch: 2.8889760813849854, yaw: 2.6330242107210218
+1th tx is from the experiment 880 with the tx_id 0
+rotation angles roll: 0.3278360536066959, pitch: 2.949221242796117, yaw: 5.675269977899204
+0th tx is from the experiment 357 with the tx_id 1
+rotation angles roll: 5.178254787298625, pitch: 0.020820989089450147, yaw: 1.4623997443377665
+1th tx is from the experiment 200 with the tx_id 0
+rotation angles roll: 5.755738441947443, pitch: 0.12324790380497638, yaw: 6.205119545046096
+0th tx is from the experiment 310 with the tx_id 1
+rotation angles roll: 0.22276571665622305, pitch: 0.8082604873692089, yaw: 6.256757955477448
+1th tx is from the experiment 869 with the tx_id 0
+rotation angles roll: 4.842769983780757, pitch: 2.7237880040521443, yaw: 0.3670582907261329
+0th tx is from the experiment 897 with the tx_id 0
+rotation angles roll: 4.680328179316633, pitch: 2.418830070641771, yaw: 0.3600401132618917
+1th tx is from the experiment 964 with the tx_id 1
+rotation angles roll: 4.920380192462896, pitch: 0.4085964589126735, yaw: 3.661565118422481
+0th tx is from the experiment 637 with the tx_id 1
+rotation angles roll: 0.14564383854475338, pitch: 2.2198005537341383, yaw: 5.249437398167755
+1th tx is from the experiment 827 with the tx_id 0
+rotation angles roll: 2.6494805787954343, pitch: 5.913253190155199, yaw: 2.4908929680016816
+0th tx is from the experiment 700 with the tx_id 1
+rotation angles roll: 0.9741893230773004, pitch: 4.690154324091758, yaw: 5.434941235597425
+1th tx is from the experiment 668 with the tx_id 0
+rotation angles roll: 5.775518131891583, pitch: 4.159550217110465e-05, yaw: 1.376427409156737
+0th tx is from the experiment 295 with the tx_id 1
+rotation angles roll: 3.387317056797137, pitch: 4.153995901110769, yaw: 0.0749009881242695
+1th tx is from the experiment 744 with the tx_id 0
+rotation angles roll: 2.581655327601888, pitch: 4.128056358101014, yaw: 4.025893677447384
+0th tx is from the experiment 315 with the tx_id 0
+rotation angles roll: 3.537329990967101, pitch: 5.466622203773545, yaw: 2.792462227896425
+1th tx is from the experiment 426 with the tx_id 0
+rotation angles roll: 0.14187337566737512, pitch: 5.260622928579788, yaw: 2.4653474312353167
+0th tx is from the experiment 965 with the tx_id 1
+rotation angles roll: 3.818102320900697, pitch: 3.881635469789472, yaw: 5.950362646308301
+1th tx is from the experiment 474 with the tx_id 0
+rotation angles roll: 3.2112207286905714, pitch: 3.510125047393634, yaw: 2.4296350263298128
+0th tx is from the experiment 15 with the tx_id 0
+rotation angles roll: 3.8595636070642976, pitch: 5.46649764479969, yaw: 0.04522274852135068
+1th tx is from the experiment 770 with the tx_id 0
+rotation angles roll: 2.5287057880989434, pitch: 2.2831457860566813, yaw: 5.992424142501926
+0th tx is from the experiment 648 with the tx_id 1
+rotation angles roll: 0.3395531453782683, pitch: 4.009869031566713, yaw: 4.827316401853209
+1th tx is from the experiment 106 with the tx_id 1
+rotation angles roll: 3.1966844993608303, pitch: 5.23815747768487, yaw: 0.4361499029337291
+0th tx is from the experiment 464 with the tx_id 0
+rotation angles roll: 2.731575081961373, pitch: 0.7277395414505129, yaw: 1.2831543498794533
+1th tx is from the experiment 87 with the tx_id 1
+rotation angles roll: 1.636561122377466, pitch: 1.4223321285843546, yaw: 4.270784100331758
+0th tx is from the experiment 79 with the tx_id 1
+rotation angles roll: 0.2453194209016081, pitch: 2.988235550613435, yaw: 1.035833101405863
+1th tx is from the experiment 176 with the tx_id 0
+rotation angles roll: 5.137261979661859, pitch: 2.1099845925992415, yaw: 3.003287719393972
+0th tx is from the experiment 903 with the tx_id 1
+rotation angles roll: 0.5965411681792864, pitch: 5.790701324586784, yaw: 1.4981041170927258
+1th tx is from the experiment 274 with the tx_id 1
+rotation angles roll: 5.47416626464694, pitch: 0.9557236467472101, yaw: 3.23453901249446
+0th tx is from the experiment 240 with the tx_id 1
+rotation angles roll: 2.148524702928611, pitch: 5.080831995891882, yaw: 2.9197822723352074
+1th tx is from the experiment 610 with the tx_id 0
+rotation angles roll: 6.145683635372113, pitch: 3.924140263769257, yaw: 3.7864602968499206
+0th tx is from the experiment 657 with the tx_id 1
+rotation angles roll: 1.3003297139244405, pitch: 0.5599553798398494, yaw: 5.930196512387884
+1th tx is from the experiment 473 with the tx_id 0
+rotation angles roll: 0.4739366929602035, pitch: 1.2890964759168322, yaw: 5.9981613189175595
+0th tx is from the experiment 431 with the tx_id 1
+rotation angles roll: 3.4969511216874345, pitch: 4.869037581181975, yaw: 2.893615300771496
+1th tx is from the experiment 840 with the tx_id 1
+rotation angles roll: 2.57701053250178, pitch: 3.0808783696740596, yaw: 2.838942783260918
+0th tx is from the experiment 536 with the tx_id 0
+rotation angles roll: 6.267868679456969, pitch: 6.127972318560239, yaw: 5.4825471544959266
+1th tx is from the experiment 594 with the tx_id 1
+rotation angles roll: 3.4761390450341927, pitch: 4.80829820369576, yaw: 3.992370728286199
+0th tx is from the experiment 556 with the tx_id 1
+rotation angles roll: 3.6188021576556877, pitch: 4.163435091524359, yaw: 3.4338159260506416
+1th tx is from the experiment 815 with the tx_id 1
+rotation angles roll: 2.506731122585847, pitch: 5.777856632756697, yaw: 5.296349930743057
+0th tx is from the experiment 652 with the tx_id 1
+rotation angles roll: 0.2478067406153149, pitch: 0.8147562398842324, yaw: 4.273081690122709
+1th tx is from the experiment 724 with the tx_id 0
+rotation angles roll: 1.1778014409088187, pitch: 3.965370743180124, yaw: 4.655696741310782
+0th tx is from the experiment 617 with the tx_id 0
+rotation angles roll: 3.295129768584962, pitch: 0.4524227676911156, yaw: 4.996841146746798
+1th tx is from the experiment 889 with the tx_id 0
+rotation angles roll: 3.32426284466231, pitch: 0.34324067717113915, yaw: 5.999561864791475
+0th tx is from the experiment 909 with the tx_id 1
+rotation angles roll: 4.275446327560062, pitch: 0.8854677069038863, yaw: 6.01638777970525
+1th tx is from the experiment 713 with the tx_id 0
+rotation angles roll: 2.120489346204923, pitch: 5.842592465041618, yaw: 1.4383306387635233
+0th tx is from the experiment 563 with the tx_id 1
+rotation angles roll: 6.044704971687218, pitch: 0.46914145152145326, yaw: 0.9547688584877274
+1th tx is from the experiment 117 with the tx_id 0
+rotation angles roll: 5.010136625213089, pitch: 1.3728088524759807, yaw: 1.6460011802408567
+0th tx is from the experiment 300 with the tx_id 0
+rotation angles roll: 0.6011089217886051, pitch: 3.3856777345544926, yaw: 3.7660169898416744
+1th tx is from the experiment 313 with the tx_id 0
+rotation angles roll: 1.7351130757545024, pitch: 4.712427028268844, yaw: 1.1544508379541818
+0th tx is from the experiment 764 with the tx_id 0
+rotation angles roll: 5.343247107354673, pitch: 2.8495638747451286, yaw: 1.4152420077844856
+1th tx is from the experiment 286 with the tx_id 0
+rotation angles roll: 4.861546385510025, pitch: 0.4244824506199698, yaw: 2.2254621868268734
+0th tx is from the experiment 280 with the tx_id 0
+rotation angles roll: 4.980544544405717, pitch: 5.656457117721138, yaw: 3.3245211953816107
+1th tx is from the experiment 528 with the tx_id 0
+rotation angles roll: 5.77875123495912, pitch: 5.573122184546219, yaw: 2.7821026177687633
+0th tx is from the experiment 257 with the tx_id 0
+rotation angles roll: 2.923240260757387, pitch: 2.4646361541529096, yaw: 2.8160844320399874
+1th tx is from the experiment 309 with the tx_id 0
+rotation angles roll: 1.0669373249939933, pitch: 5.71026029062728, yaw: 6.188118799857054
+0th tx is from the experiment 337 with the tx_id 1
+rotation angles roll: 6.0550435875676785, pitch: 5.1858131688981794, yaw: 3.4875540115017247
+1th tx is from the experiment 408 with the tx_id 1
+rotation angles roll: 3.1365337612236606, pitch: 1.0255234298170046, yaw: 6.018551940929453
+0th tx is from the experiment 226 with the tx_id 0
+rotation angles roll: 1.4839672215178819, pitch: 1.561608485329355, yaw: 0.3953479332108759
+1th tx is from the experiment 668 with the tx_id 0
+rotation angles roll: 1.136986090714646, pitch: 5.8807637131018575, yaw: 4.9184526550340975
+0th tx is from the experiment 2 with the tx_id 1
+rotation angles roll: 4.326937763325775, pitch: 4.362846865706743, yaw: 1.5027720568550416
+1th tx is from the experiment 466 with the tx_id 0
+rotation angles roll: 1.8408643849526483, pitch: 3.0005678214586187, yaw: 0.9144999159468195
+0th tx is from the experiment 895 with the tx_id 0
+rotation angles roll: 0.2675391898265903, pitch: 5.676975698740317, yaw: 5.9706429728484816
+1th tx is from the experiment 887 with the tx_id 0
+rotation angles roll: 4.724768453079767, pitch: 1.2120308645124525, yaw: 5.608811315325582
+0th tx is from the experiment 687 with the tx_id 0
+rotation angles roll: 4.142433651133795, pitch: 3.4664279403549765, yaw: 3.346164309342851
+1th tx is from the experiment 769 with the tx_id 1
+rotation angles roll: 4.108333277112326, pitch: 0.07287855247025575, yaw: 6.083260804358864
+0th tx is from the experiment 733 with the tx_id 0
+rotation angles roll: 2.4049648728001634, pitch: 3.140242925601025, yaw: 2.9520843678691207
+1th tx is from the experiment 44 with the tx_id 1
+rotation angles roll: 2.66092283280514, pitch: 3.9217538844300446, yaw: 2.2097220308710788
+0th tx is from the experiment 511 with the tx_id 1
+rotation angles roll: 4.266657222364726, pitch: 5.2331122538553805, yaw: 1.5523444375662925
+1th tx is from the experiment 217 with the tx_id 1
+rotation angles roll: 4.9979138503145135, pitch: 3.008697382379743, yaw: 3.694843679355357
+0th tx is from the experiment 50 with the tx_id 0
+rotation angles roll: 3.8371435927833866, pitch: 2.9112559278171153, yaw: 4.186905629300248
+1th tx is from the experiment 21 with the tx_id 0
+rotation angles roll: 3.957669023655273, pitch: 5.635109626465046, yaw: 3.927313457241939
+0th tx is from the experiment 284 with the tx_id 0
+rotation angles roll: 4.205930111031237, pitch: 4.885578434418208, yaw: 0.05721461691813413
+1th tx is from the experiment 775 with the tx_id 0
+rotation angles roll: 0.05891724988495018, pitch: 5.0928050469488495, yaw: 4.850904796063968
+0th tx is from the experiment 318 with the tx_id 1
+rotation angles roll: 3.8675129544066515, pitch: 5.543908594002303, yaw: 4.834768521441991
+1th tx is from the experiment 620 with the tx_id 0
+rotation angles roll: 3.463665078576464, pitch: 4.319522207815496, yaw: 0.04844112044375148
+0th tx is from the experiment 802 with the tx_id 0
+rotation angles roll: 4.68938430071324, pitch: 3.154059362429015, yaw: 3.3312438006507232
+1th tx is from the experiment 6 with the tx_id 1
+rotation angles roll: 2.40241647772144, pitch: 0.578589276396876, yaw: 6.1429328181745815
+0th tx is from the experiment 687 with the tx_id 1
+rotation angles roll: 2.68846872807829, pitch: 0.5111878129479849, yaw: 3.290859750604175
+1th tx is from the experiment 769 with the tx_id 1
+rotation angles roll: 0.49368005032115475, pitch: 3.543716149342865, yaw: 3.2302968330576722
+0th tx is from the experiment 659 with the tx_id 1
+rotation angles roll: 1.5696343274319224, pitch: 0.9773560109619227, yaw: 4.131412590764457
+1th tx is from the experiment 742 with the tx_id 1
+rotation angles roll: 1.0065123867857422, pitch: 1.340197323607055, yaw: 2.3824544494468323
+0th tx is from the experiment 255 with the tx_id 0
+rotation angles roll: 5.206457946860657, pitch: 1.0899806068123463, yaw: 3.792285396121655
+1th tx is from the experiment 285 with the tx_id 1
+rotation angles roll: 1.1040500961213358, pitch: 3.052287910937286, yaw: 2.9433574882822526
+0th tx is from the experiment 901 with the tx_id 1
+rotation angles roll: 4.548931914882903, pitch: 1.186497525446509, yaw: 1.3725232406831482
+1th tx is from the experiment 709 with the tx_id 0
+rotation angles roll: 2.580743557253294, pitch: 0.752225934212118, yaw: 6.06583419429743
+0th tx is from the experiment 450 with the tx_id 0
+rotation angles roll: 1.8535510506199318, pitch: 4.792776766280001, yaw: 1.156267384551197
+1th tx is from the experiment 115 with the tx_id 1
+rotation angles roll: 3.047859321794146, pitch: 0.8962073371315671, yaw: 0.6980423045369704
+0th tx is from the experiment 689 with the tx_id 0
+rotation angles roll: 3.6648915353831923, pitch: 1.1839611669117276, yaw: 4.770625106980281
+1th tx is from the experiment 935 with the tx_id 1
+rotation angles roll: 4.4328084370319045, pitch: 5.63841732952325, yaw: 5.322864599691726
+0th tx is from the experiment 734 with the tx_id 1
+rotation angles roll: 1.9880303392275525, pitch: 0.9866546227133826, yaw: 3.1106186594019896
+1th tx is from the experiment 29 with the tx_id 0
+rotation angles roll: 2.8543795634121425, pitch: 6.001037025788049, yaw: 1.8714057262476067
+0th tx is from the experiment 432 with the tx_id 1
+rotation angles roll: 3.902441407772539, pitch: 0.6629256028639878, yaw: 2.1080729477375386
+1th tx is from the experiment 119 with the tx_id 0
+rotation angles roll: 4.408546627893235, pitch: 3.499421075933047, yaw: 2.224769294995507
+0th tx is from the experiment 1 with the tx_id 1
+rotation angles roll: 0.5683159428054851, pitch: 2.010225879808464, yaw: 5.935693649808634
+1th tx is from the experiment 6 with the tx_id 0
+rotation angles roll: 1.1390902021044846, pitch: 0.36201295912415665, yaw: 1.0420143154145334
+0th tx is from the experiment 601 with the tx_id 0
+rotation angles roll: 5.940692327287463, pitch: 4.590977673608846, yaw: 0.6441696690143388
+1th tx is from the experiment 556 with the tx_id 0
+rotation angles roll: 1.915508511791909, pitch: 4.40281515794354, yaw: 4.208589229129086
+0th tx is from the experiment 663 with the tx_id 1
+rotation angles roll: 2.823279783721007, pitch: 5.883048832141029, yaw: 6.208990777758288
+1th tx is from the experiment 998 with the tx_id 0
+rotation angles roll: 6.2471849518908265, pitch: 0.4374951225186516, yaw: 0.04807245765641471
+0th tx is from the experiment 483 with the tx_id 1
+rotation angles roll: 1.2483495971134808, pitch: 0.7744668539130292, yaw: 5.127157893855981
+1th tx is from the experiment 460 with the tx_id 1
+rotation angles roll: 2.680035807272557, pitch: 6.105514152803152, yaw: 3.384102968772715
+0th tx is from the experiment 926 with the tx_id 1
+rotation angles roll: 0.11605086354910828, pitch: 3.031859419987621, yaw: 4.149641336617903
+1th tx is from the experiment 349 with the tx_id 0
+rotation angles roll: 4.762172915321357, pitch: 0.7587226444120498, yaw: 1.6664935962108798
+0th tx is from the experiment 934 with the tx_id 0
+rotation angles roll: 4.736915356526313, pitch: 2.905639643081081, yaw: 0.286442150320065
+1th tx is from the experiment 174 with the tx_id 1
+rotation angles roll: 0.5863707506157516, pitch: 3.9754856743515883, yaw: 3.5348289866397287
+0th tx is from the experiment 672 with the tx_id 1
+rotation angles roll: 1.757618435732357, pitch: 3.8739316562470436, yaw: 5.381525257655919
+1th tx is from the experiment 61 with the tx_id 1
+rotation angles roll: 3.3489972940712365, pitch: 1.9012229996857493, yaw: 0.7481813278301014
+0th tx is from the experiment 115 with the tx_id 1
+rotation angles roll: 1.8638947392389704, pitch: 5.951508069015494, yaw: 3.3882310656182586
+1th tx is from the experiment 975 with the tx_id 1
+rotation angles roll: 1.5652567239544737, pitch: 2.881190316352579, yaw: 4.275622214612626
+0th tx is from the experiment 545 with the tx_id 0
+rotation angles roll: 4.966809175203132, pitch: 2.5711299864311625, yaw: 4.528061036449387
+1th tx is from the experiment 59 with the tx_id 0
+rotation angles roll: 6.259208760378944, pitch: 3.1419280584991434, yaw: 0.4724915386485625
+0th tx is from the experiment 598 with the tx_id 0
+rotation angles roll: 5.088446890069866, pitch: 5.6487496324995226, yaw: 3.529087816472372
+1th tx is from the experiment 791 with the tx_id 0
+rotation angles roll: 0.77888883304261, pitch: 2.695826188036675, yaw: 6.237103568801256
+0th tx is from the experiment 325 with the tx_id 1
+rotation angles roll: 1.620739765081667, pitch: 1.2927908430692012, yaw: 0.8269287180154232
+1th tx is from the experiment 644 with the tx_id 0
+rotation angles roll: 5.954756827377219, pitch: 2.622210896865947, yaw: 3.7537286404273305
+0th tx is from the experiment 571 with the tx_id 0
+rotation angles roll: 2.8324736151749152, pitch: 2.8123647101462446, yaw: 5.588502842155115
+1th tx is from the experiment 541 with the tx_id 0
+rotation angles roll: 2.866314042059324, pitch: 0.9386619921697961, yaw: 5.1391476633570425
+0th tx is from the experiment 153 with the tx_id 1
+rotation angles roll: 0.8296163000564799, pitch: 2.6553909054043197, yaw: 3.9763718416818783
+1th tx is from the experiment 329 with the tx_id 0
+rotation angles roll: 0.49528985575951173, pitch: 2.2563038165670846, yaw: 6.107357818691691
+0th tx is from the experiment 266 with the tx_id 1
+rotation angles roll: 1.3095918613370758, pitch: 4.256804283505852, yaw: 2.17798141906466
+1th tx is from the experiment 343 with the tx_id 0
+rotation angles roll: 1.2498220969180616, pitch: 3.299690156850146, yaw: 3.7996497401369704
+0th tx is from the experiment 232 with the tx_id 0
+rotation angles roll: 4.492106474646377, pitch: 4.3509062339936415, yaw: 6.21287916370178
+1th tx is from the experiment 521 with the tx_id 0
+rotation angles roll: 4.457183564220563, pitch: 5.968128301333173, yaw: 2.9594067091113687
+0th tx is from the experiment 263 with the tx_id 1
+rotation angles roll: 3.1323279269428568, pitch: 0.11831388949395277, yaw: 4.5214236485234105
+1th tx is from the experiment 49 with the tx_id 0
+rotation angles roll: 2.175093385695771, pitch: 0.9125161220079686, yaw: 5.925892643504911
+0th tx is from the experiment 584 with the tx_id 1
+rotation angles roll: 6.1027368815271, pitch: 6.266859862322815, yaw: 5.938344396942785
+1th tx is from the experiment 45 with the tx_id 0
+rotation angles roll: 0.8843037185838537, pitch: 0.29701766573338956, yaw: 1.1752746038998099
+0th tx is from the experiment 101 with the tx_id 1
+rotation angles roll: 0.4212483810776147, pitch: 3.923316533314917, yaw: 1.885084413750947
+1th tx is from the experiment 851 with the tx_id 1
+rotation angles roll: 0.331471155023076, pitch: 5.4670965911608596, yaw: 5.257836144356506
+0th tx is from the experiment 317 with the tx_id 1
+rotation angles roll: 4.479357469397494, pitch: 3.2885889221439006, yaw: 2.835493881371551
+1th tx is from the experiment 853 with the tx_id 0
+rotation angles roll: 3.522497350781592, pitch: 4.218348869114183, yaw: 5.25202968665604
+0th tx is from the experiment 897 with the tx_id 1
+rotation angles roll: 0.4307629652427622, pitch: 5.688477613715341, yaw: 4.6878612548054495
+1th tx is from the experiment 228 with the tx_id 0
+rotation angles roll: 1.180153184707099, pitch: 2.4122957956396482, yaw: 1.2273634670776832
+0th tx is from the experiment 889 with the tx_id 0
+rotation angles roll: 6.086070972614572, pitch: 4.607145228320811, yaw: 1.6566211043324226
+1th tx is from the experiment 773 with the tx_id 0
+rotation angles roll: 3.4491993624579584, pitch: 5.620039366624884, yaw: 0.16659735061746642
+0th tx is from the experiment 13 with the tx_id 1
+rotation angles roll: 1.59506185523667, pitch: 0.05730141945434529, yaw: 4.1587776602500295
+1th tx is from the experiment 165 with the tx_id 1
+rotation angles roll: 1.980855229263802, pitch: 0.3229998814932217, yaw: 1.1104113437712781
+0th tx is from the experiment 556 with the tx_id 0
+rotation angles roll: 4.036650629404283, pitch: 0.2808153016588769, yaw: 1.420183888664217
+1th tx is from the experiment 863 with the tx_id 0
+rotation angles roll: 3.2109048085747993, pitch: 2.003395406278216, yaw: 2.972936533610337
+0th tx is from the experiment 273 with the tx_id 1
+rotation angles roll: 3.0962849275256263, pitch: 0.18350137388861437, yaw: 4.197928668121765
+1th tx is from the experiment 409 with the tx_id 1
+rotation angles roll: 5.978329747860208, pitch: 0.497989335714043, yaw: 6.26079559846048
+0th tx is from the experiment 825 with the tx_id 0
+rotation angles roll: 2.2897516687845108, pitch: 2.9000533423385244, yaw: 4.254432372689847
+1th tx is from the experiment 89 with the tx_id 0
+rotation angles roll: 1.7187238639378606, pitch: 1.4489236027902745, yaw: 3.2311545964299095
+0th tx is from the experiment 292 with the tx_id 0
+rotation angles roll: 2.879579423196182, pitch: 1.1572297308962383, yaw: 4.467125209716147
+1th tx is from the experiment 984 with the tx_id 0
+rotation angles roll: 6.071595367721076, pitch: 3.1639807032252416, yaw: 1.6820671076904916
+0th tx is from the experiment 43 with the tx_id 1
+rotation angles roll: 3.207596583556972, pitch: 4.8380442355093045, yaw: 3.5341291155371675
+1th tx is from the experiment 878 with the tx_id 1
+rotation angles roll: 0.18811860545388517, pitch: 5.3593701609973525, yaw: 2.367292225736906
+0th tx is from the experiment 152 with the tx_id 1
+rotation angles roll: 3.18699781648619, pitch: 5.357881338249654, yaw: 2.3647136905635073
+1th tx is from the experiment 66 with the tx_id 1
+rotation angles roll: 2.176102586657938, pitch: 2.86358666194505, yaw: 0.5851868302613968
+0th tx is from the experiment 966 with the tx_id 0
+rotation angles roll: 2.995686357134488, pitch: 3.9757135148694114, yaw: 3.753236686853754
+1th tx is from the experiment 291 with the tx_id 1
+rotation angles roll: 0.028772299316439143, pitch: 5.15112961017101, yaw: 2.9421020762959444
+0th tx is from the experiment 495 with the tx_id 0
+rotation angles roll: 0.8194441491611796, pitch: 2.5726093135933272, yaw: 2.6403179168771618
+1th tx is from the experiment 651 with the tx_id 1
+rotation angles roll: 3.419426145848783, pitch: 3.9259265213332224, yaw: 3.659702934725541
+0th tx is from the experiment 419 with the tx_id 1
+rotation angles roll: 5.763338381154617, pitch: 0.8528273198756834, yaw: 5.5710122002654625
+1th tx is from the experiment 243 with the tx_id 1
+rotation angles roll: 4.4102243877551865, pitch: 4.66865609610173, yaw: 5.58486286200579
+0th tx is from the experiment 473 with the tx_id 0
+rotation angles roll: 6.251615637148218, pitch: 5.647054639085484, yaw: 0.08734829103262129
+1th tx is from the experiment 526 with the tx_id 0
+rotation angles roll: 4.691065475799077, pitch: 2.643825262468803, yaw: 1.0443707466672596
+0th tx is from the experiment 54 with the tx_id 0
+rotation angles roll: 2.826828222248559, pitch: 2.0683410571539156, yaw: 2.5569648769380446
+1th tx is from the experiment 921 with the tx_id 0
+rotation angles roll: 3.0770652376722425, pitch: 4.599077945613311, yaw: 2.485740984402521
+0th tx is from the experiment 346 with the tx_id 1
+rotation angles roll: 2.2979369335995687, pitch: 5.444900280335091, yaw: 2.279795728292
+1th tx is from the experiment 92 with the tx_id 1
+rotation angles roll: 2.7021016452279336, pitch: 3.9215960528140217, yaw: 3.8890182180452886
+0th tx is from the experiment 730 with the tx_id 1
+rotation angles roll: 2.567614160551597, pitch: 0.19841095336179287, yaw: 3.055726728897698
+1th tx is from the experiment 848 with the tx_id 0
+rotation angles roll: 2.9234924295986358, pitch: 1.75986681858167, yaw: 0.26817874540946895
+0th tx is from the experiment 93 with the tx_id 1
+rotation angles roll: 5.568936250579882, pitch: 1.5851847323835022, yaw: 2.687825687278803
+1th tx is from the experiment 982 with the tx_id 0
+rotation angles roll: 5.181903849344347, pitch: 1.0097509940778213, yaw: 1.28546937141607
+0th tx is from the experiment 46 with the tx_id 1
+rotation angles roll: 1.3541472546722741, pitch: 0.9308946058516038, yaw: 5.525987813945442
+1th tx is from the experiment 672 with the tx_id 1
+rotation angles roll: 2.910083027502141, pitch: 2.6427218618230444, yaw: 0.556432311904603
+0th tx is from the experiment 448 with the tx_id 1
+rotation angles roll: 6.15004921275246, pitch: 4.214717010044237, yaw: 4.621854295362952
+1th tx is from the experiment 640 with the tx_id 0
+rotation angles roll: 4.984644411906149, pitch: 1.5270238567544843, yaw: 2.0982847086399556
+0th tx is from the experiment 678 with the tx_id 0
+rotation angles roll: 0.9116831448832435, pitch: 2.668543882058458, yaw: 1.855444397404039
+1th tx is from the experiment 979 with the tx_id 1
+rotation angles roll: 1.0528413536562569, pitch: 2.6999908686146066, yaw: 4.090918880215801
+0th tx is from the experiment 598 with the tx_id 0
+rotation angles roll: 5.694327236422158, pitch: 4.705623271461209, yaw: 4.7052855764613
+1th tx is from the experiment 236 with the tx_id 0
+rotation angles roll: 6.0235089970437405, pitch: 1.6884299709316, yaw: 3.352335489592608
+0th tx is from the experiment 588 with the tx_id 0
+rotation angles roll: 0.644925235271395, pitch: 6.046130774048592, yaw: 1.6670403630866542
+1th tx is from the experiment 988 with the tx_id 0
+rotation angles roll: 4.981371677195456, pitch: 4.23776773421796, yaw: 3.5833467563973285
+0th tx is from the experiment 924 with the tx_id 0
+rotation angles roll: 4.741578774833423, pitch: 2.539109813969495, yaw: 2.5934372552542695
+1th tx is from the experiment 946 with the tx_id 1
+rotation angles roll: 0.22920373562982319, pitch: 5.83810026521884, yaw: 5.877969790085672
+0th tx is from the experiment 38 with the tx_id 1
+rotation angles roll: 3.588716232461593, pitch: 1.3403640803063124, yaw: 0.4520806150988329
+1th tx is from the experiment 699 with the tx_id 0
+rotation angles roll: 3.0762183284068927, pitch: 2.125252219102238, yaw: 2.004913309308478
+0th tx is from the experiment 70 with the tx_id 1
+rotation angles roll: 2.602441581757607, pitch: 5.973354786319702, yaw: 3.410779488359988
+1th tx is from the experiment 458 with the tx_id 0
+rotation angles roll: 2.1494601120504133, pitch: 4.939246294372254, yaw: 3.548600198273629
+0th tx is from the experiment 722 with the tx_id 0
+rotation angles roll: 4.174045180272648, pitch: 0.8653376848278217, yaw: 0.7946732580401116
+1th tx is from the experiment 651 with the tx_id 0
+rotation angles roll: 3.9766144605432823, pitch: 0.658983486257478, yaw: 0.5437692484799683

@@ -16,13 +16,11 @@ class DataPoint:
         self.time = int(time)
         self.t_id = int(t_id)
 
-
 class Vertex:
     def __init__(self, x, y, z):
         self.x = float(x)
         self.y = float(y)
         self.z = float(z)
-
 
 class Triangle:
     def __init__(self, v1, v2, v3):
@@ -57,9 +55,23 @@ def cart2sph(x, y, z):
    phi = np.arctan2(xy, z) 
    return r, theta, phi
 
+def create_classes(start, end, step):
+    classes = {}
+    current_value = start
+    label = 0
+
+    while current_value <= end:
+        classes[label] = (current_value, current_value + step)
+        current_value += step
+        label += 1
+
+    return classes
+
 directory_path = '/Users/berkecaliskan/Documents/MultiTX Localization/public-archivedwl-242/test/2tx/results' 
 
 nodes = []
+
+my_class_dict = create_classes(0, 1, 0.05)
 
 for file_name in os.listdir(directory_path):
     if file_name.endswith('result_2_0.txt'): 
@@ -91,7 +103,7 @@ for file_name in os.listdir(directory_path):
             triangle = Triangle(v1, v2, v3)
             triangles.append(triangle)
 
-        data_points = []
+        dkm
         array_size = x.shape[0]
         for i in range(array_size):
             data_point = DataPoint(x[i], y[i], z[i], time[i], transmitter[i])
@@ -125,6 +137,7 @@ for file_name in os.listdir(directory_path):
                 triangle_dict[closest_triangle].append(data_point)
             else:
                 triangle_dict[closest_triangle] = [data_point]
+        
         i = 0
         for triangle, data_points in triangle_dict.items():
             node = []
@@ -174,6 +187,7 @@ for file_name in os.listdir(directory_path):
 
             nodes.append(node)
 #print(nodes)
+
 k = 0
 for triangle, data_points in triangle_dict.items():
     if k < 10:
