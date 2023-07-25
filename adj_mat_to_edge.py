@@ -20,3 +20,4 @@ print(edge_index)
 
 np.savetxt('edge_index.txt', edge_index.numpy(), fmt='%d')
 torch.save(edge_index, 'edge_index.pt')
+
