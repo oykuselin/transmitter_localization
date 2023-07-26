@@ -9,7 +9,7 @@ from mpl_toolkits.mplot3d.art3d import Poly3DCollection, Line3DCollection
 
 
 class DataPoint:
-    def __init__(self, x, y, z, time, t_id):
+    def _init_(self, x, y, z, time, t_id):
         self.x = float(x)
         self.y = float(y)
         self.z = float(z)
@@ -17,24 +17,24 @@ class DataPoint:
         self.t_id = int(t_id)
 
 class Vertex:
-    def __init__(self, x, y, z):
+    def _init_(self, x, y, z):
         self.x = float(x)
         self.y = float(y)
         self.z = float(z)
 
 class Triangle:
-    def __init__(self, v1, v2, v3):
+    def _init_(self, v1, v2, v3):
         self.v1 = v1
         self.v2 = v2
         self.v3 = v3
 
 def heron(a,b,c):  
     s = (a + b + c) / 2   
-    area = (s*(s-a) * (s-b)*(s-c)) ** 0.5        
+    area = (s*(s-a) * (s-b)(s-c)) * 0.5        
     return area
 
 def distance3d(x1,y1,z1,x2,y2,z2):    
-    a=(x1-x2)**2+(y1-y2)**2 + (z1-z2)**2
+    a=(x1-x2)*2+(y1-y2)*2 + (z1-z2)*2
     d= a ** 0.5  
     return d  
 
@@ -46,7 +46,7 @@ def areatriangle3d(x1,y1,z1,x2,y2,z2,x3,y3,z3):
     return area
 
 def cart2sph(x, y, z):
-   xy = np.sqrt(x**2 + y**2) # sqrt(x² + y²)
+   xy = np.sqrt(x*2 + y*2) # sqrt(x² + y²)
    x_2 = x**2
    y_2 = y**2
    z_2 = z**2
@@ -61,13 +61,15 @@ def create_classes(start, end, step):
     label = 0
 
     while current_value <= end:
-        classes[label] = (current_value, current_value + step)
+        classes[(current_value, current_value + step)] = label
         current_value += step
         label += 1
 
     return classes
 
-directory_path = '/Users/berkecaliskan/Documents/MultiTX Localization/public-archivedwl-242/test/2tx/results' 
+current_directory = os.getcwd()
+sub_directory = 'test/2tx/results'
+directory_path = os.path.join(current_directory, sub_directory)
 
 nodes = []
 
@@ -83,7 +85,7 @@ for file_name in os.listdir(directory_path):
         z = data[:, 2]
         time = data[:, 3]
         transmitter = data[:, 4]
-        mesh = trimesh.creation.icosphere(subdivisions=4, radius=5)
+        mesh = trimesh.creation.icosphere(subdivisions=2, radius=5)
         mesh = mesh.as_open3d
 
         vertices_array =np.asarray(mesh.vertices)
@@ -103,7 +105,7 @@ for file_name in os.listdir(directory_path):
             triangle = Triangle(v1, v2, v3)
             triangles.append(triangle)
 
-        
+        data_points = []
         array_size = x.shape[0]
         for i in range(array_size):
             data_point = DataPoint(x[i], y[i], z[i], time[i], transmitter[i])
@@ -141,6 +143,7 @@ for file_name in os.listdir(directory_path):
         i = 0
         for triangle, data_points in triangle_dict.items():
             node = []
+            first_to_all_ratio = 0
             if i == 0:
                 print(triangle_dict[triangle])
                 i += 1
@@ -153,6 +156,8 @@ for file_name in os.listdir(directory_path):
             t_max = 0
             t_min = np.inf
             all_times = []
+            f_transmitter_points = 0
+
             for data_point in data_points:
                 time = data_point.time
                 if time > t_max:
@@ -160,6 +165,11 @@ for file_name in os.listdir(directory_path):
                 if time < t_min:
                     t_min = time
                 all_times.append(time)
+                if data_point.t_id == 0:
+                    f_transmitter_points += 1
+            first_to_all_ratio = f_transmitter_points/(len(data_points)*1.0)
+            print(first_to_all_ratio)
+            
             t_avg = np.mean(all_times)
             t_var = np.var(all_times)
             t_std = np.std(all_times)
@@ -185,10 +195,18 @@ for file_name in os.listdir(directory_path):
             node.append(area)
             node.append(normal.tolist())
 
+            count_ones = sum(1 for row in data_points if row[4] == 1)
+            count_zeros = sum(1 for row in data_points if row[4] == 0)
+            first_to_all = count_zeros / (count_zeros + count_ones)
+            second_to_all = count_ones / (count_zeros + count_ones)
+            node.append(first_to_all)
+            node.append(second_to_all)
+            
             nodes.append(node)
 #print(nodes)
 
 k = 0
+print(len(triangle_dict.keys()))
 for triangle, data_points in triangle_dict.items():
     if k < 10:
         v1 = triangle.v1
@@ -197,7 +215,5 @@ for triangle, data_points in triangle_dict.items():
         print( "Triangle {}:".format(k))
         print([v1.x, v1.y, v1.z], "\n" , [v3.x, v2.y, v2.z],  "\n", [v3.x, v3.y, v3.z],  "\n")
         k += 1
-for i in range(10):
+for i in range(100,110):
     print(nodes[i])
-
-
