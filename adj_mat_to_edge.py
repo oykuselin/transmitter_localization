@@ -8,8 +8,9 @@ import open3d as o3d
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection, Line3DCollection
 import torch 
 
-
-matrix_file_path = '/home/oyku/yonsei/transmitter_localization/adjacency_matrix.txt'
+current_path = os.getcwd()
+subdir = 'adjacency_matrix.txt'
+matrix_file_path = os.path.join(current_path, subdir)
 adj_t = np.loadtxt(matrix_file_path)
 
 
