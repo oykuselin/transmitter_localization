@@ -31,11 +31,11 @@ class Triangle:
 
 def heron(a,b,c):  
     s = (a + b + c) / 2   
-    area = (s*(s-a) * (s-b)*(s-c)) * 0.5        
+    area = (s*(s-a) * (s-b)*(s-c)) ** 0.5        
     return area
 
 def distance3d(x1,y1,z1,x2,y2,z2):    
-    a=(x1-x2)*2+(y1-y2)*2 + (z1-z2)*2
+    a=(x1-x2)**2+(y1-y2)**2 + (z1-z2)**2
     d= a ** 0.5  
     return d  
 
@@ -47,13 +47,14 @@ def areatriangle3d(x1,y1,z1,x2,y2,z2,x3,y3,z3):
     return area
 
 def cart2sph(x, y, z):
-   xy = np.sqrt(x*2 + y*2) # sqrt(x² + y²)
+   xy = np.sqrt(x**2 + y**2) # sqrt(x² + y²)
    x_2 = x**2
    y_2 = y**2
    z_2 = z**2
    r = np.sqrt(x_2 + y_2 + z_2) # r = sqrt(x² + y² + z²)
    theta = np.arctan2(y, x) 
-   phi = np.arctan2(xy, z) 
+   phi = np.arctan2(xy, z)
+
    return r, theta, phi
 
 
@@ -68,7 +69,8 @@ if not os.path.exists("gnn_data"):
     os.makedirs("gnn_data")
 
 results_list = os.listdir(directory_path)
-for i in range(len(results_list)):
+for i in range(1):
+    count = 0
     file_path = os.path.join(directory_path, results_list[i])
     
     match = re.search(r"_\d+(\.)", results_list[i])
@@ -108,6 +110,8 @@ for i in range(len(results_list)):
         data_points.append(data_point)
     
     triangle_dict = {}
+    for triangle in triangles:
+        triangle_dict[triangle] = []
     for data_point in data_points:
         closest_triangle = None
         closest_distance = np.inf
@@ -131,10 +135,7 @@ for i in range(len(results_list)):
                 closest_triangle = triangle
         
         # Assign the closest triangle as the value for the data point key
-        if closest_triangle in triangle_dict:
-            triangle_dict[closest_triangle].append(data_point)
-        else:
-            triangle_dict[closest_triangle] = [data_point]
+        triangle_dict[closest_triangle].append(data_point)
     
     i = 0
     for triangle, data_points in triangle_dict.items():
@@ -162,7 +163,7 @@ for i in range(len(results_list)):
             all_times.append(time)
             if data_point.t_id == 0:
                 f_transmitter_points += 1
-        first_to_all_ratio = f_transmitter_points/(len(data_points)*1.0)
+        #first_to_all_ratio = f_transmitter_points/(len(data_points)*1.0)
         
         t_avg = np.mean(all_times)
         t_var = np.var(all_times)
@@ -178,8 +179,15 @@ for i in range(len(results_list)):
         normal = np.cross(p2-p1, p3-p1)
         normal = normal / normal.sum()
 
-        node.append(mass_center)
-        node.append([polar_r, polar_theta, polar_phi])
+        if t_min == np.inf:
+            t_min = 0
+        
+        node.append(mass_center[0])
+        node.append(mass_center[1])
+        node.append(mass_center[2])
+        node.append(polar_r)
+        node.append(polar_theta)
+        node.append(polar_phi)
         node.append(n_molecules)
         node.append(t_max)
         node.append(t_min)
@@ -187,18 +195,26 @@ for i in range(len(results_list)):
         node.append(t_var)
         node.append(t_std)
         node.append(area)
-        node.append(str(normal.tolist()))
+        node.append(normal[0])
+        node.append(normal[1])
+        node.append(normal[2])
 
         count_ones = sum(1 for data in data_points if data.t_id == 1)
         count_zeros = sum(1 for data in data_points if data.t_id == 0)
-        first_to_all = count_zeros / (count_zeros + count_ones)
-        second_to_all = count_ones / (count_zeros + count_ones)
+        if count_ones == 0 and count_zeros == 0:
+            first_to_all = 0
+            second_to_all = 0
+        else:
+            first_to_all = count_zeros / (count_zeros + count_ones)
+            second_to_all = count_ones / (count_zeros + count_ones)
         node.append(first_to_all)
         node.append(second_to_all)
         
         nodes.append(node)
+        if len(data_points) == 0:
+            count += 1
     
-    # np.savetxt('gnn_data/node_features_{}.txt'.format(exp_number), nodes, delimiter=", ")
+    np.savetxt('gnn_data/node_features_{}.txt'.format(exp_number), nodes, delimiter=", ", fmt='%1.5f')
 # k = 0
 # print(len(triangle_dict.keys()))
 # for triangle, data_points in triangle_dict.items():
@@ -209,5 +225,7 @@ for i in range(len(results_list)):
 #         print( "Triangle {}:".format(k))
 #         print([v1.x, v1.y, v1.z], "\n" , [v3.x, v2.y, v2.z],  "\n", [v3.x, v3.y, v3.z],  "\n")
 #         k += 1
+
 for i in range(100,110):
     print(nodes[i])
+print(count)
