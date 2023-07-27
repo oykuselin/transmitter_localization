@@ -9,7 +9,7 @@ from mpl_toolkits.mplot3d.art3d import Poly3DCollection, Line3DCollection
 import torch 
 
 
-matrix_file_path = '/home/oyku/yonsei/transmitter_localization/adjacency_matrix.txt'
+matrix_file_path = '/Users/berkecaliskan/Documents/transmitter_localization/transmitter_localization/adjacency_matrix.txt'
 adj_t = np.loadtxt(matrix_file_path)
 
 
@@ -18,6 +18,6 @@ edge_index = adj_t.nonzero().t().contiguous()
 
 print(edge_index)
 
-np.savetxt('edge_index.txt', edge_index.numpy(), fmt='%d')
-torch.save(edge_index, 'edge_index.pt')
+#np.savetxt('edge_index.txt', edge_index.numpy(), fmt='%d')
+#torch.save(edge_index, 'edge_index.pt')
 
