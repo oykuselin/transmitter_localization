@@ -69,7 +69,7 @@ if not os.path.exists("gnn_data"):
     os.makedirs("gnn_data")
 
 results_list = os.listdir(directory_path)
-for i in range(1):
+for i in range(len(results_list)):
     count = 0
     file_path = os.path.join(directory_path, results_list[i])
     
@@ -181,7 +181,9 @@ for i in range(1):
 
         if t_min == np.inf:
             t_min = 0
-        
+            t_avg = 0
+            t_var = 0
+            t_std = 0
         node.append(mass_center[0])
         node.append(mass_center[1])
         node.append(mass_center[2])
