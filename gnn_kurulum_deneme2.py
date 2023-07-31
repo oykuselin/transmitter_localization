@@ -89,10 +89,10 @@ class GCN(torch.nn.Module):
     def forward(self, x, edge_index):
         x = self.conv1(x, edge_index)
         x = F.dropout(x, p=0.5, training=self.training)
-        x = x.relu()
+        x = x.sigmoid()
         x = self.conv2(x, edge_index)
         x = F.dropout(x, p=0.5, training=self.training)
-        x = x.relu()
+        x = x.sigmoid()
         x = self.linear(x)
         x = x.sigmoid()
         return x
