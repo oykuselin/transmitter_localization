@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import trimesh
 import open3d as o3d
+import torch
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection, Line3DCollection
 
 
@@ -62,14 +63,14 @@ current_directory = os.getcwd()
 sub_directory = 'test/2tx/results'
 directory_path = os.path.join(current_directory, sub_directory)
 
-nodes = []
 
 # create the directory for storing data, if it is not created
 if not os.path.exists("gnn_data"):
     os.makedirs("gnn_data")
 
 results_list = os.listdir(directory_path)
-for i in range(1):
+for i in range(len(results_list)):
+    nodes = []
     count = 0
     file_path = os.path.join(directory_path, results_list[i])
     
@@ -84,6 +85,28 @@ for i in range(1):
     time = data[:, 3]
     transmitter = data[:, 4]
     mesh = trimesh.creation.icosphere(subdivisions=2, radius=5)
+    """vertex_indices_triangles = np.asarray(mesh.triangles)
+    #print(vertex_indices_triangles)
+
+    num_triangles = len(vertex_indices_triangles)
+    adjacency_matrix = np.zeros((num_triangles, num_triangles), dtype=int)
+
+    # Helper function to check if two triangles share a vertex
+    def share_vertex(triangle1, triangle2):
+        for vertex in triangle1:
+            if vertex in triangle2:
+                return True
+        return False
+
+    for i in range(num_triangles):
+        for j in range(i + 1, num_triangles):
+            if share_vertex(vertex_indices_triangles[i], vertex_indices_triangles[j]):
+                adjacency_matrix[i, j] = adjacency_matrix[j, i] = 1
+
+    num_triangles = len(mesh.faces)
+    adj_t = torch.tensor(adjacency_matrix)
+    edge_index = adj_t.nonzero().t().contiguous()
+    edge_index_str = str(edge_index.tolist())"""
     mesh = mesh.as_open3d
 
     vertices_array =np.asarray(mesh.vertices)
@@ -181,7 +204,9 @@ for i in range(1):
 
         if t_min == np.inf:
             t_min = 0
-        
+            t_avg = 0
+            t_var = 0
+            t_std = 0
         node.append(mass_center[0])
         node.append(mass_center[1])
         node.append(mass_center[2])
@@ -215,6 +240,8 @@ for i in range(1):
             count += 1
     
     np.savetxt('gnn_data/node_features_{}.txt'.format(exp_number), nodes, delimiter=", ", fmt='%1.5f')
+    #with open('gnn_data/edge_index_{}.txt'.format(exp_number), 'w+') as file2:
+        #file2.write(edge_index_str)
 # k = 0
 # print(len(triangle_dict.keys()))
 # for triangle, data_points in triangle_dict.items():
