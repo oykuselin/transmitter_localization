@@ -7,12 +7,19 @@ from torch_geometric.nn import GCNConv
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
+import numpy as np
+from scipy import stats
+from scipy.special import boxcox, boxcox1p
+from sklearn.preprocessing import StandardScaler
+
 
 os.environ['TORCH'] = torch.__version__
 os.environ['PYTHONWARNINGS'] = "ignore"
 
 #dataset = Planetoid(root='data/Planetoid', name='Cora', transform=NormalizeFeatures())
 #print(dataset[0].edge_index)
+
+
 class CustomDataset:
     def __init__(self, data_folder, num_features):
         self.num_features = num_features
@@ -59,23 +66,76 @@ class CustomDataset:
         return {'x': x, 'edge_index': edge_index, 'y': y, 'train_mask': train_mask, 'val_mask': val_mask, 'test_mask': test_mask}
 
 # Load data from files in the data folder
+def preprocess_data(x_data):
+    # Convert tensor array to numpy array
+    x_data_np = x_data.numpy()
+
+    # Check for missing values
+    if np.isnan(x_data_np).any():
+        raise ValueError("Data contains missing values (NaN). Please handle missing values before applying the transformation.")
+
+    # Scale the data using Min-Max scaling
+    min_value = -1e6  # Define a minimum value for scaling
+    max_value = 1e6   # Define a maximum value for scaling
+    x_scaled = (x_data_np - np.min(x_data_np)) / (np.max(x_data_np) - np.min(x_data_np))  # Scale to [0, 1]
+    x_scaled = x_scaled * (max_value - min_value) + min_value  # Scale to the desired range
+
+    # Center the data
+    x_centered = x_scaled - np.mean(x_scaled, axis=0)
+
+    # Clip outliers (optional)
+    clip_min = -2.0
+    clip_max = 2.0
+    x_centered = np.clip(x_centered, clip_min, clip_max)
+
+    return x_centered
+
+def apply_yeojohnson_transform(x_data):
+    # Convert tensor array to numpy array
+    x_data_np = x_data.numpy()
+
+    # Check for missing values
+    if np.isnan(x_data_np).any():
+        raise ValueError("Data contains missing values (NaN). Please handle missing values before applying the transformation.")
+
+    # Check for zero variance
+    if np.all(np.var(x_data_np, axis=0) == 0):
+        raise ValueError("Data has zero variance. Please check for constant columns in the input data.")
+
+    # Scale the data using StandardScaler
+    scaler = StandardScaler()
+    x_data_scaled = scaler.fit_transform(x_data_np)
+
+    # Apply the Yeo-Johnson transformation
+    x_transformed = np.empty_like(x_data_scaled)
+    lambdas = np.zeros(x_data_scaled.shape[1])
+
+    for i in range(x_data_scaled.shape[1]):
+        feature = x_data_scaled[:, i]
+        x_transformed[:, i], lambdas[i] = stats.yeojohnson(feature)
+
+    return torch.tensor(x_transformed, dtype=torch.float32)
+
 current_directory = os.getcwd()
 sub_directory = 'gnn_data'
 directory_path = os.path.join(current_directory, sub_directory)
 dataset = CustomDataset(directory_path, num_features=16)
-print(f'Dataset: {dataset}:')
-print('======================')
-print(f'Number of graphs: {len(dataset.data_entries)}')
+#print(f'Dataset: {dataset}:')
+#print('======================')
+#print(f'Number of graphs: {len(dataset.data_entries)}')
 #print(f'Number of features: {dataset.num_features}')
 #print(f'Number of classes: {dataset.num_classes}')
 
 data = dataset.data_entries[0]  # Get the first graph object.
-#print(data)
-print(data['edge_index'])
-print(len(data['x']))
+data['x'] = apply_yeojohnson_transform(data['x'])
+np.savetxt("deneme_feature_normalization.txt", data["x"])
 print(data['x'])
-print(len(data['y']))
-print(data['y'])
+#print(data)
+#print(data['edge_index'])
+#print(data['x'])
+#print(len(data['x']))
+#print(len(data['y']))
+#print(data['y'])
 #print(data['train_mask'].all())
 
 class GCN(torch.nn.Module):
@@ -89,10 +149,10 @@ class GCN(torch.nn.Module):
     def forward(self, x, edge_index):
         x = self.conv1(x, edge_index)
         x = F.dropout(x, p=0.5, training=self.training)
-        x = x.sigmoid()
+        x = x.relu()
         x = self.conv2(x, edge_index)
         x = F.dropout(x, p=0.5, training=self.training)
-        x = x.sigmoid()
+        x = x.relu()
         x = self.linear(x)
         x = x.sigmoid()
         return x
@@ -117,7 +177,7 @@ out = model(data['x'], data['edge_index'])
 #visualize(out, color=data['y'])
 
 model = GCN(hidden_channels=4)
-optimizer = torch.optim.Adam(model.parameters(), lr=0.001, weight_decay=10e-5)
+optimizer = torch.optim.Adam(model.parameters(), lr=0.0001, weight_decay=10e-5)
 criterion = torch.nn.MSELoss()
 
 
@@ -170,7 +230,8 @@ def validate(mask):
         loss.backward()
         optimizer.step()
         total_loss += loss.item()
-    return total_loss / len(dataset.data_entries)"""
+    optimizer.step()
+    return total_loss"""
 
 """def test(mask):
     model.eval()
@@ -178,9 +239,11 @@ def validate(mask):
     with torch.no_grad():
         for data_entry in dataset.data_entries:
             out = model(data_entry['x'], data_entry['edge_index'])
+            print(out[mask])
+            print(data_entry['y'][mask])
             loss = criterion(out[mask], data_entry['y'][mask])
             total_loss += loss.item()
-    return total_loss / len(dataset.data_entries)"""
+    return total_loss"""
 
 """def validate(mask):
     model.eval()
@@ -196,10 +259,12 @@ def validate(mask):
 for epoch in range(1, 101):
     loss = train()
     #print(f'Epoch: {epoch:03d}, Loss: {loss:.4f}')"""
+    
 
 """for epoch in range(1, 101):
     train_loss = train()
-    #val_loss = validate(data['val_mask'])"""
+    val_loss = test(data['val_mask'])
+    #print(f'Epoch: {epoch:03d}, Train Loss: {train_loss:.4f}, Val Loss: {val_loss:.4f}')"""
 
 test_loss = test(data['test_mask'])
 print(f'Test Loss: {test_loss:.4f}')
