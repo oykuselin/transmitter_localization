@@ -50,7 +50,7 @@ for i in range(num_triangles):
         if (triangle1[2][0] == triangle2[2][0] and triangle1[2][1] == triangle2[2][1] and triangle1[2][2] == triangle2[2][2]):
             adjacency_matrix2[i, j]  = adjacency_matrix2[j, i] = 1
         if i == j:
-            adjacency_matrix2[i, j]  = adjacency_matrix2[j, i] = 0
+            adjacency_matrix2[i, j]  = adjacency_matrix2[j, i] = 1
 
 
 for i in range(num_triangles):
@@ -62,4 +62,4 @@ num_triangles = len(mesh.faces)
 print("Number of triangles:", num_triangles)
 #print(adjacency_matrix)
 #np.savetxt("adjacency_matrix.txt", adjacency_matrix, fmt='%d')
-np.savetxt("adjacency_matrix2.txt", adjacency_matrix2, fmt='%d')
+np.savetxt("adjacency_matrix_diagonallar_1.txt", adjacency_matrix2, fmt='%d')
