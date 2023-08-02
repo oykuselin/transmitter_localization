@@ -213,13 +213,13 @@ for i in range(len(results_list)):
         node.append(polar_r)
         node.append(polar_theta)
         node.append(polar_phi)
-        node.append(n_molecules)
-        node.append(t_max)
+        node.append(n_molecules) #gaussian normalization
+        node.append(t_max) #t'ler de gaus norm olabilir
         node.append(t_min)
         node.append(t_avg)
         node.append(t_var)
         node.append(t_std)
-        node.append(area)
+        node.append(area) #gaussian normalization(kesin)
         node.append(normal[0])
         node.append(normal[1])
         node.append(normal[2])
@@ -233,13 +233,13 @@ for i in range(len(results_list)):
             first_to_all = count_zeros / (count_zeros + count_ones)
             second_to_all = count_ones / (count_zeros + count_ones)
         node.append(first_to_all)
-        node.append(second_to_all)
+        #node.append(second_to_all)
         
         nodes.append(node)
         if len(data_points) == 0:
             count += 1
     
-    np.savetxt('gnn_data/node_features_{}.txt'.format(exp_number), nodes, delimiter=", ", fmt='%1.5f')
+    np.savetxt('gnn_data_one_label/node_features_{}.txt'.format(exp_number), nodes, delimiter=", ", fmt='%1.5f')
     #with open('gnn_data/edge_index_{}.txt'.format(exp_number), 'w+') as file2:
         #file2.write(edge_index_str)
 # k = 0
