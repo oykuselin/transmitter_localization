@@ -10,7 +10,7 @@ import torch
 
 
 current_path = os.getcwd()
-subdir = 'adjacency_matrix2.txt'
+subdir = 'adjacency_matrix.txt'
 matrix_file_path = os.path.join(current_path, subdir)
 
 adj_t = np.loadtxt(matrix_file_path)
@@ -27,6 +27,6 @@ with open('edge_index.txt', 'w') as file:
     file.write(edge_index_str)
 
 
-np.savetxt('edge_index2.txt', edge_index.numpy(), fmt='%d')
+np.savetxt('edge_index_new.txt', edge_index.numpy(), fmt='%d')
 #torch.save(edge_index, 'edge_index.pt')
 

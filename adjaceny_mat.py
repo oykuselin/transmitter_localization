@@ -11,6 +11,7 @@ import torch
 mesh = trimesh.creation.icosphere(subdivisions=2, radius=5)
 
 vertex_indices_triangles = np.asarray(mesh.triangles)
+print(vertex_indices_triangles)
 print(vertex_indices_triangles[0])
 print(vertex_indices_triangles[226])
 #print(vertex_indices_triangles)

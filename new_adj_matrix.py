@@ -23,5 +23,5 @@ for i in range(num_triangles):
             adjacency_matrix[i, j] = adjacency_matrix[j, i] = 1
 
 print("Number of triangles:", num_triangles)
-print(adjacency_matrix)
+print(mesh.triangles)
 np.savetxt("adjacency_matrix.txt", adjacency_matrix, fmt='%d')

@@ -9,7 +9,7 @@ from mpl_toolkits.mplot3d.art3d import Poly3DCollection, Line3DCollection
 
 
 
-path = '/Users/berkecaliskan/Documents/MultiTX Localization/public-archivedwl-242/single_data_test.txt'
+path = '/home/oyku/yonsei/transmitter_localization/single_data_test.txt'
 data = np.loadtxt(path)
 x = data[:, 0]
 y = data[:, 1]
@@ -17,11 +17,12 @@ z = data[:, 2]
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 mesh = trimesh.creation.icosphere(subdivisions=2, radius=5)
-mesh = trimesh.intersections.slice_mesh_plane(mesh, [0, 0, 1], [0, 0, 0])
-mesh = trimesh.intersections.slice_mesh_plane(mesh, [0, -1, 0], [0, 0, 0])
+#mesh = trimesh.intersections.slice_mesh_plane(mesh, [0, 0, 1], [0, 0, 0])
+#mesh = trimesh.intersections.slice_mesh_plane(mesh, [0, -1, 0], [0, 0, 0])
 mesh = mesh.as_open3d
 vertices = np.asarray(mesh.vertices)
 triangles = np.asarray(mesh.triangles)
+print(triangles)
 # Plot the mesh triangles
 tri = Poly3DCollection(vertices[triangles], alpha=0.2, facecolors='yellow')
 
