@@ -41,14 +41,17 @@ for i in range(len(list_of_node_features)):
         features_row_to_add = []
 
         base_triangle = index
-        labels_of_base = features[:, -2:]
+        
 
         neighbours = find_ones_indexes(adjacency_matrix, base_triangle)
         for neighbour in neighbours:
             for num in range(len(features[neighbour])- 2):
                 features_row_to_add.append(features[neighbour][num])
         features_to_add.append(list(features_row_to_add))
-    
-    cnn_features = np.hstack((features, np.asarray(features_to_add)))
-    print(cnn_features.shape)
-    np.savetxt('cnn_data_final/node_features_{}.txt'.format(exp_number), cnn_features, delimiter=", ", fmt='%1.5f')
+
+    labels_of_base = features[:, -2:]
+    features_without_labels = features[:, :-2]
+    cnn_features = np.hstack((features_without_labels, np.asarray(features_to_add)))
+    cnn_data_with_labels = np.hstack((cnn_features, labels_of_base))
+    print(cnn_data_with_labels.shape)
+    np.savetxt('cnn_data_final/node_features_{}.txt'.format(exp_number), cnn_data_with_labels, delimiter=", ", fmt='%1.5f')
