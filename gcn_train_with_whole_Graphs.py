@@ -14,7 +14,7 @@ from sklearn.preprocessing import StandardScaler
 import torch.nn.init as init
 from sklearn.metrics import confusion_matrix
 import random
-
+from torch.utils.data import DataLoader
 
 
 os.environ['TORCH'] = torch.__version__
@@ -30,12 +30,34 @@ class CustomDataset:
         self.data_entries = []
         list_files = os.listdir(data_folder)
         random.shuffle(list_files)
-        for i in range(2):
-            filename = list_files[i]
-            print(filename)
+        num_graphs = len(list_files)
+
+        # Use 80% of data_entries for training, 10% for validation, and 10% for testing
+        train_indices = np.random.choice(num_graphs, int(0.8 * num_graphs), replace=False)
+        val_test_indices = np.setdiff1d(np.arange(num_graphs), train_indices)
+        val_indices = np.random.choice(val_test_indices, int(0.5 * len(val_test_indices)), replace=False)
+        test_indices = np.setdiff1d(val_test_indices, val_indices)
+
+        for i, filename in enumerate(list_files):
             if filename.endswith(".txt") and filename not in ("edge_index_new.txt"):
                 data_entry = self.read_data_entry(data_folder, filename)
+
+                # For training, use all edges (full edge_index)
+                if i in train_indices:
+                    data_entry['train_mask'] = torch.ones(len(data_entry['x']), dtype=torch.bool)
+
+                # For validation, set labels to zeros since we don't have access to them
+                elif i in val_indices:
+                    data_entry['train_mask'] = torch.zeros(len(data_entry['x']), dtype=torch.bool)
+                    data_entry['y'] = torch.zeros_like(data_entry['y'])
+
+                # For testing, set labels to zeros since we don't have access to them
+                elif i in test_indices:
+                    data_entry['train_mask'] = torch.zeros(len(data_entry['x']), dtype=torch.bool)
+                    data_entry['y'] = torch.zeros_like(data_entry['y'])
+
                 self.data_entries.append(data_entry)
+
 
     def read_data_entry(self, data_folder, filename):
         # Read node features and ground truth labels from the x_file
@@ -83,15 +105,7 @@ dataset = CustomDataset(directory_path, num_features=37)
 #print(f'Number of features: {dataset.num_features}')
 #print(f'Number of classes: {dataset.num_classes}')
 
-data = dataset.data_entries[0]  # Get the first graph object.
-print(data['x'])
-#print(data)
-#print(data['edge_index'])
-#print(data['x'])
-#print(len(data['x']))
-#print(len(data['y']))
-#print(data['y'])
-#print(data['train_mask'].all())
+
 
 
 class GCN(torch.nn.Module):
@@ -146,92 +160,70 @@ print(model)
 optimizer = torch.optim.Adam(model.parameters(), lr=1e-4, weight_decay=1e-6)
 criterion = torch.nn.MSELoss()
 
-def train():
+def train(model, data, optimizer, criterion):
     model.train()
     optimizer.zero_grad()
     out = model(data['x'], data['edge_index'])
     pred_values = out[data['train_mask']]
-    loss = criterion(pred_values, data['y'][data['train_mask']])
+    true_values = data['y'][data['train_mask']]
+    loss = criterion(pred_values, true_values)
     loss.backward()
     optimizer.step()
     return loss
 
-def test(mask):
+def test(model, data):
     model.eval()
     out = model(data['x'], data['edge_index'])
-    pred_values = out[mask]
-    #print(pred_values)
-    true_values = data['y'][mask]
-    #print(true_values)
-    for i in range(len(pred_values)):
-        print('Predicted Values:')
-        print(pred_values[i])
-        print('True Values:')
-        print(true_values[i])
-        print()
-        #if true_values[i][0] == 0 and true_values[i][1] == 0:
-         #   pred_values = tensor.detach().numpy()
-         #   np.delete(pred_values,i,axis=0)
-         #   np.delete(true_values,i,axis=0)
-    loss = criterion(pred_values, true_values)
-    return loss
+    pred_values = out[data['test_mask']]
+    true_values = data['y'][data['test_mask']]
+    return pred_values, true_values
 
-def validate(mask):
+def validate(model, data):
     model.eval()
     out = model(data['x'], data['edge_index'])
-    pred_values = out[mask]  
-    np.savetxt('output.txt', pred_values.detach().numpy())
-    true_values = data['y'][mask]
-    np.savetxt("test_output.txt", true_values.detach().numpy())
-    loss = criterion(pred_values, true_values)
-    return loss
+    pred_values = out[data['val_mask']]
+    true_values = data['y'][data['val_mask']]
+    return pred_values, true_values
+
+model = GCN(hidden_channels=24)
+optimizer = torch.optim.Adam(model.parameters(), lr=1e-4, weight_decay=1e-6)
+criterion = torch.nn.MSELoss()
+train_loader = DataLoader(dataset.data_entries, batch_size=32, shuffle=True)
 
 for epoch in range(1, 1001):
-    loss = train()
-    #for name, param in model.named_parameters():
-        #if param.requires_grad:
-            #print(name, param.data)
+    for batch_data in train_loader:
+        optimizer.zero_grad()
+        for data_entry in batch_data:
+            loss = train(model, data_entry, optimizer, criterion)
+        optimizer.step()
     print(f'Epoch: {epoch:03d}, Loss: {loss:.4f}')
 
-model.eval()
-test_loss = test(data['test_mask'])
+# Initialize the model, optimizer, and criterion
+model = GCN(hidden_channels=24)
+optimizer = torch.optim.Adam(model.parameters(), lr=1e-4, weight_decay=1e-6)
+criterion = torch.nn.MSELoss()
+
+
+# Test the model on the testing data_entries without knowing the labels
+test_predictions, test_labels = [], []
+for data_entry in dataset.data_entries:
+    if data_entry['test_mask'].any():
+        test_pred, test_label = test(model, data_entry)
+        test_predictions.append(test_pred)
+        test_labels.append(test_label)
+test_predictions = torch.cat(test_predictions)
+test_labels = torch.cat(test_labels)
+test_loss = criterion(test_predictions, test_labels)
 print(f'Test Loss: {test_loss:.4f}')
 
-val_loss = validate(data['val_mask'])
+# Validate the model on the validation data_entries and calculate loss
+val_predictions, val_labels = [], []
+for data_entry in dataset.data_entries:
+    if data_entry['val_mask'].any():
+        val_pred, val_label = validate(model, data_entry)
+        val_predictions.append(val_pred)
+        val_labels.append(val_label)
+val_predictions = torch.cat(val_predictions)
+val_labels = torch.cat(val_labels)
+val_loss = criterion(val_predictions, val_labels)
 print(f'Validation Loss: {val_loss:.4f}')
-
-model.eval()
-#print(data['x'][0][10:50])
-out = model(data['x'], data['edge_index'])
-"""z = visualize(out, color=data['y'])
-z = z.astype(float)
-
-z = z.ravel()
-min_val = min(z)
-max_val = max(z)
-print(max_val)
-    # Perform Min-Max normalization
-normalized_z = [(x - min_val) / (max_val - min_val) for x in z]
-normalized_z = np.around(normalized_z, decimals=4)
-print(normalized_z)
-print(data['y'])
-
-mse_loss = np.mean((data['y'] - normalized_z) ** 2)
-print(f'Mean Squared Error (MSE) Loss: {mse_loss:.4f}')"""
-def calculate_confusion_matrix(mask):
-    model.eval()
-    out = model(data['x'], data['edge_index'])
-    pred_values = out[mask]
-    
-    # Compare p_1 and p_2 to determine the predicted class
-    pred_labels = torch.where(pred_values[:, 0] >= pred_values[:, 1], 1, 0)
-    true_labels = torch.where(data['y'][mask][:, 0] >= data['y'][mask][:, 1], 1, 0)
-    print(pred_labels)
-    print(true_labels)
-    # Calculate the confusion matrix
-    cm = confusion_matrix(true_labels, pred_labels)
-    return cm
-
-test_confusion_matrix = calculate_confusion_matrix(data['test_mask'])
-print("Test Confusion Matrix:")
-print(test_confusion_matrix)
