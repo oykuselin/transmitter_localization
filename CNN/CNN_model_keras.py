@@ -1,54 +1,69 @@
 import numpy as np
+import matplotlib.pyplot as plt
 import tensorflow as tf
+from tensorflow import keras
+from keras import models
+from keras.models import Sequential
+from keras.layers import Conv1D, MaxPooling1D, Flatten, Dense, Dropout
 from sklearn.model_selection import train_test_split
 
+
 # Load and preprocess data
-data = np.loadtxt("/Users/senamumcu/Desktop/2020_MultiTxLocalization/cnn_data_final/node_features_0.txt", delimiter=",")
+data = np.loadtxt("/home/oyku/yonsei/transmitter_localization/cnn_data_final/node_features_0.txt", delimiter=",")
 inputs = data[:, :-2]  # Extract inputs
 labels = data[:, -2:]  # Extract labels
+
+# Check the shape of the data before reshaping
+print(inputs.shape)
+print(labels.shape)
 
 # Split data into train and test sets
 train_inputs, test_inputs, train_labels, test_labels = train_test_split(inputs, labels, test_size=0.2, random_state=42)
 
-# Reshape inputs for 2D CNN
-train_inputs = train_inputs.reshape(-1, 320, 148, 1)
-test_inputs = test_inputs.reshape(-1, 320, 148, 1)
+# Reshape the data
+train_inputs = train_inputs.reshape(-1, 148, 1)  # Each sample has 148 features
+test_inputs = test_inputs.reshape(-1, 148, 1)
 
-# Convert the data to TensorFlow tensors
-train_inputs = tf.convert_to_tensor(train_inputs, dtype=tf.float32)
-train_labels = tf.convert_to_tensor(train_labels, dtype=tf.float32)
-test_inputs = tf.convert_to_tensor(test_inputs, dtype=tf.float32)
-test_labels = tf.convert_to_tensor(test_labels, dtype=tf.float32)
+# Check the shape after reshaping
+print(train_inputs.shape)
+print(train_labels.shape)
+print(test_inputs.shape)
+print(test_labels.shape)
 
-# Define the CNN model using Keras
-model = tf.keras.Sequential([
-    tf.keras.layers.Conv2D(32, kernel_size=3, padding='same', activation='relu', input_shape=(320, 148, 1)),
-    tf.keras.layers.BatchNormalization(),
-    tf.keras.layers.Conv2D(64, kernel_size=3, padding='same', activation='relu'),
-    tf.keras.layers.BatchNormalization(),
-    tf.keras.layers.MaxPooling2D(pool_size=2),
-    tf.keras.layers.Conv2D(128, kernel_size=3, padding='same', activation='relu'),
-    tf.keras.layers.BatchNormalization(),
-    tf.keras.layers.Conv2D(256, kernel_size=3, padding='same', activation='relu'),
-    tf.keras.layers.BatchNormalization(),
-    tf.keras.layers.MaxPooling2D(pool_size=2),
-    tf.keras.layers.Flatten(),
-    tf.keras.layers.Dense(512, activation='relu'),
-    tf.keras.layers.BatchNormalization(),
-    tf.keras.layers.Dense(256, activation='relu'),
-    tf.keras.layers.BatchNormalization(),
-    tf.keras.layers.Dense(2)  # Output layer with 2 neurons for regression
-])
+# Define the model
+model = Sequential()
+model.add(Conv1D(filters=16, kernel_size=3, activation='relu', input_shape=(148, 1)))
+model.add(MaxPooling1D(pool_size=2))
+model.add(Conv1D(filters=32, kernel_size=3, activation='relu'))
+model.add(MaxPooling1D(pool_size=2))
+model.add(Conv1D(filters=64, kernel_size=3, activation='relu'))
+model.add(MaxPooling1D(pool_size=40, padding='same'))  # Add padding here
+model.add(Flatten())
+model.add(Dense(units=128, activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(units=2, activation='linear'))  # Output layer with 2 neurons for regression
+model.summary()
 
 # Compile the model
-model.compile(optimizer='adam', loss='mean_squared_error')
+optimizer = tf.keras.optimizers.SGD(learning_rate=0.0001)
+model.compile(loss=tf.keras.losses.MeanSquaredError(), optimizer=optimizer, metrics=['mse'])
 
 # Train the model
 num_epochs = 10
 batch_size = 32
 
-model.fit(train_inputs, train_labels, epochs=num_epochs, batch_size=batch_size, verbose=1)
+model.fit(train_inputs, train_labels, batch_size=batch_size, epochs=num_epochs, validation_split=0.1)
 
 # Evaluate the model on the test set
-test_loss = model.evaluate(test_inputs, test_labels, batch_size=batch_size, verbose=0)
-print(f"Test Loss: {test_loss}")
+test_loss, test_mse = model.evaluate(test_inputs, test_labels)
+print("Test MSE: %.4f" % test_mse)
+
+# Make predictions on the test set
+predictions = model.predict(test_inputs)
+
+# Print the predictions and ground truth
+print("Predictions:")
+print(predictions)
+
+print("Ground Truth:")
+print(test_labels)
