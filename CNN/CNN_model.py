@@ -8,10 +8,13 @@ from sklearn.model_selection import train_test_split
 
 # Load and preprocess data
 data = np.load("CNN/Data.npy")
-inputs = data[:, :, :, :-2] # Reshape inputs to (num_samples, channels, height, width)
-reshaped_inputs = np.transpose(inputs, (0, 3, 2, 1))
-labels = data[:, :, :, -1:] # Extract labels
-reshaped_labels = np.transpose(labels, (0, 3, 2, 1))
+data = data.reshape(1000, 320, 150)
+
+inputs = data[:, :, :-2] # Reshape inputs to (num_samples, channels, height, width)
+reshaped_inputs = np.transpose(inputs, (0, 2, 1))
+labels = data[:, :, -1:] # Extract labels
+reshaped_labels = np.transpose(labels, (0, 2, 1))
+
 
 # Split data into train and test sets
 train_inputs, test_inputs, train_labels, test_labels = train_test_split(reshaped_inputs, reshaped_labels, test_size=0.2, random_state=42)
@@ -34,25 +37,25 @@ class RegressionCNN(nn.Module):
         super(RegressionCNN, self).__init__()
     
         self.conv_layers = nn.Sequential(
-            nn.Conv2d(148, 200, kernel_size=3, padding=1),
-            nn.BatchNorm2d(200),
+            nn.Conv1d(148, 200, kernel_size=3, padding=1),
+            nn.BatchNorm1d(200),
             nn.ReLU(inplace=True),
-            nn.Conv2d(200, 320, kernel_size=3, padding=1),
-            nn.BatchNorm2d(320),
+            nn.Conv1d(200, 320, kernel_size=3, padding=1),
+            nn.BatchNorm1d(320),
             nn.ReLU(inplace=True),
-            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.MaxPool1d(kernel_size=2, stride=2),
             
-            nn.Conv2d(320, 520, kernel_size=3, padding=1),
-            nn.BatchNorm2d(520),
+            nn.Conv1d(320, 520, kernel_size=3, padding=1),
+            nn.BatchNorm1d(520),
             nn.ReLU(inplace=True),
-            nn.Conv2d(520, 640, kernel_size=3, padding=1),
-            nn.BatchNorm2d(640),
+            nn.Conv1d(520, 640, kernel_size=3, padding=1),
+            nn.BatchNorm1d(640),
             nn.ReLU(inplace=True),
-            nn.MaxPool2d(kernel_size=2, stride=2)
+            nn.MaxPool1d(kernel_size=2, stride=2),
         )
     
         self.linear_layers = nn.Sequential(
-            nn.Linear(500 * 160 * 37, 520),  # Adjust the input size to match the flattened shape
+            nn.Linear(51200, 520),  # Adjust the input size to match the flattened shape
             nn.Linear(520, 320 * 2),      # Adjust the output size to match the desired (320, 2) shape
             nn.Linear(640, 320),
             nn.Sigmoid()
@@ -62,7 +65,7 @@ class RegressionCNN(nn.Module):
         x = self.conv_layers(x)
         x = x.view(x.size(0), -1)         # Flatten the features
         x = self.linear_layers(x)
-        x = x.view(x.size(0), 1, 320, 1)  # Reshape to the desired output shape
+        x = x.view(x.size(0), 1, 320)  # Reshape to the desired output shape
         return x
 
 # Create an instance of the model
@@ -70,7 +73,7 @@ model = RegressionCNN()
 
 # Define loss function and optimizer
 criterion = nn.MSELoss()
-optimizer = optim.Adam(model.parameters(), lr=0.001)
+optimizer = optim.Adam(model.parameters(), lr=0.0001)
 
 # Training loop
 num_epochs = 10
