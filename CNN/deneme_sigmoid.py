@@ -53,7 +53,7 @@ class RegressionCNN(tf.keras.Model):
         
         self.linear_layers = tf.keras.Sequential([
             tf.keras.layers.Dense(320, activation='relu'),  # Add sigmoid activation here
-            tf.keras.layers.Dense(320 * 3, activation='linear', kernel_constraint=SumToOneConstraint())  # No activation for linear output
+            tf.keras.layers.Dense(320 * 3, activation='sigmoid')  # No activation for linear output
         ])
     
     def call(self, x):
@@ -69,13 +69,8 @@ model = RegressionCNN()
 
 # Compile the model
 model.compile(loss='mse', optimizer='adam')
-
-
-# Compile the model
-model.compile(loss='mse', optimizer='adam')
-
 # Train the model
-model.fit(X_train, y_train, epochs=10, batch_size=16)
+model.fit(X_train, y_train, epochs=50, batch_size=32)
 
 # Evaluate the model
 loss = model.evaluate(X_test, y_test)
@@ -84,13 +79,16 @@ print(f"Test loss: {loss}")
 # Make predictions
 y_pred = model.predict(X_test)
 
-# Print ground truth and prediction results for the first sample
-sample_index = 0 
+# Normalize the predictions to sum up to 1
+y_pred_normalized = y_pred / np.sum(y_pred, axis=-1, keepdims=True)
+
+# Print ground truth and normalized prediction results for the first sample
+sample_index = 0
 ground_truth = y_test[sample_index, 0, :]
-prediction = y_pred[sample_index, 0, :]
+normalized_prediction = y_pred_normalized[sample_index, 0, :]
 
 print("Ground Truth:")
 print(ground_truth)
 
-print("Prediction:")
-print(prediction)
+print("Normalized Prediction:")
+print(normalized_prediction)

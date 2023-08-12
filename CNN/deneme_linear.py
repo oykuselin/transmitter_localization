@@ -63,12 +63,8 @@ model = RegressionCNN()
 # Compile the model
 model.compile(loss='mse', optimizer='adam')
 
-
-# Compile the model
-model.compile(loss='mse', optimizer='adam')
-
 # Train the model
-model.fit(X_train, y_train, epochs=10, batch_size=16)
+model.fit(X_train, y_train, epochs=20, batch_size=16)
 
 # Evaluate the model
 loss = model.evaluate(X_test, y_test)
@@ -77,13 +73,16 @@ print(f"Test loss: {loss}")
 # Make predictions
 y_pred = model.predict(X_test)
 
-# Print ground truth and prediction results for the first sample
-sample_index = 0 
+# Normalize the predictions to sum up to 1
+y_pred_normalized = y_pred / np.sum(y_pred, axis=-1, keepdims=True)
+
+# Print ground truth and normalized prediction results for the first sample
+sample_index = 0
 ground_truth = y_test[sample_index, 0, :]
-prediction = y_pred[sample_index, 0, :]
+normalized_prediction = y_pred_normalized[sample_index, 0, :]
 
 print("Ground Truth:")
 print(ground_truth)
 
-print("Prediction:")
-print(prediction)
+print("Normalized Prediction:")
+print(normalized_prediction)
