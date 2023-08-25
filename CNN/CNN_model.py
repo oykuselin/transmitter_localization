@@ -8,11 +8,11 @@ from sklearn.model_selection import train_test_split
 
 # Load and preprocess data
 data = np.load("CNN/Data.npy")
-data = data.reshape(1000, 320, 150)
+data = data.reshape(1000, 320, 151)
 
-inputs = data[:, :, :-2] # Reshape inputs to (num_samples, channels, height, width)
+inputs = data[:, :, :-3] # Reshape inputs to (num_samples, channels, height, width)
 reshaped_inputs = np.transpose(inputs, (0, 2, 1))
-labels = data[:, :, -1:] # Extract labels
+labels = data[:, :, -3:] # Extract labels
 reshaped_labels = np.transpose(labels, (0, 2, 1))
 
 
@@ -55,17 +55,17 @@ class RegressionCNN(nn.Module):
         )
     
         self.linear_layers = nn.Sequential(
-            nn.Linear(51200, 520),  # Adjust the input size to match the flattened shape
-            nn.Linear(520, 320 * 2),      # Adjust the output size to match the desired (320, 2) shape
-            nn.Linear(640, 320),
-            nn.Sigmoid()
+            nn.Linear(51200, 4000),  # Adjust the input size to match the flattened shape
+            nn.Linear(4000, 3000),      # Adjust the output size to match the desired (320, 2) shape
+            nn.Linear(3000, 320*3),
+            nn.Softmax()
         )
     
     def forward(self, x):
         x = self.conv_layers(x)
         x = x.view(x.size(0), -1)         # Flatten the features
         x = self.linear_layers(x)
-        x = x.view(x.size(0), 1, 320)  # Reshape to the desired output shape
+        x = x.view(x.size(0), 3, 320)  # Reshape to the desired output shape
         return x
 
 # Create an instance of the model
@@ -76,7 +76,7 @@ criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=0.0001)
 
 # Training loop
-num_epochs = 10
+num_epochs = 30
 
 for epoch in range(num_epochs):
     model.train()  # Set the model to training mode
