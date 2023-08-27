@@ -51,14 +51,17 @@ class RegressionCNN(nn.Module):
             nn.Conv1d(520, 640, kernel_size=3, padding=1),
             nn.BatchNorm1d(640),
             nn.ReLU(inplace=True),
+            nn.Conv1d(640, 700, kernel_size=3, padding=1),
+            nn.BatchNorm1d(700),
+            nn.ReLU(inplace=True),
             nn.MaxPool1d(kernel_size=2, stride=2),
         )
     
         self.linear_layers = nn.Sequential(
-            nn.Linear(51200, 4000),  # Adjust the input size to match the flattened shape
+            nn.Linear(56000, 4000),  # Adjust the input size to match the flattened shape
             nn.Linear(4000, 3000),      # Adjust the output size to match the desired (320, 2) shape
             nn.Linear(3000, 320*3),
-            nn.Softmax()
+            nn.Softmax(dim=1)
         )
     
     def forward(self, x):
