@@ -7,19 +7,17 @@ def process_file(file_path):
     modified_lines = []
     for line in lines:
         columns = line.strip().split(', ')
-        last_column = float(columns[-1])
-        second_last_column = float(columns[-2])
-
-        if last_column == 0.0 and second_last_column == 0.0:
-            modified_lines.append(line.strip() + ', 1.00000\n')
-        else:
-            modified_lines.append(line.strip() + ', -1.00000\n')
+        modified_columns = columns[:-1]  # Exclude the last column
+        modified_line = ', '.join(modified_columns) + '\n'
+        modified_lines.append(modified_line)
 
     with open(file_path, 'w') as f:
         f.writelines(modified_lines)
 
 def main():
-    directory = "/Users/berkecaliskan/Documents/transmitter_localization/transmitter_localization/gnn_data_son"  # Replace this with the directory where your txt files are located
+    current_path = os.getcwd()
+    subdir = 'cnn_data_final'
+    directory = os.path.join(current_path, subdir)
 
     for i in range(1001):  # Assuming you have files from 0 to 1000 (inclusive)
         file_path = os.path.join(directory, f"node_features_{i}.txt")

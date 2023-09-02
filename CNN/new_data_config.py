@@ -13,13 +13,15 @@ def process_file(file_path):
         if last_column == 0.0 and second_last_column == 0.0:
             modified_lines.append(line.strip() + ', 1.00000\n')
         else:
-            modified_lines.append(line.strip() + ', 0.00000\n')
+            modified_lines.append(line.strip() + ', -1.00000\n')
 
     with open(file_path, 'w') as f:
         f.writelines(modified_lines)
 
 def main():
-    directory = "/home/oyku/yonsei/transmitter_localization/CNN/cnn_data_final"  # Replace this with the directory where your txt files are located
+    current_path = os.getcwd()
+    subdir = 'cnn_data_final'
+    directory = os.path.join(current_path, subdir)
 
     for i in range(1000):  # Assuming you have files from 0 to 1000 (inclusive)
         file_path = os.path.join(directory, f"node_features_{i}.txt")
