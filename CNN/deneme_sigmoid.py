@@ -17,8 +17,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # Reshape data
 X_train = X_train.reshape(X_train.shape[0], 320, 1, 148)
 X_test = X_test.reshape(X_test.shape[0], 320, 1, 148)
-y_train = y_train.reshape(y_train.shape[0], 1, 320, 3)  # Correct the shape here
-y_test = y_test.reshape(y_test.shape[0], 1, 320, 3)      # Correct the shape here
+y_train = y_train.reshape(y_train.shape[0], 1, 320, 3)  
+y_test = y_test.reshape(y_test.shape[0], 1, 320, 3)      
 
 class SumToOneConstraint(tf.keras.constraints.Constraint):
     def __init__(self, axis=3):
@@ -70,7 +70,7 @@ model = RegressionCNN()
 # Compile the model
 model.compile(loss='mse', optimizer='adam')
 # Train the model
-model.fit(X_train, y_train, epochs=50, batch_size=32)
+model.fit(X_train, y_train, epochs=30, batch_size=32)
 
 # Evaluate the model
 loss = model.evaluate(X_test, y_test)

@@ -85,4 +85,6 @@ print("Ground Truth:")
 print(ground_truth)
 
 print("Normalized Prediction:")
+
+
 print(normalized_prediction)
