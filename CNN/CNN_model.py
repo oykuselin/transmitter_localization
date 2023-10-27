@@ -27,9 +27,9 @@ test_labels = torch.Tensor(test_labels)
 
 # Create DataLoader for train and test sets
 train_dataset = TensorDataset(train_inputs, train_labels)
-train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
+train_loader = DataLoader(train_dataset, batch_size=64, shuffle=True)
 test_dataset = TensorDataset(test_inputs, test_labels)
-test_loader = DataLoader(test_dataset, batch_size=32)
+test_loader = DataLoader(test_dataset, batch_size=64)
 
 # Define the CNN model
 class RegressionCNN(nn.Module):
@@ -37,35 +37,23 @@ class RegressionCNN(nn.Module):
         super(RegressionCNN, self).__init__()
     
         self.conv_layers = nn.Sequential(
-            nn.Conv1d(148, 200, kernel_size=3, padding=1),
-            nn.BatchNorm1d(200),
+            nn.Conv1d(148, 256, kernel_size=3, padding=1),
+            # nn.BatchNorm1d(256),
             nn.ReLU(inplace=True),
-            nn.Conv1d(200, 320, kernel_size=3, padding=1),
-            nn.BatchNorm1d(320),
+            nn.MaxPool1d(kernel_size=2),
+            nn.Conv1d(256, 512, kernel_size=3, padding=1),
             nn.ReLU(inplace=True),
-            nn.MaxPool1d(kernel_size=2, stride=2),
-            
-            nn.Conv1d(320, 520, kernel_size=3, padding=1),
-            nn.BatchNorm1d(520),
-            nn.ReLU(inplace=True),
-            nn.Conv1d(520, 640, kernel_size=3, padding=1),
-            nn.BatchNorm1d(640),
-            nn.ReLU(inplace=True),
-            nn.Conv1d(640, 700, kernel_size=3, padding=1),
-            nn.BatchNorm1d(700),
-            nn.ReLU(inplace=True),
-            nn.MaxPool1d(kernel_size=2, stride=2),
+            nn.MaxPool1d(kernel_size=2),
         )
     
         self.linear_layers = nn.Sequential(
-            nn.Linear(56000, 4000),  # Adjust the input size to match the flattened shape
-            nn.Linear(4000, 3000),      # Adjust the output size to match the desired (320, 2) shape
-            nn.Linear(3000, 320*3),
-            nn.Softmax(dim=1)
+            nn.Linear(163840, 320*3),
+            nn.Softmax(dim=0)
         )
     
     def forward(self, x):
         x = self.conv_layers(x)
+        print(x.shape)
         x = x.view(x.size(0), -1)         # Flatten the features
         x = self.linear_layers(x)
         x = x.view(x.size(0), 3, 320)  # Reshape to the desired output shape
@@ -76,8 +64,8 @@ model = RegressionCNN()
 
 # Define loss function and optimizer
 criterion = nn.MSELoss()
-optimizer = optim.Adam(model.parameters(), lr=0.0001)
-
+optimizer = optim.Adam(model.parameters(), lr=0.000001)
+print(optimizer)
 # Training loop
 num_epochs = 30
 
@@ -92,17 +80,17 @@ for epoch in range(num_epochs):
         
         # Forward pass
         outputs = model(inputs)
-        
-        print(outputs.shape)
+
         # Calculate loss
         loss = criterion(outputs, labels)  # Use inputs as targets for autoencoder
-        
+        optimizer.zero_grad()
         # Backpropagation
         loss.backward()
         optimizer.step()
         
-        total_loss += loss.item()
-    
+        curr_loss = loss.item()
+        total_loss += curr_loss
+
     # Print average loss for the epoch
     print(f"Epoch [{epoch+1}/{num_epochs}], Loss: {total_loss / len(train_loader)}")
 
