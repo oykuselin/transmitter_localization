@@ -55,7 +55,7 @@ if not os.path.exists("data_augmented_rotation"):
 
 number_of_aug_current = len(os.listdir(os.path.join(current_directory, "data_augmented_rotation/configs")))
 
-AUG_NUM = 500
+AUG_NUM = 5000
 for i in range(AUG_NUM):
 
     aug_conf_lines = []
