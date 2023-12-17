@@ -1,13 +1,7 @@
 import os
-from math import sqrt
 import numpy as np
 import re
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 import trimesh
-import open3d as o3d
-import torch
-from mpl_toolkits.mplot3d.art3d import Poly3DCollection, Line3DCollection
 
 
 class DataPoint:
