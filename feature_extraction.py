@@ -217,7 +217,7 @@ def third_time_slot(data_points):
         return n_hit, t_max, t_min, t_avg, t_var, t_std, x_avg, y_avg, z_avg
 
 def normalize_area(nodes):
-    print(nodes)
+    # print(nodes)
     nodes = np.array(nodes)
     area_mean = np.mean(nodes[:, 33], axis=0)
     area_std = np.std(nodes[:, 33], axis=0)
@@ -398,5 +398,5 @@ for i in range(len(results_list)):
 #         print([v1.x, v1.y, v1.z], "\n" , [v3.x, v2.y, v2.z],  "\n", [v3.x, v3.y, v3.z],  "\n")
 #         k += 1
 
-for i in range(100,110):
-    print(nodes[i])
+# for i in range(100,110):
+#     print(nodes[i])
