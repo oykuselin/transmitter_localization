@@ -232,7 +232,7 @@ def normalize_area(nodes):
     return nodes
 
 current_directory = os.getcwd()
-sub_directory = 'test/2tx/results'
+sub_directory = 'all_simulation_data_2tx/results'
 directory_path = os.path.join(current_directory, sub_directory)
 
 
