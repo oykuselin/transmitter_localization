@@ -250,6 +250,9 @@ for i in range(len(results_list)):
     if match:
         exp_number = match.group(0)[1:-1]
 
+    if("node_features_{}".format(exp_number) in os.listdir("gnn_data_son")):
+        continue
+
     data = np.loadtxt(file_path)
     x = data[:, 0]
     y = data[:, 1]
