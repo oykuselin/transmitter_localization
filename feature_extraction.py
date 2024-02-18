@@ -251,6 +251,7 @@ for i in range(len(results_list)):
         exp_number = match.group(0)[1:-1]
 
     if("node_features_{}".format(exp_number) in os.listdir("gnn_data_son")):
+        print(" {} bu numara var geciyorum".format(exp_number))
         continue
 
     data = np.loadtxt(file_path)
@@ -388,7 +389,7 @@ for i in range(len(results_list)):
     
     nodes = normalize_area(nodes)
     np.savetxt('gnn_data_son/node_features_{}.txt'.format(exp_number), nodes, delimiter=", ", fmt='%1.5f')
-    print("yeni dosya tamamlandi")
+    print('node_features_{}.txt'.format(exp_number))
     #with open('gnn_data/edge_index_{}.txt'.format(exp_number), 'w+') as file2:
         #file2.write(edge_index_str)
 # k = 0
