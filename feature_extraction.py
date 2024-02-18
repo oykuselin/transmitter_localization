@@ -388,6 +388,7 @@ for i in range(len(results_list)):
     
     nodes = normalize_area(nodes)
     np.savetxt('gnn_data_son/node_features_{}.txt'.format(exp_number), nodes, delimiter=", ", fmt='%1.5f')
+    print("yeni dosya tamamlandi")
     #with open('gnn_data/edge_index_{}.txt'.format(exp_number), 'w+') as file2:
         #file2.write(edge_index_str)
 # k = 0
