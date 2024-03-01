@@ -4,9 +4,9 @@ import numpy as np
 import re
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-import trimesh
+#import trimesh
 #import open3d as o3d
-import torch
+#import torch
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection, Line3DCollection
 
 def find_ones_indexes(matrix, index):
@@ -18,13 +18,13 @@ def find_ones_indexes(matrix, index):
 
 current_directory = os.getcwd()
 #sub_directory = './cnn_data_new_withoutneig'
-gnn_data_dir = "/home/oyku/yonsei/new_transmitter_localization/transmitter_localization/cnn_data_new/cnn_data_new_withoutneig"
+gnn_data_dir = "/Users/berkecaliskan/Documents/new_transmitter_localization/transmitter_localization/cnn_data_new/cnn_data_new_withoutneig"
 list_of_node_features = os.listdir(gnn_data_dir)
 
 if not os.path.exists("cnn_data_new_neighbors"):
     os.makedirs("cnn_data_new_neighbors")
 
-adjacency_matrix = np.loadtxt("/home/oyku/yonsei/new_transmitter_localization/transmitter_localization/adjacency_matrix.txt", delimiter=" ")
+adjacency_matrix = np.loadtxt("/Users/berkecaliskan/Documents/new_transmitter_localization/transmitter_localization/adjacency_matrix.txt", delimiter=" ")
 
 for i in range(len(list_of_node_features)):
     features = np.loadtxt(os.path.join(gnn_data_dir, list_of_node_features[i]), delimiter=',')
@@ -45,7 +45,7 @@ for i in range(len(list_of_node_features)):
 
         neighbours = find_ones_indexes(adjacency_matrix, base_triangle)
         for neighbour in neighbours:
-            for num in range(len(features[neighbour])- 2):
+            for num in range(len(features[neighbour])):
                 features_row_to_add.append(features[neighbour][num])
         features_to_add.append(list(features_row_to_add))
 

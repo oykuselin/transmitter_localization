@@ -18,8 +18,8 @@ def read_config_for_coordinates(config_file_path):
     return coords
 
 def create_structured_array_with_coords(file_paths, base_config_path):
-    # Define the dtype for the structured array to hold a (320, 142) float array and a (6,) float array for coords
-    dt = np.dtype([('data', np.float64, (320, 142)), ('coords', np.float64, (6,))])
+    # Define the dtype for the structured array to hold a (320, 148) float array and a (6,) float array for coords
+    dt = np.dtype([('data', np.float64, (320, 148)), ('coords', np.float64, (6,))])
     # Initialize an empty array with the defined dtype
     structured_array = np.empty(len(file_paths), dtype=dt)
     
@@ -45,8 +45,8 @@ def create_structured_array_with_coords(file_paths, base_config_path):
     return structured_array
 
 # Path to your simulation data and configuration files
-simulation_data_path = '/home/oyku/yonsei/new_transmitter_localization/transmitter_localization/cnn_data_new/cnn_data_new_neighbors/'
-base_config_path = '/home/oyku/yonsei/new_transmitter_localization/transmitter_localization/all_simulation_data_2tx/configs/'
+simulation_data_path = '/Users/berkecaliskan/Documents/new_transmitter_localization/transmitter_localization/cnn_data_new/cnn_data_new_neighbors/'
+base_config_path = '/Users/berkecaliskan/Documents/new_transmitter_localization/transmitter_localization/all_simulation_data_2tx/configs/'
 
 file_paths = [os.path.join(simulation_data_path, file) for file in os.listdir(simulation_data_path) if file.endswith('.txt')]
 
@@ -54,7 +54,7 @@ file_paths = [os.path.join(simulation_data_path, file) for file in os.listdir(si
 structured_array = create_structured_array_with_coords(file_paths, base_config_path)
 
 # Save the structured array to a .npy file
-output_file_path = '/home/oyku/yonsei/new_transmitter_localization/transmitter_localization/cnn_data_new/data_with_labels.npy'
+output_file_path = '/Users/berkecaliskan/Documents/new_transmitter_localization/transmitter_localization/cnn_data_new/data_with_labels.npy'
 np.save(output_file_path, structured_array)
 
 print(f'Structured array with coordinates saved to {output_file_path}')
