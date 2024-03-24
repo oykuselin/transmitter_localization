@@ -52,7 +52,9 @@ model = Sequential([
     Dense(128, activation='linear'),
     Dense(64, activation='linear'),
     Dense(32, activation='linear'),
+    
     Dense(16, activation='linear'),
+
 
     Dense(8, activation='linear'),
     
@@ -65,10 +67,69 @@ custom_optimizer3 = SGD(learning_rate=0.0001, momentum=0.9)  # Change the learni
 custom_optimizer4 = Adadelta()
 custom_optimizer5 = Nadam()
 
+# Angle based cost function
+def custom_angle_and_distance_loss(y_true, y_pred):
+    # Extracting coordinates
+    x1_true, y1_true, z1_true = y_true[:, 0], y_true[:, 1], y_true[:, 2]
+    x2_true, y2_true, z2_true = y_true[:, 4], y_true[:, 5], y_true[:, 6]
+    
+    x1_pred, y1_pred, z1_pred = y_pred[:, 0], y_pred[:, 1], y_pred[:, 2]
+    x2_pred, y2_pred, z2_pred = y_pred[:, 4], y_pred[:, 5], y_pred[:, 6]
+
+    add_val1_true, add_val2_true = y_true[:, 3], y_true[:, 7]
+    add_val1_pred, add_val2_pred = y_pred[:, 3], y_pred[:, 7]
+    
+    # Calculate vectors from origin
+    v1_true = tf.stack([x1_true, y1_true, z1_true], axis=1)
+    v2_true = tf.stack([x2_true, y2_true, z2_true], axis=1)
+    
+    v1_pred = tf.stack([x1_pred, y1_pred, z1_pred], axis=1)
+    v2_pred = tf.stack([x2_pred, y2_pred, z2_pred], axis=1)
+    
+    # Calculate distances from origin
+    distance_v1_true = tf.sqrt(tf.reduce_sum(tf.square(v1_true), axis=1))
+    distance_v2_true = tf.sqrt(tf.reduce_sum(tf.square(v2_true), axis=1))
+    distance_v1_pred = tf.sqrt(tf.reduce_sum(tf.square(v1_pred), axis=1))
+    distance_v2_pred = tf.sqrt(tf.reduce_sum(tf.square(v2_pred), axis=1))
+    
+    # Calculate distance differences
+    distance_diff1 = tf.abs(distance_v1_true - distance_v1_pred)
+    distance_diff2 = tf.abs(distance_v2_true - distance_v2_pred)
+    
+    # Normalize vectors for angle calculation
+    v1_true_norm = tf.nn.l2_normalize(v1_true, axis=1)
+    v2_true_norm = tf.nn.l2_normalize(v2_true, axis=1)
+    v1_pred_norm = tf.nn.l2_normalize(v1_pred, axis=1)
+    v2_pred_norm = tf.nn.l2_normalize(v2_pred, axis=1)
+    
+    # Calculate dot product for angles
+    dot_product1 = tf.reduce_sum(tf.multiply(v1_true_norm, v1_pred_norm), axis=1)
+    dot_product2 = tf.reduce_sum(tf.multiply(v2_true_norm, v2_pred_norm), axis=1)
+    
+    # Calculate angles in radians
+    angle1 = tf.acos(tf.clip_by_value(dot_product1, -1.0, 1.0))
+    angle2 = tf.acos(tf.clip_by_value(dot_product2, -1.0, 1.0))
+    
+    # Sum of angles as angular error
+    total_angle_error = tf.reduce_mean(angle1 + angle2)
+    
+    # Mean of distance differences as distance error
+    total_distance_error = tf.reduce_mean(distance_diff1 + distance_diff2)
+    
+    add_val_diff1 = tf.abs(add_val1_true - add_val1_pred)
+    add_val_diff2 = tf.abs(add_val2_true - add_val2_pred)
+
+    total_add_val_error = tf.reduce_mean(add_val_diff1 + add_val_diff2)
+
+    # Total error as a combination of angle and distance errors
+    total_error = total_angle_error + total_distance_error + total_add_val_error
+    
+    return total_error
+
 
 # Compile the model
 model.compile(optimizer=custom_optimizer,
-              loss='mean_absolute_error',  # Assuming a regression problem; adjust as necessary
+              loss=custom_angle_and_distance_loss,  # Assuming a regression problem; adjust as necessary
               metrics=['mean_absolute_error', 'mean_squared_error'])
 
 # Train the model
