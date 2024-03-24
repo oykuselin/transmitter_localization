@@ -12,7 +12,7 @@ print(array[0][1])
 #print(array[1])
 
 num_rows = array_shape[0]
-num_columns = array_shape[1] if len(array_shape) > 1 else 1  # Assumes at least 1 dimension
+num_columns = array_shape[1] 
 
 print(f"Number of Rows: {num_rows}")
 print(f"Number of Columns: {num_columns}")
