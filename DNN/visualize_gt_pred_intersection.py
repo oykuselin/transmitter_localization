@@ -8,7 +8,7 @@ file_path = '/Users/berkecaliskan/Documents/new_transmitter_localization/transmi
 data = pd.read_csv(file_path)
 
 # Take only the first row
-row = data.iloc[52]
+row = data.iloc[102]
 
 # Extract ground truth and predicted intersection points
 ground_truths = np.array([row[['GroundTruth_Coord1', 'GroundTruth_Coord2', 'GroundTruth_Coord3']],

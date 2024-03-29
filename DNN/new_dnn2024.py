@@ -122,7 +122,7 @@ def custom_angle_and_distance_loss(y_true, y_pred):
     total_add_val_error = tf.reduce_mean(add_val_diff1 + add_val_diff2)
 
     # Total error as a combination of angle and distance errors
-    total_error = total_angle_error + total_distance_error + total_add_val_error
+    total_error = total_angle_error *  + total_distance_error + total_add_val_error
     
     return total_error
 

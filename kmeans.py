@@ -1,5 +1,7 @@
 import numpy as np
 from sklearn.cluster import KMeans
+from sklearn.metrics import mean_absolute_error
+import os
 
 def analyze_molecules(simulation_data):
     """
@@ -19,7 +21,7 @@ def analyze_molecules(simulation_data):
     mean_transmitter_1 = np.mean(transmitter_1_data, axis=0)
 
     # Perform k-means clustering with 2 clusters
-    kmeans = KMeans(n_clusters=2, random_state=0).fit(simulation_data[:, :3])
+    kmeans = KMeans(n_clusters=2, random_state=0, n_init=10).fit(simulation_data[:, :3])
     clusters = kmeans.labels_
 
     # Calculate means for each cluster
@@ -38,12 +40,38 @@ def analyze_molecules(simulation_data):
 
     return results
 
-# Path to your simulation data file
-file_path = '/home/oyku/yonsei/new_transmitter_localization/transmitter_localization/all_simulation_data_2tx/results/result_2_3.txt'
+def calculate_mae(results):
+    """
+    Calculate MAE between true and predicted means for transmitters and clusters.
+    """
+    mae_transmitter = (mean_absolute_error(results['mean_transmitter_0'], results['mean_cluster_0']) +
+                       mean_absolute_error(results['mean_transmitter_1'], results['mean_cluster_1'])) / 2
+    return mae_transmitter
 
-# Read the simulation data from the file
-simulation_data = np.loadtxt(file_path)
+directory_path = './transmitter_localization/all_simulation_data_2tx/results'
+mae_results = []
+analysis_results = []
 
-# Analyzing the simulation data
-analysis_results = analyze_molecules(simulation_data)
-print(analysis_results)
+counter = 0
+limit = 5  # Change this to the number of simulations you want to process
+
+for filename in os.listdir(directory_path):
+    if filename.endswith(".txt") and counter < limit:
+        file_path = os.path.join(directory_path, filename)
+        simulation_data = np.loadtxt(file_path)
+        analysis_result = analyze_molecules(simulation_data)
+        analysis_results.append(analysis_result)
+        # Calculate MAE
+        mae = calculate_mae(analysis_result)  # Passing the same dictionary twice
+        mae_results.append(mae)
+        
+        counter += 1  # Increment the counter after each processed file
+
+# Calculate and print the mean of MAE results
+mean_mae = np.mean(mae_results)
+print(f"Mean MAE over {counter} simulations: {mean_mae}")
+# Example output
+for result in mae_results[:5]:  # Just showing the first few results for brevity
+    print(result)
+for result in analysis_results[:5]:
+    print(result)
