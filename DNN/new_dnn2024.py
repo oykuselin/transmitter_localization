@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.optimizers.legacy import Adam, RMSprop, SGD, Adadelta, Nadam
 
 # Load the dataset
-file_path = '/Users/berkecaliskan/Documents/new_transmitter_localization/transmitter_localization/cnn_data_new/data_with_labels_intersection.npy'
+file_path = './cnn_data_new/data_with_labels_intersection.npy'
 dataset = np.load(file_path, allow_pickle=True)
 
 # Extracting data and labels
@@ -33,9 +33,9 @@ model = Sequential([
 
     #Dense(2960, activation='linear'),
 
-    #Dense(1480, activation='linear'),
+    Dense(1480, activation='linear', input_shape=(320 * 148,)),
 
-    #Dense(740, activation='linear'),
+    Dense(740, activation='linear'),
 
     #Dense(370, activation='linear'),
 
@@ -45,7 +45,7 @@ model = Sequential([
 
     #Dense(45, activation='linear'),
 
-    Dense(512, activation='linear', input_shape=(320 * 148,)),
+    #Dense(512, activation='linear', input_shape=(320 * 148,)),
 
     Dense(256, activation='linear'),
 
@@ -122,7 +122,7 @@ def custom_angle_and_distance_loss(y_true, y_pred):
     total_add_val_error = tf.reduce_mean(add_val_diff1 + add_val_diff2)
 
     # Total error as a combination of angle and distance errors
-    total_error = total_angle_error *  + total_distance_error + total_add_val_error
+    total_error = total_angle_error + total_distance_error + total_add_val_error
     
     return total_error
 
@@ -133,13 +133,13 @@ model.compile(optimizer=custom_optimizer,
               metrics=['mean_absolute_error', 'mean_squared_error'])
 
 # Train the model
-model.fit(data_train, labels_train, epochs=20, validation_data=(data_val, labels_val))
+model.fit(data_train, labels_train, epochs=50, validation_data=(data_val, labels_val))
 
 # Making predictions on the validation set
 predictions = model.predict(data_val)
 
 # Save the predictions to a NumPy array file
-predictions_file_path = '/Users/berkecaliskan/Documents/new_transmitter_localization/transmitter_localization/DNN/predictions_dnn.npy'
+predictions_file_path = './DNN/predictions_dnn.npy'
 np.save(predictions_file_path, predictions)
 
 # Create a DataFrame from the ground truths and predictions
@@ -164,7 +164,7 @@ ground_truths_and_predictions = pd.DataFrame({
 })
 
 # Save the DataFrame to a CSV file
-combined_csv_file_path = '/Users/berkecaliskan/Documents/new_transmitter_localization/transmitter_localization/DNN/ground_truths_and_predictions_new_cnn2024_intersection.csv'  # Update with the actual path
+combined_csv_file_path = './DNN/ground_truths_and_predictions_new_cnn2024_intersection.csv'  # Update with the actual path
 ground_truths_and_predictions.to_csv(combined_csv_file_path, index=False)
 
 print(f"Ground truths and predictions saved to {combined_csv_file_path}")
